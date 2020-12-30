@@ -7,11 +7,14 @@ let lastItem = Promise.resolve();
 workbook.csv.readFile(filename)
 .then(function(worksheet) {
     worksheet.eachRow({ includeEmpty: true }, function(row, rowNumber) {
-      if (rowNumber === 1) {
+      if (rowNumber === 1 || row.getCell(7).value) {
         return;
       }
       const suburb = row.values[3];
-      const postcode = row.values[4];
+      let postcode = String(row.values[4]);
+      if (postcode.length === 3) {
+        postcode = '0' + postcode;
+      }
       lastItem = lastItem.then(() => {
         return fetch("https://salefinder.com.au/ajax/locationsearch?callback=custom&query=" + postcode, {
           "method": "GET",
@@ -31,10 +34,13 @@ workbook.csv.readFile(filename)
                 console.log('Fallback to: ' + obj.Id);
               }
             } else {
+              console.log(obj);
               row.getCell(7).value = obj.Id;
               console.log('Fallback to: ' + obj.Id);
             }
           }
+          console.log('Completed ' + rowNumber);
+          workbook.csv.writeFile(filename)
           return new Promise((resolve) => setTimeout(resolve, 100));
         })
         .catch(error => {
