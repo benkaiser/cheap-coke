@@ -1,19 +1,19 @@
-type,address,postcode,suburb,lat,lon
-Woolworths,CNR Naval College and The Wool Rd,Vincentia,2540,-34.89,150.53,3150
-Woolworths,116 Princes Hwy,Ulladulla,2539,-35.3596222,150.473168,3124
+type,address,postcode,suburb,lat,lon,internal_postcode
+Woolworths,CNR Naval College and The Wool Rd,Vincentia,2540,-34.89,150.53,3199
+Woolworths,116 Princes Hwy,Ulladulla,2539,-35.3596222,150.473168,3138
 Woolworths,Cnr Vesper And North Sts,Batemans Bay,2536,-35.73,150.2,3063
 Woolworths,111 Main Street,Merimbula,2548,-36.8859649,149.9069099,3244
-Woolworths,Cnr Wilcocks Ave And Princes Hwy,Narooma,2546,-36.36,150.08,3234
+Woolworths,Cnr Wilcocks Ave And Princes Hwy,Narooma,2546,-36.36,150.08,3236
 Woolworths,Cnr of Auckland and Carp St,Bega,2550,-36.64,149.86,3258
-Woolworths,61-63 Queen St,Moruya,2537,-35.9103404,150.0819278,3099
+Woolworths,61-63 Queen St,Moruya,2537,-35.9103404,150.0819278,3100
 Woolworths,1-9 Young St,Bermagui,2546,-36.4278286,150.0781261,3227
 Woolworths,Cnr Tura Beach Dr & Saphire Coast Dr,Tura Beach,2548,-36.8670314,149.9209967,3246
 Woolworths,Cnr Roscoe St And Old Hume Hwy,Mittagong West,2575,-34.41,150.52,3422
-Woolworths,9-13 Kinghorne St,Nowra,2541,-34.87363915,150.602787746104,3213
+Woolworths,9-13 Kinghorne St,Nowra,2541,-34.87363915,150.6027877,3213
 Woolworths,Cnr Bong Bong Rd & Banyette St,Bowral,2576,-34.4898964,150.7692856,3432
 Woolworths,"Kiama View Shop. Ctr, Terralong St",Kiama,2533,-34.66,150.85,3034
 Woolworths,New Lake Entrance Rd,Shellharbour,2529,-34.5628685,150.8334587,3014
-Woolworths,8-22 Weston St,Culburra Beach,2540,-34.9299239,150.7567315,3150
+Woolworths,8-22 Weston St,Culburra Beach,2540,-34.9299239,150.7567315,3161
 Woolworths,"Shellharbour Stocklands Centre, Lake Entrance Rd",Shellharbour,2529,-34.57,150.83,3014
 Woolworths,100 Cove Boulevard,Shell Cove,2529,-34.589234,150.8556665,3013
 Woolworths,"Shop 2, Stockland Nowra Shop. Ctr, 32-60 East St",Nowra,2541,-34.84,150.57,3213
@@ -27,7 +27,7 @@ Woolworths,Cnr Victoria St And Princes H'Way,Unanderra,2526,-34.38,150.78,2993
 Woolworths,Cnr Princess Hwy & Molloy St,Bulli,2516,-37.798034,144.978707,2971
 Woolworths,Cnr Princes Hwy And The Ave,Figtree,2525,-34.4471641,150.8518155,2986
 Woolworths,"Macarthur Sq Shop. Ctr, Cnr Gilchrist Dr And Kellicar Rd",Campbelltown,2560,-34.08,150.83,3338
-Woolworths,Cnr Copperfield And Thomas Rose Drs,Rosemeadow,2560,-34.08,150.83,3342
+Woolworths,Cnr Copperfield And Thomas Rose Drs,Rosemeadow,2560,-34.08,150.83,3347
 Woolworths,"Narellan Town Centre, Camden VAlly Way",Narellan,2567,-34.05,150.76,3370
 Woolworths,Cnr Oxley & Argyle St,Camden,2570,52.6188088,-2.131525,3379
 Woolworths,271  Queen St,Campbelltown,2560,-34.0685245,150.8104863,3338
@@ -35,8 +35,8 @@ Woolworths,Cnr Rememberance Dr And Thirlmere Way,Tahmoor,2573,-34.22,150.59,3408
 Woolworths,Cnr of Village Circuit & Gregory Hills Dr,Gregory Hills,2557,-27.460825,153.090815,3326
 Woolworths,Cnr Tindall St And Kellicar And Narellan Rds,Campbelltown,2560,-34.08,150.83,3338
 Woolworths,Main St,Mt Annan,2567,-34.0628307,150.7576322,3373
-Woolworths,254 Richardson Rd,Spring Farm,2570,-34.0605612,150.73284598012,3385
-Woolworths,Oran Park Town Centre,Oran Park,2570,-33.9948805,150.7402568,3385
+Woolworths,254 Richardson Rd,Spring Farm,2570,-34.0605612,150.732846,3394
+Woolworths,Oran Park Town Centre,Oran Park,2570,-33.9948805,150.7402568,3392
 Woolworths,"Eagle Vale MarketPl, Cnr Gould And Feldspar Sts",Eagle Vale,2558,-34.04,150.81,3328
 Woolworths,"Moorebank Shop. Vge, 136 Stockton Ave",Moorebank,2170,-33.95,150.91,783
 Woolworths,607 Hume Hwy,Casula,2170,-33.9563636,150.8920968,775
@@ -45,12 +45,12 @@ Woolworths,Cnr Nardoo & Norfolk St,Ingleburn,2565,-27.7922179,145.8767767,3358
 Woolworths,Cartwright Ave,Miller,2168,-33.9142915,150.8765234,773
 Woolworths,"Shop 50, Glenquarie Shop. Ctr",Macquarie Fields,2564,-33.99,150.89,3355
 Woolworths,10 Brookfield Rd,Minto,2566,-34.0296578,150.8489774,3361
-Woolworths,1975 - 1985 Camden Valley Way,Prestons,2170,-33.9564261,150.8744845,784
+Woolworths,1975 - 1985 Camden Valley Way,Prestons,2170,-33.9564261,150.8744845,785
 Woolworths,Cnr Cowpasture And Kurajong Rds,Carnes Hill,2171,-33.88,150.85,787
 Woolworths,1 Dickson Pl,Dickson,2602,-35.2507335,149.1392024,3621
-Woolworths,Cnr Crawford & Antill St,Queanbeyan,2620,41.8472546,-87.7294995,3717
+Woolworths,Cnr Crawford & Antill St,Queanbeyan,2620,41.8472546,-87.7294995,3723
 Woolworths,Benjamin Way,Belconnen,2617,-35.2364056,149.0676148,3694
-Woolworths,Cnr Sloane & Verner St,Goulburn,2580,56.327297,-127.1666987,3483
+Woolworths,Cnr Sloane & Verner St,Goulburn,2580,56.327297,-127.1666987,3485
 Woolworths,Kippax Fair Hardwick Cres,Holt,2615,-35.2,149.03,3688
 Woolworths,31 Hibberson St,Gungahlin,2912,-35.1851395,149.1323008,5173
 Woolworths,Cnr ShoobRdge Cct & Lance Hill Ave,Dunlop,2615,-35.2,149.03,3683
@@ -58,46 +58,46 @@ Woolworths,Charnwood Pl,Charnwood,2615,-35.2049834,149.0323939,3682
 Woolworths,17 Limestone Dr,Jerrabomberra,2619,-35.3810781,149.1997657,3707
 Woolworths,Majura Park Centre 28 Spitfire Ave,Majura,2609,-35.3,149.19,3649
 Woolworths,Cnr Hindmarsh And Melrose Drs,Woden,2606,-35.35,149.08,3641
-Woolworths,12-20 Vale St,Cooma,2630,-36.2334021,149.124061549705,3844
+Woolworths,12-20 Vale St,Cooma,2630,-36.2334021,149.1240615,3846
 Woolworths,"Calwell Shop. Ctr, Johnson Dr",Calwell,2905,-35.43,149.08,5162
 Woolworths,Mawson Pl,Mawson,2607,-35.366723,149.0946338,3644
-Woolworths,Cnr Brierly And Mahoney Cres,Weston Creek,2611,-35.56,148.62,3661
+Woolworths,Cnr Brierly And Mahoney Cres,Weston Creek,2611,-35.56,148.62,3668
 Woolworths,Marconi Cres,Kambah,2902,-35.3828595,149.065263,5152
 Woolworths,"Tuggeranong Southpoint, Cnr Anketell & Reed St",Tuggeranong,2900,-35.42,149.07,5151
 Woolworths,Comrie St,Wanniassa,2903,-35.4019069,149.0991358,5156
 Woolworths,Cnr Tharwa Dr And Box Hill Ave,Conder,2906,-35.52,149.08,5169
-Woolworths,"Shop 1, Nuggets Crossing",Jindabyne,2627,-36.4150564,148.620400526999,3806
+Woolworths,"Shop 1, Nuggets Crossing",Jindabyne,2627,-36.4150564,148.6204005,3806
 Woolworths,Cnr Banna Ave And Bonegilla Rd,Griffith,2680,-34.26,146.1,4158
 Woolworths,Burrell Pl,Griffith North,2680,-34.2858425,146.0442117,4165
-Woolworths,87 Baylis St,Wagga Wagga,2650,-35.1173677,147.3690912,4000
-Woolworths,30 Gurwood St,Wagga Wagga,2650,-35.1072419,147.3649005,4000
-Woolworths,Kooringal Mall Shop 41- 51 Lake Albert Rd,Kooringal,2650,-35.16,147.51,4000
+Woolworths,87 Baylis St,Wagga Wagga,2650,-35.1173677,147.3690912,4038
+Woolworths,30 Gurwood St,Wagga Wagga,2650,-35.1072419,147.3649005,4038
+Woolworths,Kooringal Mall Shop 41- 51 Lake Albert Rd,Kooringal,2650,-35.16,147.51,4020
 Woolworths,Cnr Palm And Wamoon Ave,Leeton,2705,-34.49,146.43,4191
-Woolworths,Cnr Herlihy & Fitzroy St,Tumut,2720,42.58995315,-71.7901965946764,4266
+Woolworths,Cnr Herlihy & Fitzroy St,Tumut,2720,42.58995315,-71.79019659,4278
 Woolworths,246-250 Sheridan St,Gundagai,2722,-35.0640168,148.1037932,4291
-Woolworths,88 Mortimer St,Mudgee,2850,-32.5937134,149.5931233,4985
-Woolworths,197-203 Anson St,Orange,2800,-33.28431565,149.09809564577,4727
+Woolworths,88 Mortimer St,Mudgee,2850,-32.5937134,149.5931233,5021
+Woolworths,197-203 Anson St,Orange,2800,-33.28431565,149.0980956,4740
 Woolworths,"Orana Mall MarketPl, Cnr Mitchell Hwy And Wheelers Lane",Dubbo,2830,-32.2,148.9,4864
 Woolworths,Macquarie St,Dubbo,2830,-32.2438489,148.6019643,4864
 Woolworths,William St,Bathurst,2795,-33.4252439,149.5702648,4616
-Woolworths,224 Mort St,Lithgow,2790,-33.4834199,150.1535492,4566
+Woolworths,224 Mort St,Lithgow,2790,-33.4834199,150.1535492,4575
 Woolworths,"Cnr Minore And Baird Dr, Delroy Park",West Dubbo,2830,-32.2,148.9,4872
 Woolworths,210 Howick St,Bathurst,2795,-33.4207498,149.5849241,4616
 Woolworths,"Telopea Way, Warratah Park,",North Orange,2800,-33.12,149.03,4727
-Woolworths,81 Arthur St,Wellington,2820,-32.5579553,148.9444364,4784
-Woolworths,Boorowa St,Young,2594,-34.3129978,148.2958856,3602
-Woolworths,299 Clarinda St,Parkes,2870,-33.1340246,148.17459847885,5095
-Woolworths,Cnr Parker & Bourke St,Cootamundra,2590,34.858242,-82.4427267570782,3591
-Woolworths,104-110 Hoskins St,Temora,2666,-34.4438709,147.531371880243,4122
+Woolworths,81 Arthur St,Wellington,2820,-32.5579553,148.9444364,4797
+Woolworths,Boorowa St,Young,2594,-34.3129978,148.2958856,3606
+Woolworths,299 Clarinda St,Parkes,2870,-33.1340246,148.1745985,5095
+Woolworths,Cnr Parker & Bourke St,Cootamundra,2590,34.858242,-82.44272676,3591
+Woolworths,104-110 Hoskins St,Temora,2666,-34.4438709,147.5313719,4125
 Woolworths,3-9 Railway Lane,Cowra,2794,-33.8356808,148.6910799,4605
 Woolworths,134 Rankin St,Forbes,2871,-33.3843039,148.0066766,5100
-Woolworths,Cnr Comur & Polding St,Yass,2582,-23.0766133,-52.9604149,3545
+Woolworths,Cnr Comur & Polding St,Yass,2582,-23.0766133,-52.9604149,3555
 Woolworths,569-589 High St,Penrith,2750,-33.74,150.65,4384
 Woolworths,"Lennox Shop. Ctr, Cnr Great Western Hwy And Lawson St",Emu Plains,2750,-33.74,150.65,4381
 Woolworths,Cnr Lennox & Paget St,Richmond,2753,44.1783106,-76.866576,4396
 Woolworths,Southlands Shop. Ctr 2 Birmingham Rd,South Penrith,2750,-33.74,150.65,4387
 Woolworths,Cnr Town Tce And Glenmore Parkway,Glenmore Park,2745,-33.788991,150.6694745,4360
-Woolworths,"Windsor Town Shop. Ctr, Kable St",Windsor,2756,-33.64,150.79,4411
+Woolworths,"Windsor Town Shop. Ctr, Kable St",Windsor,2756,-33.64,150.79,4427
 Woolworths,80 - 98 Borrowdale Way,Cranebrook,2749,-33.7215447,150.7152549,4379
 Woolworths,152-160 Leura Mall,Leura,2780,-33.713405,150.3312288,4525
 Woolworths,"Cnr Parke & Waratah St,",Katoomba,2780,53.9077105,-9.1995263,4523
@@ -138,13 +138,13 @@ Woolworths,Railway Tce and Pelican Rds,Schofields,2762,-33.7,150.89,4457
 Woolworths,"Chester Sq Shop. Ctr, 1-13 Leicester St",Chester Hill,2162,-33.88,151,747
 Woolworths,355 Waterloo Rd,Chullora,2190,-33.89,151.06,816
 Woolworths,Westfield Shop. Ctr Campbell St,Parramatta,2150,-33.82,151.01,714
-Woolworths,28-30 Oak St,Rosehill,2150,-33.8199194,151.0191321,715
+Woolworths,28-30 Oak St,Rosehill,2150,-33.8199194,151.0191321,9354
 Woolworths,753 Hume Hwy,Bass Hill,2197,-33.899484,150.993588,830
 Woolworths,15-16 Woodburn Rd,Berala,2141,-33.8666813,151.0356027,674
 Woolworths,209 Pitt St,Merrylands,2160,-33.8333744,150.9923095,741
 Woolworths,1 Ave Of Americas,Newington,2127,-33.8330312,151.0558891,647
 Woolworths,Cnr Queen And Park St,Auburn,2144,-33.85,151.03,689
-Woolworths,92 Parramatta Rd,Lidcombe,2144,-33.8496433,151.0494563,689
+Woolworths,92 Parramatta Rd,Lidcombe,2144,-33.8496433,151.0494563,676
 Woolworths,Cnr Louis &  Blaxcell St,Granville,2142,51.8478048,-106.5082469,681
 Woolworths,1-9 the Bvd,Punchbowl,2196,-33.93,151.05,828
 Woolworths,2A Charles St,Canterbury,2193,-33.9125035,151.1180258,822
@@ -153,7 +153,7 @@ Woolworths,"Centro Shop. Ctr, Lady Cutler Ave",Bankstown,2200,-33.92,151.03,834
 Woolworths,Cnr Knox & Norton St,Ashfield,2131,41.2958751,-86.6250139,652
 Woolworths,"Shop 6, Level 3, Westfield Shop. Ctr, Burwood Rd",Burwood,2134,-33.88,151.1,656
 Woolworths,"Burwood Plaza Shop. Ctr, 42-50 Railway Pde",Burwood,2134,-33.88,151.1,656
-Woolworths,"Shop 19, Strathfield Plaza, 11 The Bvd",Strathfield,2135,-33.87304995,151.093348187845,658
+Woolworths,"Shop 19, Strathfield Plaza, 11 The Bvd",Strathfield,2135,-33.87304995,151.0933482,658
 Woolworths,"Leichhardt Market Pl, Cnr Marion & Flood St",Leichhardt,2040,-33.8839776,151.1451118,432
 Woolworths,Mashman Ave,Kingsgrove,2208,-33.9411408,151.1010779,855
 Woolworths,2 - 26 Haldon St,Lakemba,2195,-33.9183218,151.0760741,825
@@ -163,10 +163,10 @@ Woolworths,463 Illawarra Rd,Marrickville,2204,-33.9224943,151.1427562,842
 Woolworths,"South Point Shop. Ctr, 238-262 Bunnerong Rd",Hillsdale,2036,-33.98,151.24,421
 Woolworths,"Rockdale Plaza, Cnr Princes Hwy And Rockdale Plaza Dr",Rockdale,2216,-33.95,151.14,877
 Woolworths,"Shop 10, Bkk Shop. Ctr, Evans Ave",Eastlakes,2018,-33.93,151.21,375
-Woolworths,"Eastgardens Shop. Ctr, 152 Bunnerong Rd",Pagewood,2036,-33.98,151.24,427
+Woolworths,"Eastgardens Shop. Ctr, 152 Bunnerong Rd",Pagewood,2036,-33.98,151.24,418
 Woolworths,55 Church Ave,Mascot,2020,-33.9229274,151.1858394,379
 Woolworths,"Marrickville Shop. Ctr, 34 Victoria Rd",Marrickville,2204,-33.91,151.16,842
-Woolworths,"Kogarah Town Centre, Railway Pde",Kogarah,2217,-33.96228405,151.132719028213,880
+Woolworths,"Kogarah Town Centre, Railway Pde",Kogarah,2217,-33.96228405,151.132719,880
 Woolworths,Cnr Bunnerong Rd & Daunt Ave Matraville,Matraville,2036,-33.9250155,151.2273795,425
 Woolworths,Allison Cres,Menai,2234,-34.0144936,151.0176393,943
 Woolworths,247 Belmore Rd,Riverwood,2210,-33.9527939,151.0512303,864
@@ -177,7 +177,7 @@ Woolworths,"Southgate Shop. Ctr, Cnr Princes Hwy And Port Hacking Rd",Sylvania,2
 Woolworths,Cnr President Ave And High St,Caringbah,2229,-34.04,151.12,913
 Woolworths,84D Roberts Ave,Mortdale,2223,-33.9684191,151.0648948,899
 Woolworths,"Miranda Fair Shop. Ctr, 600 The Kingsway",Miranda,2228,-34.03,151.1,911
-Woolworths,Carlingford Ct Pennant Hills Rd,Carlingford,2118,-33.7761336,151.052418614888,632
+Woolworths,Carlingford Ct Pennant Hills Rd,Carlingford,2118,-33.7761336,151.0524186,632
 Woolworths,"Macquarie Shop. Ctr, Cnr Waterloo And Herring Rds",North Ryde,2113,-33.8,151.13,620
 Woolworths,"Eastwood Centre, 160 Rowe St",Eastwood,2122,-33.79,151.08,643
 Woolworths,2 The Comenarra Parkway,Thornleigh,2120,-33.7308509,151.081354,639
@@ -201,23 +201,23 @@ Woolworths,"Westfield Shop. Ctr, 530 Oxford St",Bondi Junction,2022,-33.89,151.2
 Woolworths,12 Lagoon St,Narrabeen,2101,-33.7121947,151.2979876,580
 Woolworths,"Forestway Shop. Ctr, Cnr Russell Ave And Forest Way",Frenchs Forest,2086,-33.75,151.23,540
 Woolworths,"St Ives Shop. Vge,Cnr Mona Vale Rd And Memorial Ave",St Ives,2075,-33.73,151.16,511
-Woolworths,808 Pacific Hwy,Gordon,2072,-33.75511645,151.152016388774,504
+Woolworths,808 Pacific Hwy,Gordon,2072,-33.75511645,151.1520164,504
 Woolworths,56 - 58 Glen St,Belrose,2085,-33.7393563,151.2120167,537
 Woolworths,Pittwater Rd,Brookvale,2100,-33.7616866,151.2718619,574
 Woolworths,37 Howard Avenue,Dee Why,2099,-33.7528942,151.2894588,569
 Woolworths,17 - 31 Roseberry St,Balgowlah,2093,-33.7885131,151.267589,553
 Woolworths,Warriewood Sq Cnr Jacksons And Boondale Rd,Warriewood,2102,-33.69,151.3,582
-Woolworths,74 Old Barenjoey Rd,Avalon,2107,-33.64,151.33,599
+Woolworths,74 Old Barenjoey Rd,Avalon,2107,-33.64,151.33,5656
 Woolworths,25-29 Park St,Mona Vale,2103,-33.6749765,151.3028627,585
-Woolworths,"Bateau Bay Sq, 12 Bay Village Rd",Bateau Bay,2261,-33.374691,151.472657645703,1065
-Woolworths,1 Figtree Boulevard,Wadalba,2259,-33.2672995,151.4635167,1027
+Woolworths,"Bateau Bay Sq, 12 Bay Village Rd",Bateau Bay,2261,-33.374691,151.4726576,1065
+Woolworths,1 Figtree Boulevard,Wadalba,2259,-33.2672995,151.4635167,1048
 Woolworths,40-46 William St,Gosford,2250,-33.4263234,151.3445318,952
-Woolworths,Cobbs Rd,Tuggerah,2259,-33.27,151.4,1027
+Woolworths,Cobbs Rd,Tuggerah,2259,-33.27,151.4,1046
 Woolworths,"Peninsula Plaza, 63 Blackwall Rd",Woy Woy,2256,-33.5,151.33,999
 Woolworths,Karalta Rd,Erina,2250,-33.4384104,151.3842201,949
-Woolworths,Crn Of West And Trafalgar St,Umina,2257,-33.51,151.34,1010
-Woolworths,Tall Timbers Rd,Lake Munmorah,2259,-33.1886132,151.5575743,1027
-Woolworths,Parsons Rd,Lisarow,2250,-33.3863855,151.3660758,954
+Woolworths,Crn Of West And Trafalgar St,Umina,2257,-33.51,151.34,7779
+Woolworths,Tall Timbers Rd,Lake Munmorah,2259,-33.1886132,151.5575743,1034
+Woolworths,Parsons Rd,Lisarow,2250,-33.3863855,151.3660758,957
 Woolworths,"Lake Haven Shopping, Centre Lake Haven Dr",Lake Haven,2263,-33.27,151.54,1092
 Woolworths,Cnr Wilson Rd And Rosalind St,Mt Hutton,2290,-33,151.69,1195
 Woolworths,Cnr Main And Lake Rds,Glendale,2285,-32.93,151.66,1165
@@ -226,66 +226,66 @@ Woolworths,Cnr Macquarie And Main Rds,Cardiff,2285,-32.93,151.66,1161
 Woolworths,18 Josephson St,Swansea,2281,-33.0888506,151.6371832,1133
 Woolworths,Charlestown Sq Canberra St,Charlestown,2290,-33,151.69,1187
 Woolworths,Cnr Macquarie & Singleton St,Belmont,2280,-35.2511133,149.0633056,1116
-Woolworths,Cnr Pemell St And Brighton Aves,Toronto,2283,-33.06,151.58,1147
+Woolworths,Cnr Pemell St And Brighton Aves,Toronto,2283,-33.06,151.58,1152
 Woolworths,"Crn Dora, Doyalson And Yambo St",Morisset,2264,-33.1,151.55,1103
 Woolworths,Cnr Maitland Rd And Valencia St,Mayfield,2304,-32.88,151.75,1225
 Woolworths,Blue Gum Rd,Jesmond,2299,-32.9049426,151.6905062,1211
-Woolworths,39-41 Port Stephens Cnr Glenelg St,Raymond Terrace,2324,-32.67,151.81,1359
+Woolworths,39-41 Port Stephens Cnr Glenelg St,Raymond Terrace,2324,-32.67,151.81,1365
 Woolworths,Bagnalls Beach Rd,Salamander Bay,2317,-32.72,152.08,1262
-Woolworths,Cnr Port Stephens And Bourke Sts MarketPl,Raymond Terrace,2324,-32.67,151.81,1359
+Woolworths,Cnr Port Stephens And Bourke Sts MarketPl,Raymond Terrace,2324,-32.67,151.81,1365
 Woolworths,23 Steel St,Newcastle West,2302,-32.9279251,151.7635329,1219
 Woolworths,39-47 Ferodale Rd,Medowie,2318,-32.7381413,151.8455421,1267
 Woolworths,3 Angophora Dr,Warabrook,2304,-32.8875436,151.7193849,1230
 Woolworths,Cnr Stockton St & Donald St,Nelson Bay,2315,37.0609061,-76.3086422,1254
-Woolworths,"Cessnock Plaza, Cnr Keene & Cooper St",Cessnock,2325,-32.83426435,151.354727758625,1377
-Woolworths,"Pender Pl Shop. Ctr, Cnr Church & Elgin St",Maitland,2320,-32.69,151.53,1284
-Woolworths,1 Gowrie St,Singleton,2330,-32.5672361,151.1639256,1430
+Woolworths,"Cessnock Plaza, Cnr Keene & Cooper St",Cessnock,2325,-32.83426435,151.3547278,1377
+Woolworths,"Pender Pl Shop. Ctr, Cnr Church & Elgin St",Maitland,2320,-32.69,151.53,1289
+Woolworths,1 Gowrie St,Singleton,2330,-32.5672361,151.1639256,1475
 Woolworths,"Stockland Centre, 1 Molly Morgan Dr",East Maitland,2323,-32.77,151.6,1339
-Woolworths,Cnr Alexandra Ave And Hillview St,Rutherford,2320,-32.69,151.53,1284
-Woolworths,Cnr Brook & Sowerby St,Muswellbrook,2333,48.95317,-57.947388,1494
-Woolworths,35 Main St,Scone,2337,-32.0475792,150.8693059,1527
+Woolworths,Cnr Alexandra Ave And Hillview St,Rutherford,2320,-32.69,151.53,1300
+Woolworths,Cnr Brook & Sowerby St,Muswellbrook,2333,48.95317,-57.947388,1496
+Woolworths,35 Main St,Scone,2337,-32.0475792,150.8693059,1536
 Food For Less,Cnr Lawson & Newton St,Beresfield,2322,-33.7190722,150.4298686,1325
 Woolworths,Cnr Aberglasslyn and McKeachie Dr,Aberglasslyn,2320,-32.69,151.53,1275
 Woolworths,119 - 129 Conadilly St,Gunnedah,2380,-30.9727658,150.2425649,1839
 Woolworths,35 Dalgarno St,Coonabarabran,2357,-31.2735069,149.2771453,1694
-Woolworths,Cnr William And Denne St,Tamworth,2340,-30.96,150.83,1571
+Woolworths,Cnr William And Denne St,Tamworth,2340,-30.96,150.83,1593
 Woolworths,Cnr Jessie And Beardy Sts,Armidale,2350,-30.24,152.01,1650
-Woolworths,181-189 Maitland St,Narrabri,2390,-30.3226043,149.7815548,1875
+Woolworths,181-189 Maitland St,Narrabri,2390,-30.3226043,149.7815548,1877
 Woolworths,215 Balo St,Moree,2400,-29.459383,149.84158,1899
-Woolworths,502 - 504 Peel St,Tamworth,2340,-31.0967255,150.9361061,1571
+Woolworths,502 - 504 Peel St,Tamworth,2340,-31.0967255,150.9361061,1593
 Woolworths,Cnr Pacific Hwy And Park Beach Rd,Coffs Harbour,2450,-30.34,153.07,2338
 Woolworths,"Centro Shop. Ctr, Toormina Rd",Toormina,2452,-30.34,153.08,2356
 Woolworths,7 Park Ave,Coffs Harbour,2450,-30.2981702,153.1146972,2338
 Woolworths,Cnr Wentworth And Grey Sts,Glen Innes,2370,-29.64,151.96,1783
 Woolworths,Cnr Fraser And Back Sts,Nambucca Heads,2448,-30.62,153,2322
-Woolworths,"Cnr Pacific Hwy, Pullen & Mackay Sts",Woolgoolga,2456,-30.06,153.19,2401
-Woolworths,Cnr Vivian And Sweaney Sts,Inverell,2360,-29.84,151.04,1725
+Woolworths,"Cnr Pacific Hwy, Pullen & Mackay Sts",Woolgoolga,2456,-30.06,153.19,2402
+Woolworths,Cnr Vivian And Sweaney Sts,Inverell,2360,-29.84,151.04,1726
 Woolworths,Cnr Boundary St and Giinagay Way,Macksville,2447,-30.8,152.73,2308
-Woolworths,42 Duke St,Grafton,2460,-29.6830658,152.942279,2412
-Woolworths,Cnr Forth And Smith Sts,Kempsey,2440,-31.06,152.77,2168
+Woolworths,42 Duke St,Grafton,2460,-29.6830658,152.942279,2441
+Woolworths,Cnr Forth And Smith Sts,Kempsey,2440,-31.06,152.77,2181
 Woolworths,Cnr The Lakes Way And Breese Pde,Forster,2428,-32.35,152.54,2061
 Woolworths,Cnr Bay And Park Sts,Port Macquarie,2444,-31.4,152.85,2252
-Woolworths,Cnr Albert Stokes And Manning Sts,Taree,2430,-32.07,152.54,2115
-Woolworths,10 Botanic Dr,Lakewood,2443,-31.6342266,152.755572,2236
+Woolworths,Cnr Albert Stokes And Manning Sts,Taree,2430,-32.07,152.54,2140
+Woolworths,10 Botanic Dr,Lakewood,2443,-31.6342266,152.755572,2237
 Woolworths,Lot 2 Ocean Dr,Lake Cathie,2445,-31.5656195,152.8395224,2261
-Woolworths,111 - 115 Church St,Gloucester,2422,-32.0099668,151.95813695526,1977
-Woolworths,Cnr Peel and Kent St,Tuncurry,2428,-32.35,152.54,2062
+Woolworths,111 - 115 Church St,Gloucester,2422,-32.0099668,151.958137,1994
+Woolworths,Cnr Peel and Kent St,Tuncurry,2428,-32.35,152.54,2070
 Woolworths,"Atherton Shop. Vge, Cook St",Atherton,4883,-17.27,145.47,11625
 Woolworths,103 Abbott St,Cairns,4870,-16.9146997,145.7712786,11416
 Woolworths,"Stocklands Shoppingtown, 537 Mulgrave Rd",Earlville,4870,-16.88,145.75,11422
-Woolworths,63 Front St,Mossman,4873,-16.4607779,145.3737104,11542
+Woolworths,63 Front St,Mossman,4873,-16.4607779,145.3737104,11549
 Woolworths,106 Barnard Dr,Mt Sheridan,4868,-16.9879499,145.739517,11407
-Woolworths,"Festival Fair Shop. Ctr, 1 Koch St",Manunda,4870,-16.88,145.75,11422
-Woolworths,Cnr Redlynch Connection And Larsen Rd,Redlynch,4870,-16.88,145.75,11422
+Woolworths,"Festival Fair Shop. Ctr, 1 Koch St",Manunda,4870,-16.88,145.75,11430
+Woolworths,Cnr Redlynch Connection And Larsen Rd,Redlynch,4870,-16.88,145.75,11436
 Woolworths,Cnr Captain Cook and Kennedy Hwys,Smithfield,4878,-16.84,145.71,11606
 Woolworths,Cnr Central Ave and Kerr Point Dr,Weipa,4874,-12.66,141.85,11571
 Woolworths,Cnr Woolcock St And Kings Rd,Pimlico,4812,-19.27,146.78,11073
 Woolworths,124 Charters Towers Rd,Hermit Park,4812,-19.287494,146.79697,11068
-Woolworths,29 Ann St,Ingham,4850,-18.6485828,146.1626254,11274
-Woolworths,Cnr Mcgowan Dr And Rankin St,Innisfail,4860,-17.56,146,11367
+Woolworths,29 Ann St,Ingham,4850,-18.6485828,146.1626254,9332
+Woolworths,Cnr Mcgowan Dr And Rankin St,Innisfail,4860,-17.56,146,11377
 Woolworths,38-40 Dickinson St,Wongaling Beach ,4852,-17.8996461,146.0943031,11308
 Woolworths,20-38 Main St,Burdell,4818,-19.2531034,146.7002614,11143
-Woolworths,393-399 Flinders St,Townsville,4810,-19.2614553,146.8154061,11051
+Woolworths,393-399 Flinders St,Townsville,4810,-19.2614553,146.8154061,11052
 Woolworths,Cnr Nathan St And Fulham Rd,Vincent,4814,-19.3,146.76,11086
 Woolworths,28 Palm Dr,Deeragun,4818,-19.2490854,146.6766178,11146
 Woolworths,64-70 Queen St,Ayr,4807,-19.5695977,147.4109159,11019
@@ -293,50 +293,50 @@ Woolworths,Cnr Richmond And The Soldier Rds,Bowen,4805,-20.38,147.89,11002
 Woolworths,Gill St,Charters Towers,4820,-20.0759957,146.2576644,11169
 Woolworths,2-30 Lakeside Dr,Idalia,4811,-19.302157,146.8172407,11058
 Woolworths,148 Bamford Lane,Kirwan,4817,-19.2907024,146.7433676,11134
-Woolworths,Cnr Isa & Miles St,Mount Isa,4825,35.3011336,135.1807397,11219
+Woolworths,Cnr Isa & Miles St,Mount Isa,4825,35.3011336,135.1807397,11230
 Woolworths,310-330 Ross River Rd,Aitkenvale,4814,-19.2983056,146.7614205,11076
 Woolworths,1225 Riverway Dr,Rasmussen,4815,-19.3601147,146.7320457,11092
 Woolworths,85 Burnda St,Thuringowa,4817,-19.33,146.6,11136
 Woolworths,13 Hervey Range Rd,Kirwan,4817,-19.3192539,146.7125786,11134
 Woolworths,Cnr Shute Harbour Rd & Waterson Way,Airlie Beach,4802,-20.2895107,148.7751976,10985
 Woolworths,41-45 Oak St,Andergrove,4740,-21.0971041,149.1830175,10828
-Woolworths,"Caneland Shop. Ctr, ManGr Rd",Mackay,4740,-21.16,149.1,10835
+Woolworths,"Caneland Shop. Ctr, ManGr Rd",Mackay,4740,-21.16,149.1,10852
 Woolworths,8-28 Galbraith Park Dr,Cannonvale,4802,-20.2912467,148.6712864,10986
 Woolworths,213 - 247 Anzac Ave,Marian,4753,-21.12,148.89,10926
-Woolworths,54A Philip St,North Mackay,4740,-20.9012882,148.965329,10835
-Woolworths,Cnr Broadsound & Boundary Rds,South Mackay,4740,-21.1535169,149.166270613622,10835
-Woolworths,93 Main St,Proserpine,4800,-20.4025316,148.587299,10956
-Woolworths,10 Eimeo Rd,Rural View,4740,-21.055403,149.169385,10835
+Woolworths,54A Philip St,North Mackay,4740,-20.9012882,148.965329,10864
+Woolworths,Cnr Broadsound & Boundary Rds,South Mackay,4740,-21.1535169,149.1662706,10873
+Woolworths,93 Main St,Proserpine,4800,-20.4025316,148.587299,10977
+Woolworths,10 Eimeo Rd,Rural View,4740,-21.055403,149.169385,10870
 Woolworths,4-20 Broad St,Sarina,4737,-21.4162933,149.2152011,10819
 Woolworths,8 Creek St,Walkerston,4751,-21.1603528,149.0652452,10924
 Woolworths,Cnr Caroline And Upper Dawson Rd,Rockhampton,4700,-23.39,150.5,10537
 Woolworths,12 Blain St,Blackwater,4717,-23.5740499,148.8869841,10729
 Woolworths,51-57 Hospital Rd,Emerald,4720,-23.5241822,148.158207,10745
 Woolworths,Cnr Capricorn Hwy & Codenwarra Rd,Emerald East,4720,-23.5336,148.1709706,10746
-Woolworths,1-19 McLaughlin St,Gracemere,4702,-23.433198,150.4542867,10572
-Woolworths,"Rockhampton Stockland Shop. Ctr, Yaamba Rd",Rockhampton,4701,-23.36,150.52,10553
+Woolworths,1-19 McLaughlin St,Gracemere,4702,-23.433198,150.4542867,10602
+Woolworths,"Rockhampton Stockland Shop. Ctr, Yaamba Rd",Rockhampton,4701,-23.36,150.52,10558
 Woolworths,222 Musgrave St,Rockhampton North,4701,-23.3516053,150.5243895,10553
-Woolworths,810 Yaamba Rd,Parkhurst,4702,-23.2801932,150.5095989,10572
-Woolworths,42 Park St,Yeppoon,4703,-23.129888,150.7397439,10659
+Woolworths,810 Yaamba Rd,Parkhurst,4702,-23.2801932,150.5095989,10622
+Woolworths,42 Park St,Yeppoon,4703,-23.129888,150.7397439,10679
 Woolworths,Cnr Davidson & Bargara Rd,Bargara,4670,51.8478048,-106.5082469,10369
 Woolworths,Cnr Gladstone & Kariboe St,Biloela,4715,40.7202907,-74.6662746,10716
 Woolworths,"Boyne Plaza, Cnr Wyndham Ave And Centenary Dr",Boyne Island,4680,-23.86,151.27,10480
 Woolworths,Cnr Maryborough & George St,Bundaberg,4670,-25.537583,152.7019182,10372
-Woolworths,111-115 Churchill St,Childers,4660,-25.23199515,152.270600085018,10345
-Woolworths,184 Goondoon St,Gladstone,4680,-23.8469856,151.2593946,10486
-Woolworths,Cnr Dawson Hwy And Phillip St,Gladstone,4680,-23.86,151.27,10486
-Woolworths,550 Kirkwood Rd,Kirkwood,4680,-23.8961205,151.2442999,10486
+Woolworths,111-115 Churchill St,Childers,4660,-25.23199515,152.2706001,10345
+Woolworths,184 Goondoon St,Gladstone,4680,-23.8469856,151.2593946,10491
+Woolworths,Cnr Dawson Hwy And Phillip St,Gladstone,4680,-23.86,151.27,10491
+Woolworths,550 Kirkwood Rd,Kirkwood,4680,-23.8961205,151.2442999,10500
 Woolworths,Takalvan St,Bundaberg,4670,-24.8702223,152.3362554,10372
 Woolworths,Cnr Nautilus And Queen Elizabeth Drs,Cooloola Cove,4580,-26.01,153.06,10033
 Woolworths,Cnr Ibis Bvd And Maryborough Rd,Eli Waters,4655,-25.35,152.89,10313
-Woolworths,114 River Rd,Gympie,4570,-26.1911421,152.6605069,9932
-Woolworths,Cnr Ramsey Rd & Woolgar Rd,Gympie,4570,44.571822,-72.114353,9932
-Woolworths,27 Torquay Rd,Pialba,4655,-25.2833649,152.843647,10318
-Woolworths,280-294 Adelaide St,Maryborough,4650,-25.5369818,152.7032336,10268
+Woolworths,114 River Rd,Gympie,4570,-26.1911421,152.6605069,9954
+Woolworths,Cnr Ramsey Rd & Woolgar Rd,Gympie,4570,44.571822,-72.114353,9954
+Woolworths,27 Torquay Rd,Pialba,4655,-25.2833649,152.843647,10320
+Woolworths,280-294 Adelaide St,Maryborough,4650,-25.5369818,152.7032336,10279
 Woolworths,"Noosa Civic, Cnr Eenie Creek Rd And Walter Hay Dr",Noosa Heads,4567,-26.43,153.11,9916
 Woolworths,24 Gibson Rd,Noosaville,4566,-26.4003611,153.0519614,9913
 Woolworths,94 Poinciana Ave,Tewantin,4565,-26.3903816,153.0285232,9912
-Woolworths,119 Elizabeth St,Urangan,4655,-25.302829,152.8882142,10318
+Woolworths,119 Elizabeth St,Urangan,4655,-25.302829,152.8882142,10329
 Woolworths,"Buderim Market Pl, Burnett St",Buderim,4556,-26.687451,153.0492966,9843
 Woolworths,20 Bowman Rd,Caloundra,4551,-26.803768,153.1212008,9805
 Woolworths,18 University Way,Sippy Downs,4556,-26.7176584,153.0508242,9847
@@ -345,20 +345,20 @@ Woolworths,750 Nicklin Way,Currimundi,4551,-26.7855821,153.1229814,9809
 Woolworths,Cnr Point Cartwright Dr And Nicklin Way,Buddina,4575,-26.75,153.12,10027
 Woolworths,Cnr Ocean St And Horton Pde,Maroochydore,4558,-26.66,153.1,9853
 Woolworths,154-164 Horton Pde,Maroochydore,4558,-26.6535012,153.090049,9853
-Woolworths,158-170 Karawatha Dr,Buderim,4557,-26.6999534,153.0812299,9850
-Woolworths,Ann St,Nambour,4560,-26.6258771,152.9609364,9870
-Woolworths,44 Pelican Waters Bvd,Pelican Waters,4551,-26.8124665,153.1142248,9812
+Woolworths,158-170 Karawatha Dr,Buderim,4557,-26.6999534,153.0812299,9843
+Woolworths,Ann St,Nambour,4560,-26.6258771,152.9609364,9874
+Woolworths,44 Pelican Waters Bvd,Pelican Waters,4551,-26.8124665,153.1142248,9816
 Woolworths,Cnr Sunderland Dr & Botany Cres,Banksia Beach,4507,38.667882,-76.603412,9715
 Woolworths,Peachester Rd,Beerwah,4519,-26.857012,152.9566583,9770
 Woolworths,54 Hornsby Rd,Bongaree,4507,-27.0630173,153.1576045,9717
 Woolworths,167 Station Rd,Burpengary,4505,-27.1545563,152.9719584,9710
-Woolworths,"62 Morayfield Rd, Cnr Market Dr",Morayfield,4510,-27.13,153.05,9735
+Woolworths,"62 Morayfield Rd, Cnr Market Dr",Morayfield,4510,-27.13,153.05,9714
 Woolworths,1-21 Pettigrew St,Caboolture,4510,-27.0780556,152.964789,9728
 Woolworths,2 Bunya St,Maleny,4552,-26.7583055,152.8526495,9827
 Woolworths,165-175 Morayfield Rd,Morayfield,4506,-27.1040961,152.9477941,9714
 Woolworths,312-344 Morayfield Rd,Morayfield,4506,-27.15,152.86,9714
 Woolworths,212-226 Young Rd,Narangba,4504,-27.184079,152.9423702,9709
-Woolworths,Cnr George And Archer Sts,Woodford,4514,-26.85,152.72,9752
+Woolworths,Cnr George And Archer Sts,Woodford,4514,-26.85,152.72,9754
 Woolworths,154 Barrett St,Bracken Ridge,4017,-27.3199761,153.0419436,8362
 Woolworths,"Deception Bay MarketPl, Cnr Deception Bay Rd And Bay Ave",Deception Bay,4508,-27.2,153.03,9723
 Woolworths,1473 Anzac Ave,Kallangur,4503,-27.2609928,152.979813,9705
@@ -384,8 +384,8 @@ Woolworths,"Lot 8, Bowser Pde",Sandgate,4017,-27.3215712,153.0692211,8367
 Woolworths,188 Nudgee Road,Ascot,4007,-27.4268467,153.0721836,8339
 Woolworths,16 AshGr Ave,Ashgrove,4060,-27.45,152.99,8432
 Woolworths,279 Tuffnell Rd,Banyo,4014,-27.38,153.08,8356
-Woolworths,1 Airport Dr,Brisbane Airport,4007,-27.4121108,153.0787526,8341
-Woolworths,259 Queen St,Brisbane,4000,-27.46812105,153.027774707833,8331
+Woolworths,1 Airport Dr,Brisbane Airport,4007,-27.4121108,153.0787526,8342
+Woolworths,259 Queen St,Brisbane,4000,-27.46812105,153.0277747,8616
 Woolworths,Skyring Tce,Newstead,4006,-27.4497392,153.0422114,8338
 Woolworths,Cnr Buckland And Sandgate Rds,Nundah,4012,-27.4,153.06,8351
 Woolworths,Latrobe Tce,Paddington,4064,-27.459101,152.9987971,8437
@@ -393,30 +393,30 @@ Woolworths,365 Turbot St,Spring Hill,4000,-27.4624424,153.0299057,8331
 Woolworths,Stafford Rd,Stafford,4053,-27.4073285,152.9986488,8419
 Woolworths,Beams Rd,Taigum,4018,-27.3501821,153.0398552,8371
 Woolworths,16-20 Bell St,Chinchilla,4413,-26.7396671,150.6250818,9519
-Woolworths,Cnr Anzac Ave And James St,Toowoomba,4350,-27.62,151.77,9120
+Woolworths,Cnr Anzac Ave And James St,Toowoomba,4350,-27.62,151.77,9141
 Woolworths,"Dalby Central Shop. Ctr, Lot 70 Marble St",Dalby,4405,-27.19,151.4,9487
-Woolworths,66 Highfields Rd,Highfields,4352,-27.4638695,151.9538855,9165
-Woolworths,445-455 Hume St,Toowoomba,4350,-27.5654844,151.9569836,9120
-Woolworths,29-45 Alford St,Kingaroy,4610,-26.5415781,151.845285,10098
-Woolworths,Cnr Wyndham And Bowen Sts,Roma,4455,-27.12,148.62,9603
+Woolworths,66 Highfields Rd,Highfields,4352,-27.4638695,151.9538855,9180
+Woolworths,445-455 Hume St,Toowoomba,4350,-27.5654844,151.9569836,9141
+Woolworths,29-45 Alford St,Kingaroy,4610,-26.5415781,151.845285,10107
+Woolworths,Cnr Wyndham And Bowen Sts,Roma,4455,-27.12,148.62,9610
 Woolworths,48 Brisbane St,Drayton,4350,-27.6004195,151.9150011,9119
-Woolworths,Cnr of Margaret St & Dent St,Toowoomba,4350,51.516404,-0.142646,9120
-Woolworths,Cnr Hooper And Erin Sts,Wilsonton,4350,-27.62,151.77,9120
+Woolworths,Cnr of Margaret St & Dent St,Toowoomba,4350,51.516404,-0.142646,9141
+Woolworths,Cnr Hooper And Erin Sts,Wilsonton,4350,-27.62,151.77,9153
 Woolworths,Cnr Brisbane St And Station Rd,Booval,4304,-27.63,152.8,8850
 Woolworths,Hunter St,Brassall,4305,-27.593919,152.7459964,8857
-Woolworths,1455 Brisbane VAlly Hwy,Fernvale,4306,-27.64,152.7,8888
+Woolworths,1455 Brisbane VAlly Hwy,Fernvale,4306,-27.64,152.7,8897
 Woolworths,Cnr Pine St And The Tce,Ipswich,4305,-27.6094096,152.7617997,8864
-Woolworths,122-126 Yandilla St,Pittsworth,4356,-27.7178182,151.6268236,9255
-Woolworths,3 Gehrke Rd,Plainland,4341,-27.5633254,152.4213177,9055
-Woolworths,Cnr James And Burke Sts,Toowoomba,4350,-27.62,151.77,9120
-Woolworths,Cnr Lock And High Sts,Stanthorpe,4380,-28.61,151.9,9399
-Woolworths,"Rose City Shop. Ctr, Cnr Grafton And Guy Sts",Warwick,4370,-28.2,151.95,9336
-Woolworths,512-514 Warwick Rd,Yamanto,4305,-27.6633682,152.7386009,8865
+Woolworths,122-126 Yandilla St,Pittsworth,4356,-27.7178182,151.6268236,9256
+Woolworths,3 Gehrke Rd,Plainland,4341,-27.5633254,152.4213177,9057
+Woolworths,Cnr James And Burke Sts,Toowoomba,4350,-27.62,151.77,9141
+Woolworths,Cnr Lock And High Sts,Stanthorpe,4380,-28.61,151.9,9408
+Woolworths,"Rose City Shop. Ctr, Cnr Grafton And Guy Sts",Warwick,4370,-28.2,151.95,9367
+Woolworths,512-514 Warwick Rd,Yamanto,4305,-27.6633682,152.7386009,8878
 Woolworths,2 Tournament Dr,Brookwater,4300,-27.6635709,152.8916418,8835
 Woolworths,157 Collingwood Dr,Collingwood Park,4301,-27.6219766,152.8576201,8843
 Woolworths,Cnr Monier Rd And Bellwood St,Darra,4076,-27.57,152.95,8479
 Woolworths,8 Smiths Rd,Goodna,4300,-27.6095619,152.8991244,8839
-Woolworths,39-51 Junction Rd,Karalee,4306,-27.573056,152.8090431,8888
+Woolworths,39-51 Junction Rd,Karalee,4306,-27.573056,152.8090431,8904
 Woolworths,Cnr Beaudesert Rd And Durack St,Moorooka,4105,-27.53,153.03,8500
 Woolworths,"Mt Ommaney Shop. Ctr, Cnr Dandenong Rd And Centenary Hwy",Mount Ommaney,4074,-27.56,152.93,8469
 Woolworths,133 Oxley Station Rd,Oxley,4075,-27.5533386,152.9741473,8477
@@ -465,8 +465,8 @@ Woolworths,114-118 George St,Beenleigh,4207,-27.7155585,153.1975745,8654
 Woolworths,2-16 Magellan Rd,Springwood,4127,-27.6304337,153.1392215,8571
 Woolworths,Cnr Bryants Rd & Beenleigh-Redland Bay Rd,Cornubia,4130,-27.6795181,152.7827066,8578
 Woolworths,17 Gardiner Rd,Holmview,4207,-27.7154423,153.1586121,8660
-Woolworths,Cnr North & Albert Sts,Logan Village,4207,59.9205006,10.7336532,8660
-Woolworths,3828-3846 Pacific Hwy,Shailer Park,4129,-27.69,153.18,8575
+Woolworths,Cnr North & Albert Sts,Logan Village,4207,59.9205006,10.7336532,8661
+Woolworths,3828-3846 Pacific Hwy,Shailer Park,4129,-27.69,153.18,8572
 Woolworths,Cnr Browns Plains Rd & Fifth Ave,Marsden,4132,-27.6604605,153.0380712,8582
 Woolworths,8-10 Logandowns Dr,Meadowbrook,4131,-27.667936,153.1392774,8580
 Woolworths,34 Fitzgerald Ave,Springwood,4127,-27.6139278,153.1249739,8571
@@ -479,45 +479,45 @@ Woolworths,Town Centre Dr,Helensvale,4212,-27.9224558,153.3379908,8704
 Woolworths,1 Marina Quays Blvd,Hope Island,4212,-27.876945,153.3634047,8706
 Woolworths,19-21 Peachey Rd,Ormeau,4208,-27.7863833,153.2567952,8676
 Woolworths,Cnr Tamborine/Oxenford Rd And Old Pacific Hwy,Oxenford,4210,-27.94,153.23,8684
-Woolworths,1 Pitcairn Way,Pacific Pines,4211,-27.9465464,153.3224574,8696
+Woolworths,1 Pitcairn Way,Pacific Pines,4211,-27.9465464,153.3224574,8702
 Woolworths,28 Dixon Dr,Pimpama,4209,-27.83405,153.3163701,8679
-Woolworths,Cnr Bayview St And Lae Dr,Runaway Bay,4215,-27.97,153.42,8727
+Woolworths,Cnr Bayview St And Lae Dr,Runaway Bay,4215,-27.97,153.42,8732
 Woolworths,Cnr Cotlew St And Currumburra Rd,Ashmore,4214,-27.94,153.37,8718
 Woolworths,Scarborough St,Southport,4215,-27.9656767,153.4129064,8725
-Woolworths,54 Manchester Rd,Carrara,4209,-28.0279103,153.3863962,8681
+Woolworths,54 Manchester Rd,Carrara,4209,-28.0279103,153.3863962,15055
 Woolworths,9 Ferny Ave,Surfers Paradise,4217,-27.9893656,153.4284164,8742
 Woolworths,Cnr Bermuda And Markeri Sts,Mermaid Waters,4218,-28.03,153.43,8746
-Woolworths,7-27 Cayuga St,Nerang,4211,-27.9999919,153.3393324,8696
+Woolworths,7-27 Cayuga St,Nerang,4211,-27.9999919,153.3393324,8698
 Woolworths,"The Oasis Shop. Ctr, Cnr Charles Aves And Surf Pde",Broadbeach,4218,-28.03,153.43,8743
 Woolworths,2-30 Hooker Bvd,Broadbeach,4218,-28.0344565,153.4303569,8743
 Woolworths,Cnr Von Itzstein St & Knowledge St,Southport,4215,-27.962224,153.3866764,8725
 Woolworths,Cnr Ferry Rd And Benowa St,Southport,4215,-27.97,153.42,8725
-Woolworths,2 Cavill Ave,Surfers Paradise,4217,-28.00267355,153.429891571091,8742
+Woolworths,2 Cavill Ave,Surfers Paradise,4217,-28.00267355,153.4298916,8742
 Woolworths,West Burleigh Rd,Burleigh Heads,4220,-28.0908841,153.4461985,8752
 Woolworths,"Level 1,The Strand at Coolangatta, 72-80 Marine Pde",Coolangatta,4225,-28.16,153.51,8764
 Woolworths,13-31 Guineas Creek Road,Elanora,4221,-28.1351876,153.4713751,8756
 Woolworths,"Mudgeeraba Market Shop. Ctr, Cnr Railway St And Swan Lane",Mudgeeraba,4213,-28.14,153.32,8710
 Woolworths,155 Nineteenth Ave,Elanora,4221,-28.1170622,153.4530754,8756
 Woolworths,1 Kingsmore Bvd,Reedy Creek,4227,-28.108455,153.404782,8769
-Woolworths,"Robina Town Centre, Robina Town Centre Dr",Robina,4230,-28.0778718,153.385558703046,8774
-Woolworths,"Robina Town Centre, Robina Town Centre Dr Level 2",Robina,4230,-28.0778718,153.385558703046,8774
-Woolworths,54 Pacific Hwy,Tweed Heads South,2485,-28.1789614,153.5212844,2907
+Woolworths,"Robina Town Centre, Robina Town Centre Dr",Robina,4230,-28.0778718,153.3855587,8774
+Woolworths,"Robina Town Centre, Robina Town Centre Dr Level 2",Robina,4230,-28.0778718,153.3855587,8774
+Woolworths,54 Pacific Hwy,Tweed Heads South,2485,-28.1789614,153.5212844,2919
 Woolworths,Cnr Wharf And Bay St,Tweed Heads,2485,-28.18,153.54,2906
 Woolworths,84 Kerr St,Ballina,2478,-28.8664587,153.5557153,2717
 Woolworths,82-96 River St,Ballina,2478,-28.871611,153.561545,2717
 Woolworths,106 Jonson St,Byron Bay,2481,-28.6475382,153.6128366,2814
 Woolworths,39-45 Tweed Coast Rd,Cabarita Beach,2488,-28.3392121,153.572697,2931
 Woolworths,165 Canterbury St,Casino,2470,-28.8602867,153.032487,2592
-Woolworths,2 Simeoni Dr,Goonellabah,2480,-28.82064925,153.32838470378,2753
+Woolworths,2 Simeoni Dr,Goonellabah,2480,-28.82064925,153.3283847,2770
 Woolworths,22-26 Pearl St,Kingscliff,2487,-28.2562195,153.5763189,2928
-Woolworths,Cnr Conway And Carrington Sts,Lismore,2480,-28.61,153.04,2753
-Woolworths,Cnr Brewster And Mckenzie Sts,Lismore,2480,-28.61,153.04,2753
+Woolworths,Cnr Conway And Carrington Sts,Lismore,2480,-28.61,153.04,2780
+Woolworths,Cnr Brewster And Mckenzie Sts,Lismore,2480,-28.61,153.04,2780
 Woolworths,28-32 Station Rd,Mullumbimby,2482,-28.61,153.44,2827
 Woolworths,Taylors Rd,Aberfoyle Park,5159,-35.0730622,138.5966398,12155
 Woolworths,36-38 Hartley St,Alice Springs,870,-23.701967,133.8801068,251
-Woolworths,"Arkaba Shop. Ctr, Fullarton Rd",Fullarton ,5063,-34.94,138.62,11894
-Woolworths,CNR Chungwah Tce and Lanbrick Ave,Bakewell,810,-12.38,130.88,11
-Woolworths,14 Vaughan Tce,Berri,5343,-34.2815245,140.5993058,12731
+Woolworths,"Arkaba Shop. Ctr, Fullarton Rd",Fullarton ,5063,-34.94,138.62,11892
+Woolworths,CNR Chungwah Tce and Lanbrick Ave,Bakewell,810,-12.38,130.88,158
+Woolworths,14 Vaughan Tce,Berri,5343,-34.2815245,140.5993058,6159
 Woolworths,360 Shepherds Hill Rd,Blackwood,5051,-35.0212852,138.6166624,11867
 Woolworths,"Blakes Crossing Town Centre, Main Tce",Blakeview,5114,-34.6784301,138.7010705,12054
 Woolworths,Cnr South Rd and Ashwin Pde,Torrensville,5031,-34.9147297,138.5657327,11790
@@ -526,12 +526,12 @@ Woolworths,"7 Westside Plaza, Galena St",Broken Hill,2880,-31.96,141.47,5136
 Woolworths,Trower Rd,Casuarina,810,-12.3700682,130.8834113,4
 Woolworths,"Centre Plaza, Cnr Fifteenth St And Deakin Ave",Mildura,3500,-34.18,142.16,6779
 Woolworths,"Shop 1, Christies Beach Shop. Ctr, 76 Beach Rd",Christies Beach,5165,-35.14,138.47,12171
-Woolworths,CNR Old North Rd and Wright St,Clare,5453,-33.84,138.58,13020
+Woolworths,CNR Old North Rd and Wright St,Clare,5453,-33.84,138.58,6201
 Woolworths,54 Beach Rd,Noarlunga,5168,-35.1413108,138.4945624,12178
 Woolworths,445 Stuart Hwy,Coolalinga,839,-12.48,131.03,174
 Woolworths,366 Goodwood Rd,Cumberland Park,5041,-34.9759672,138.5914515,11827
-Woolworths,Cnr Cavenagh & Whitfield St,Darwin,800,-32.6706571,138.995607878738,1
-Woolworths,"Elizabeth City Centre, Elizabeth Way",Elizabeth,5112,-34.7184117,138.667455964419,12040
+Woolworths,Cnr Cavenagh & Whitfield St,Darwin,800,-32.6706571,138.9956079,1
+Woolworths,"Elizabeth City Centre, Elizabeth Way",Elizabeth,5112,-34.7184117,138.667456,12040
 Woolworths,185 Findon Rd,Findon,5023,-34.9000957,138.5321786,11780
 Woolworths,"1 Roystonea Ave, Yarrawonga",Palmerston,830,-12.4682795,130.9784362,154
 Woolworths,2 Commercial Lane,Gawler,5118,-34.5975317,138.7482968,12078
@@ -545,11 +545,11 @@ Woolworths,"Sh T17, Hallett Cove Shop. Ctr, 246 Lonsdale Rd",Hallett Cove,5158,-
 Woolworths,Cnr Sir Donald Bradman Dr And Bagot Ave,Hilton,5033,-34.93,138.56,11796
 Woolworths,Winzor St,Salisbury Downs,5108,-34.7663778,138.6253303,12023
 Woolworths,2  Challoner Cct,Humpty Doo,836,-12.5790747,131.1016004,170
-Woolworths,1 Forster St,Kadina,5554,-33.96423885,137.71479159376,13172
+Woolworths,1 Forster St,Kadina,5554,-33.96423885,137.7147916,13172
 Woolworths,37 Kalymnos Dr,Karama,812,-12.4010166,130.9165066,21
 Woolworths,5 Katherine Tce,Katherine,850,-14.4645537,132.2620432,184
-Woolworths,470 Torrens Rd,Kilkenny,5009,-34.87393705,138.549458285205,11731
-Woolworths,"Hibiscus Shoppingtown, 8 Leanyer Dr",Leanyer,812,-12.3779334,130.896204649986,22
+Woolworths,470 Torrens Rd,Kilkenny,5009,-34.87393705,138.5494583,11731
+Woolworths,"Hibiscus Shoppingtown, 8 Leanyer Dr",Leanyer,812,-12.3779334,130.8962046,22
 Woolworths,1 Martha St,Loxton,5333,-34.4508744,140.5715331,12708
 Woolworths,9 Lower Portrush Rd,Marden,5070,-34.8963625,138.6389809,11938
 Woolworths,"Marion Shop. Ctr, 297 Diagonal Rd",Oaklands Park,5046,-35.01,138.55,11848
@@ -557,16 +557,16 @@ Woolworths,Cnr Kensington Rd And Tusmore Ave,Marryatville,5068,-34.93,138.65,119
 Woolworths,Cnr University Pde & Main St,Mawson Lakes,5095,-34.8102187,138.6170916,12005
 Woolworths,95-103 Langtree Ave,Mildura,3500,-34.1885443,142.1562323,6779
 Woolworths,34 Davenport St,Millicent,5280,-37.5958435,140.3532929,12578
-Woolworths,"Mitcham Shop. Ctr, 119 Belair Rd",Torrens Park,5062,-34.99,138.65,11888
+Woolworths,"Mitcham Shop. Ctr, 119 Belair Rd",Torrens Park,5062,-34.99,138.65,11889
 Woolworths,172 Ladywood Dr,Modbury Heights,5092,-34.83,138.69,11997
 Woolworths,146 Main South Rd,Morphett Vale,5162,-35.1227478,138.5232376,12164
-Woolworths,145 Commercial Street East,Mount Gambier,5290,-37.8305055,140.789856627529,12586
+Woolworths,145 Commercial Street East,Mount Gambier,5290,-37.8305055,140.7898566,12586
 Woolworths,176 Penola Rd,Mount Gambier,5290,-37.8193677,140.7851546,12586
 Woolworths,5 Walker St,Mt Barker,5251,-35.0669626,138.8578954,12370
-Woolworths,23-51 South Tce,Murray Bridge,5253,-35.1191895,139.2772347,12386
-Woolworths,26 Roberston St,Naracoorte,5271,-37.14,140.72,12513
+Woolworths,23-51 South Tce,Murray Bridge,5253,-35.1191895,139.2772347,12388
+Woolworths,26 Roberston St,Naracoorte,5271,-37.14,140.72,12514
 Woolworths,"Newton Village Shop. Ctr, 299 Montacute Rd",Newton,5074,-34.88,138.66,11955
-Woolworths,Dick Ward Dr,Nightcliff,810,-12.3891634,130.8522632,11
+Woolworths,Dick Ward Dr,Nightcliff,810,-12.3891634,130.8522632,13
 Woolworths,177 -195 Folland Ave,Northgate,5085,-34.8578695,138.6347972,11981
 Woolworths,"Northpark Shop. Ctr, 264 Main North Rd",Prospect,5082,-34.9,138.59,11968
 Woolworths,2 Wilkinson Rd,Para Hills,5096,-34.8107841,138.6519697,12008
@@ -574,7 +574,7 @@ Woolworths,68-84 John St,Salisbury,5108,-34.7627447,138.6441391,12022
 Woolworths,Cnr Byron Bay Dr And Whites Rd,Paralowie,5108,-34.76,138.61,12021
 Woolworths,297 Peachey Rd,Munno Para West,5115,-34.6702618,138.6796271,12068
 Woolworths,25 Tassie St,Port Augusta,5700,-32.4893066,137.7634148,13479
-Woolworths,27 Liverpool St,Port Lincoln,5606,-34.7220837,135.859314416346,13303
+Woolworths,27 Liverpool St,Port Lincoln,5606,-34.7220837,135.8593144,13303
 Woolworths,11 Norman St,Port Pirie,5540,-33.1789379,138.0101454,13145
 Woolworths,"Renmark Shop. Ctr, Renmark Ave",Renmark,5341,-34.21,140.69,12726
 Woolworths,12 - 28 Richardson Pl,Roxby Downs,5725,-30.5624726,136.8953291,13563
@@ -583,16 +583,16 @@ Woolworths,Cnr Commercial Rd And The Pde,Seaford,5169,-35.2,138.47,12180
 Woolworths,lot 209 Crn Grand Bvd & Prow Dr,Seaford Meadows,5169,-35.2,138.47,12182
 Woolworths,Lot 106 Watterloo Crn Rd,Burton,5110,-34.77,138.59,12033
 Woolworths,28 Mount Barker Rd,Stirling,5152,-35.0056817,138.7164925,12125
-Woolworths,Cnr Dawson & Donald St,Strathalbyn,5255,46.8685954,-99.751495,12425
+Woolworths,Cnr Dawson & Donald St,Strathalbyn,5255,46.8685954,-99.751495,12431
 Woolworths,76 North East Rd,Modbury,5092,-34.8279135,138.6932599,11996
 Woolworths,204 Unley Rd,Unley,5061,-34.95274,138.6076464,11875
 Woolworths,27 Torrens Rd,Victor Harbor,5211,-35.53,138.53,12241
 Woolworths,18 Old Port Wakefield Rd,Virginia,5120,-34.6666382,138.5605289,12092
-Woolworths,1 White St,Waikerie,5330,-34.1792024,139.9864997,12694
+Woolworths,1 White St,Waikerie,5330,-34.1792024,139.9864997,12699
 Woolworths,104 Walkerville Terrace,Walkerville,5081,-34.895705,138.616894,11965
 Woolworths,West Lakes Bvd,West Lakes,5021,-34.877883,138.4957452,11775
-Woolworths,18-30 Viscount Slim Ave,Whyalla,5608,-33.0209325,137.541187901219,13350
-Woolworths,193 - 199 Nicolson Ave,Whyalla Norrie,5600,-33.0280508,137.5513586,13270
+Woolworths,18-30 Viscount Slim Ave,Whyalla,5608,-33.0209325,137.5411879,13351
+Woolworths,193 - 199 Nicolson Ave,Whyalla Norrie,5600,-33.0280508,137.5513586,13349
 Woolworths,Cnr Pimpala And Odessa Dr,Woodcroft,5162,-35.12,138.52,12165
 Woolworths,Cnr Raglan Pde and Russell St,Dennington,3280,-38.36,142.44,5910
 Woolworths,26-32 Scallan St,Stawell,3380,-37.0571048,142.7766437,6350
@@ -601,7 +601,7 @@ Woolworths,2-16 Bromfield St,Colac,3250,-38.3409394,143.5852522,5811
 Woolworths,Cnr Princes Hwy and Gateway Rd,Warrnambool East,3280,-38.36,142.44,5911
 Woolworths,Brown St,Hamilton,3300,-37.7401064,142.0230497,5961
 Woolworths,95-97B Percy St,Portland,3305,-38.27,141.65,6005
-Woolworths,Cnr Wilson & Darlot St,Horsham,3400,36.8126253,-76.3803590725909,6414
+Woolworths,Cnr Wilson & Darlot St,Horsham,3400,36.8126253,-76.38035907,6414
 Woolworths,9 Cressy St,Camperdown,3260,-38.2307978,143.1533092,5824
 Woolworths,745-763 Raglan Pde,Warrnambool,3280,-38.36,142.44,5911
 Woolworths,90 Centenial Blvd,Curlewis,3222,-38.16,144.56,5705
@@ -610,15 +610,15 @@ Woolworths,Cnr Wyndham St And Carolanne Dr,Drysdale,3222,-38.16,144.56,5706
 Woolworths,Cnr Bellarine Hwy And Wilsons Rd,Newcomb,3219,-38.18,144.38,5692
 Woolworths,Cnr Bristol Rd And Walker St,Torquay,3228,-38.33,144.26,5727
 Woolworths,Bellarine Hwy,Newcomb,3219,-38.1686927,144.384911,5692
-Woolworths,770 Barwon Heads Rd,Armstrong Creek ,3217,-38.2332132,144.3751415,5683
+Woolworths,770 Barwon Heads Rd,Armstrong Creek ,3217,-38.2332132,144.3751415,9774
 Woolworths,Cnr Merrijig Dr and Fischer St,Torquay North,3228,-38.33,144.26,5727
 Woolworths,Cnr Kingston Downs Dr And Shell Rd,Ocean Grove,3226,-38.27,144.54,5720
 Woolworths,Cnr Bellvue Ave And Roslyn Rd,Highton,3216,-38.18,144.34,5676
 Woolworths,Cnr Pioneer Rd And Princes Hwy,Waurn Ponds,3216,-38.18,144.34,5679
-Woolworths,50 The Centre Way,Lara,3212,-38.02,144.41,5657
+Woolworths,50 The Centre Way,Lara,3212,-38.02,144.41,3900
 Woolworths,Cnr Aberdeen St And Shannon Ave,Geelong,3220,-38.1458633,144.335474,5697
 Woolworths,290-300 Anakie Rd,Norlane,3214,-38.0819888,144.3371435,5664
-Woolworths,Pakington Strand 95-113 Pakington St,Geelong West,3218,-38.13730085,144.347842494461,5685
+Woolworths,Pakington Strand 95-113 Pakington St,Geelong West,3218,-38.13730085,144.3478425,5685
 Woolworths,4 High St,Bannockburn,3331,-38.044753,144.1714373,6084
 Woolworths,Cnr Bacchus Marsh And Purnell Rds,Corio,3214,-38.07,144.36,5663
 Woolworths,4-46 Province Blvd,Highton,3216,-38.1615734,144.3110068,5676
@@ -635,17 +635,17 @@ Woolworths,1 Main St,Point Cook,3030,-37.8826833,144.7354244,5252
 Woolworths,Cnr Sneydes Rd and Boardwal Blvd,Featherbrook,3030,-37.97,144.58,5255
 Woolworths,"Sunshine Market Pl, 80 Harvester Rd",Sunshine,3020,-37.78,144.82,5220
 Woolworths,227 Ballarat Rd Cnr Ashley St,Braybrook,3019,-37.78,144.86,5216
-Woolworths,234-246 High St,Bendigo,3555,-36.7669315,144.265181848583,6992
+Woolworths,234-246 High St,Bendigo,3555,-36.7669315,144.2651818,6959
 Woolworths,116-120 Mitchell St,Bendigo,3550,-36.7632122,144.282635,6938
 Woolworths,7-11 Jennings St,Kyneton,3444,-37.2478744,144.4523621,6529
 Woolworths,16-40 Howard St,Bendigo,3550,-36.7689319,144.2799235,6938
-Woolworths,"Lansell Plaza, 267-283 High St Kangaroo Flat",Bendigo,3555,-36.83,144.23,6992
+Woolworths,"Lansell Plaza, 267-283 High St Kangaroo Flat",Bendigo,3555,-36.83,144.23,6959
 Woolworths,150-180 Condon St,Kennington,3550,-36.7805016,144.3124402,6943
 Woolworths,Cnr Dyson & Remembrance Drv,Alfredton,3350,34.1617963,-81.9323375,6137
-Woolworths,Cnr Albert & Hertford St,Ballarat,3356,53.5704004,-113.5693458,6249
-Woolworths,Tuaggra St,Maryborough,3465,-37.0471667,143.741067,6637
+Woolworths,Cnr Albert & Hertford St,Ballarat,3356,53.5704004,-113.5693458,6187
+Woolworths,Tuaggra St,Maryborough,3465,-37.0471667,143.741067,6640
 Woolworths,Cnr Eastwood & Sharwood St,Ballarat,3350,53.376418,-2.9594697,6139
-Woolworths,1201-1205 Howitt St,Wendouree,3355,-37.54048835,143.830172673511,6246
+Woolworths,1201-1205 Howitt St,Wendouree,3355,-37.54048835,143.8301727,6246
 Woolworths,315 Glenelg Hwy,Delacombe,3356,-37.5874887,143.8256556,6248
 Woolworths,330 Gillies Street North,Wendouree,3355,-37.5349586,143.8230682,6246
 Woolworths,25-47 Horne St,Sunbury,3429,-37.5777267,144.7273017,6494
@@ -668,18 +668,18 @@ Woolworths,45-49 Ovens St,Wangaratta,3677,-36.3581339,146.3184582,7346
 Woolworths,337-363 Griffith Rd,Lavington,2641,-36.04,146.92,3925
 Woolworths,Cnr Swift And David St,Albury,2640,-36.08,146.91,3907
 Woolworths,Cnr Elgin Bvd & Hume St,Wodonga,3690,39.6458835,-77.7338558,7402
-Woolworths,10 Shuter Ave,Thurgoona,2640,-36.0431159,146.9892224,3917
+Woolworths,10 Shuter Ave,Thurgoona,2640,-36.0431159,146.9892224,3920
 Woolworths,68 Sanger St,Corowa,2646,-35.9946569,146.3911297,3963
 Woolworths,54-58 Punt Rd,Cobram,3644,-35.9189706,145.6574938,7250
 Woolworths,157-161 Belmore St,Yarrawonga,3730,-36.0173075,146.0044143,7566
 Woolworths,Cnr William & Wallis St,Seymour,3660,37.3328873,-121.8755104,7281
 Woolworths,91-101 Mclennan St,Mooroopna,3629,-36.3952648,145.3546233,7197
-Woolworths,BeveRdge St,Swan Hill,3585,-35.42,143.59,7121
+Woolworths,BeveRdge St,Swan Hill,3585,-35.42,143.59,7123
 Woolworths,Cnr High & Archer St,Shepparton,3630,52.46254,13.46926,7204
 Woolworths,Cnr Darling & Nish St,Echuca,3564,35.2009655,-111.400385,7028
-Woolworths,Benalla Rd,Shepparton East,3630,-36.3828625,145.412867,7205
+Woolworths,Benalla Rd,Shepparton East,3630,-36.3828625,145.412867,7218
 Woolworths,Cnr Cobb Hwy And Perricoota Rd,Moama,2731,-35.79,144.63,4324
-Woolworths,Cnr Shadforth & Nolan St,Kerang,3579,54.7633621,-1.4669517,7087
+Woolworths,Cnr Shadforth & Nolan St,Kerang,3579,54.7633621,-1.4669517,7088
 Woolworths,Union St,Kyabram,3620,-36.3140564,145.0473792,7180
 Woolworths,117 Acland St,St Kilda,3182,-37.8685209,144.978811,5589
 Woolworths,112-114 Wattletree Rd,Malvern,3144,-37.8634921,145.037014,5503
@@ -692,11 +692,11 @@ Woolworths,Cnr Wattle & Cato St,Prahran,3181,-33.2968687,149.8594026,5586
 Woolworths,Vaughan Terrace & Canning St,North Melbourne ,3051,-37.7962413,144.9400265,5306
 Woolworths,"Lygon Ct, 368-380 Lygon St",Carlton,3053,-37.78,144.97,5309
 Woolworths,243 Smith St,Fitzroy,3065,-37.801406,144.983271,5338
-Woolworths,CNR Murphy & Elizabeth St,Coburg,3058,36.1363895,-95.2445205616013,5323
-Woolworths,334 Murray Rd,Preston,3072,-37.7371422,145.002833952291,5349
+Woolworths,CNR Murphy & Elizabeth St,Coburg,3058,36.1363895,-95.24452056,5323
+Woolworths,334 Murray Rd,Preston,3072,-37.7371422,145.002834,5349
 Woolworths,Cnr Pratt And Puckle Sts,Moonee Ponds,3039,-37.77,144.92,5275
 Woolworths,300-304 Albert St,Brunswick,3056,-37.768482,144.9588755,5317
-Woolworths,50 Plenty Rd,Preston South,3072,-37.7511039,145.00358185,5351
+Woolworths,50 Plenty Rd,Preston South,3072,-37.7511039,145.0035819,5351
 Woolworths,"Northland Shop. Ctr, 50 Murray Rd",East Preston,3072,-37.74,145.03,5353
 Woolworths,"90-106 Sydney Rd, Barkly Sq Shop. Ctr",Brunswick,3056,-37.76,144.94,5317
 Woolworths,Cnr Munro & Louisa St,Coburg,3058,-34.5296066,-58.5220231,5323
@@ -705,17 +705,17 @@ Woolworths,Cnr Glen Huntly Rd And Manchester Gr,Glen Huntly,3163,-37.89,145.06,5
 Woolworths,72-84 Upper Heidelberg Rd,Ivanhoe,3079,-37.768782,145.0433731,5360
 Woolworths,451 Lower Heidelberg Road,Heidelberg,3084,-37.7570326,145.0695417,5373
 Woolworths,Cnr Whitehorse Rd And Mangan St,Balwyn,3103,-37.81,145.08,5405
-Woolworths,17 Walpole St,Kew,3101,-37.8057347,145.030907046448,5403
+Woolworths,17 Walpole St,Kew,3101,-37.8057347,145.030907,5403
 Woolworths,5-57 Station St,Camberwell,3124,-37.829882,145.0583623,5437
 Woolworths,752 Riversdale Rd,Camberwell,3124,-37.8325056,145.0668182,5437
 Woolworths,11-29 Kokaribb Rd,Carnegie,3163,-37.8894738,145.0558137,5553
 Woolworths,2/20 Koornang Rd,Carnegie,3163,-37.8914773,145.0566411,5553
 Woolworths,399 Melton Hwy,Sydenham,3037,-37.695812,144.770711,5269
-Woolworths,200 Rosamond Rd,Maribyrnong,3032,-37.7732838,144.888802000995,5260
+Woolworths,200 Rosamond Rd,Maribyrnong,3032,-37.7732838,144.888802,5260
 Woolworths,Cnr Neale Rd And Station St,Deer Park,3023,-37.75,144.75,5233
 Woolworths,338-390 Racecourse Rd,Kensington,3031,-37.79,144.93,5257
 Woolworths,Cnr Melton Hwy And Kings Rd,Sydenham,3037,-37.72,144.78,5269
-Woolworths,315-321 Main Rd East,St Albans,3021,-37.74472965,144.801690122881,5226
+Woolworths,315-321 Main Rd East,St Albans,3021,-37.74472965,144.8016901,5226
 Woolworths,Crn Taylors And Calder Park Dr,Taylors Hill,3037,-37.72,144.78,5270
 Woolworths,Cnr Melton-Keilor Rd And Sunshine Ave,Taylors Lakes,3038,-37.73,144.81,5273
 Woolworths,523-531 High St,Melton,3337,-37.6834834,144.5800749,6102
@@ -737,7 +737,7 @@ Woolworths,"Oakleigh Central Shop. Ctr, Station St",Oakleigh,3166,-37.9,145.08,5
 Woolworths,Shop 1/171 Nepean Hwy,Mentone,3194,-37.98,145.06,5620
 Woolworths,317 Cheltenham Rd,Keysborough,3173,-37.9928573,145.171841,5572
 Woolworths,211-215 Chapel St,Keysborough,3173,-37.99,145.15,5572
-Woolworths,Cnr Marriot Blvd & Thompsons Rd,Lyndhurst,3975,50.7193446,7.12240159415669,8260
+Woolworths,Cnr Marriot Blvd & Thompsons Rd,Lyndhurst,3975,50.7193446,7.122401594,8260
 Woolworths,William Thwaittes Blvd,Cranbourne North,3977,-38.21,145.32,8266
 Woolworths,Fountain Gate Shop. Ctr - Magid Dr,Narre Warren,3805,-38.02,145.3,7700
 Woolworths,Hampton Park Shop. Ctr - 55 Hallam Rd,Hampton Park,3976,-38.03,145.27,8261
@@ -775,7 +775,7 @@ Woolworths,551-557 Warrigal Rd,Ashwood,3147,-37.8664434,145.0928128,5514
 Woolworths,42-50 Burwood Hwy,East Burwood,3151,-37.8527314,145.1517702,5526
 Woolworths,Cnr Williams And Springfield Rds,Blackburn North,3130,-37.82,145.15,5460
 Woolworths,117-125 Canterbury Rd,Blackburn South,3130,-37.8319963,145.1488505,5461
-Woolworths,1341 Dandenong Rd,Chadstone,3148,-37.88610815,145.082558836773,5515
+Woolworths,1341 Dandenong Rd,Chadstone,3148,-37.88610815,145.0825588,5515
 Woolworths,235 Springvale Road,Glen Waverley,3150,-37.8767897,145.1648427,5523
 Woolworths,Cnr Police And Jacksons Rds,Mulgrave,3170,-37.87,145.1,5566
 Woolworths,"Wheelers Hill Shop. Ctr, 190-200 Jells Rd",Wheelers Hill,3150,-37.88,145.17,5524
@@ -794,7 +794,7 @@ Woolworths,69-85 Plenty Rd,Bundoora,3083,-37.6939924,145.0610763,5368
 Woolworths,Cnr Doncaster Rd And Devon Dr,Doncaster,3108,-37.78,145.12,5414
 Woolworths,"The Pines Shop. Ctr, Cnr Reynolds And Blackburn Rd",Doncaster East,3109,-37.81,145.19,5415
 Woolworths,619 Doncaster Rd (Cnr Williamsons Rd),Doncaster,3108,-37.78,145.12,5414
-Woolworths,17-39 Canterbury Rd,Bayswater North,3153,-37.8228889,145.301822545739,5532
+Woolworths,17-39 Canterbury Rd,Bayswater North,3153,-37.8228889,145.3018225,5532
 Woolworths,659 Mountain Hwy,Bayswater,3153,-37.8403663,145.2669652,5531
 Woolworths,171 Maroondah Hwy,Ringwood,3134,-37.8146204,145.2303514,5472
 Woolworths,Cnr Maroondah Hwy And Edwards Rd,Chirnside Park,3116,-37.75,145.33,5422
@@ -803,11 +803,11 @@ Woolworths,82-84 Warburton Hwy,Yarra Junction,3797,-37.7829468,145.6292793,7686
 Woolworths,224-238 Mount Dandenong Rd,Croydon,3136,-37.798806,145.2833578,5479
 Woolworths,567 Warburton Hwy,Seville,3139,-37.7769892,145.4611136,5490
 Woolworths,Cnr Mt Dandenong Rd And Russo Pl,Kilsyth,3137,-37.8,145.31,5483
-Woolworths,302 Springvale Rd,Springvale,3171,-37.95335935,145.151631907031,5569
+Woolworths,302 Springvale Rd,Springvale,3171,-37.95335935,145.1516319,5569
 Woolworths,Cnr Heatherton Rd And Matthew Flinders Dr,Endeavour Hills,3802,-37.98,145.25,7695
-Woolworths,383-385 Belgrave - Gembrook Rd,Emerald,3782,-37.92763655,145.445371585151,7668
+Woolworths,383-385 Belgrave - Gembrook Rd,Emerald,3782,-37.92763655,145.4453716,7668
 Woolworths,127 Boronia Rd,Boronia,3155,-37.8590345,145.2624112,5534
-Woolworths,16-29 Burwood Hwy,Belgrave,3160,-37.90952045,145.35267377605,5543
+Woolworths,16-29 Burwood Hwy,Belgrave,3160,-37.90952045,145.3526738,5543
 Woolworths,Cnr Burwood Hwy And Brenock Park Dr,Ferntree Gully,3156,-37.88,145.3,5535
 Woolworths,"Stud Park Shop. Ctr, Stud Rd",Rowville,3178,-37.93,145.24,5583
 Woolworths,Cnr Main Rd And Moores Rd,Monbulk,3793,-37.87,145.41,7679
@@ -817,7 +817,7 @@ Woolworths,117-133 Thompson Ave,Cowes,3922,-38.4635385,145.2389815,8121
 Woolworths,25-65 Station St North,Koo Wee Rup,3981,-38.1983572,145.4875669,8286
 Woolworths,72-100 Young St,Drouin,3818,-38.1358579,145.8594633,7732
 Woolworths,28 Sylvia Rd,Beaconsfield,3807,-38.0456595,145.3705996,7704
-Woolworths,Cnr Murray & Billson St,Wonthaggi,3995,33.9534775,-81.416769,8322
+Woolworths,Cnr Murray & Billson St,Wonthaggi,3995,33.9534775,-81.416769,8323
 Woolworths,58-66 Victoria St,Warragul,3820,-38.1535631,145.9347053,7741
 Woolworths,9 Village Way Pakenham,Pakenham,3810,-38.0728168,145.4381362,7710
 Woolworths,"55 Henry St, Pakenham Market Pl",Pakenham,3810,-38.0743149,145.4815788,7710
@@ -827,17 +827,17 @@ Woolworths,Crn Johnson St And Purdy Lane,Maffra,3860,-37.88,146.99,7913
 Woolworths,Mid VAlly Shop. Ctr Princes Hwy,Morwell,3840,-38.28,146.32,7825
 Woolworths,Cnr Reeves And Cunningham Sts,Sale,3850,-38.42,147.08,7848
 Woolworths,Nicholson St,Bairnsdale,3875,-37.825678,147.6265902,7964
-Woolworths,Seymour St,Traralgon,3844,-38.195839,146.5332776,7836
+Woolworths,Seymour St,Traralgon,3844,-38.195839,146.5332776,7839
 Woolworths,Cnr Smith & Peart St,Leongatha,3953,44.389998,-64.4242256,8187
-Woolworths,Cnr George And Anzac St,Moe,3825,-37.7,146.36,7780
+Woolworths,Cnr George And Anzac St,Moe,3825,-37.7,146.36,7784
 Woolworths,Cnr Marina Dr & Monash Way,Churchill,3842,36.6948369,-121.7986325,7826
-Woolworths,17 James St,Yarram,3971,-38.5652298,146.6764064,8247
+Woolworths,17 James St,Yarram,3971,-38.5652298,146.6764064,8258
 Woolworths,11 Poyston Dr,Shearwater,7307,-41.161932,146.5322931,15984
-Woolworths,11 Cres St,Ulverstone,7315,-41.1560746,146.1700752,16020
+Woolworths,11 Cres St,Ulverstone,7315,-41.1560746,146.1700752,16025
 Woolworths,74 Best St,Devonport,7310,-41.1769865,146.356489,15990
-Woolworths,230 Mount St,Upper Burnie,7320,-41.0647117,145.9021645,16048
-Woolworths,68 Goldie St,Wynyard,7325,-40.9891552,145.7385449,16103
-Woolworths,142 Nelson St,Smithton,7330,-40.8545154,145.1186588,16123
+Woolworths,230 Mount St,Upper Burnie,7320,-41.0647117,145.9021645,16056
+Woolworths,68 Goldie St,Wynyard,7325,-40.9891552,145.7385449,16112
+Woolworths,142 Nelson St,Smithton,7330,-40.8545154,145.1186588,16134
 Woolworths,78 Emu Bay Rd,Deloraine,7304,-41.5132218,146.6353182,15928
 Woolworths,8 Bathurst St,George Town,7253,-41.107674,146.8226225,15770
 Woolworths,310 West Tamar Hwy,Riverside,7250,-41.4005865,147.0874593,15751
@@ -846,7 +846,7 @@ Woolworths,111 Hobart Rd,Kings Meadows,7249,-41.4652891,147.1591611,15739
 Woolworths,350-358 Westbury Rd,Prospect,7250,-41.4770321,147.1273091,15748
 Woolworths,Cnr West Tamar Hwy And Freshwater Point Rd,Legana,7277,-41.38,146.97,15895
 Woolworths,262 Invermay Rd,Mowbray,7248,-41.4095379,147.131922,15736
-Woolworths,36 - 40 Wellington St,Launceston,7250,-41.4406643,147.136508318942,15745
+Woolworths,36 - 40 Wellington St,Launceston,7250,-41.4406643,147.1365083,15745
 Woolworths,27 Cole St,Sorell,7172,-42.7805779,147.5639107,15643
 Woolworths,Cnr Cooper & Eady St,Glenorchy,7010,33.1990957,-79.9973835,15393
 Woolworths,6 Franklin St,Lindisfarne,7015,-42.8471447,147.353285,15404
@@ -854,11 +854,11 @@ Woolworths,6 Shoreline Dr,Howrah,7018,-42.8800521,147.4071042,15414
 Woolworths,26 Bligh St,Rosny,7018,-42.8685937,147.3682496,15417
 Woolworths,Cnr Boxhill And Main Rd,Claremont,7011,-42.77,147.24,15400
 Woolworths,28 Grn Point Rd,Bridgewater,7030,-42.7392072,147.2453462,15438
-Woolworths,51-61 George St,New Norfolk,7140,-42.7836746,147.0605022,15564
+Woolworths,51-61 George St,New Norfolk,7140,-42.7836746,147.0605022,15589
 Woolworths,57 King St,Sandy Bay,7005,-42.8947286,147.3267625,15383
-Woolworths,114 Main Rd,Moonah,7009,-42.8460129,147.294215614286,15390
+Woolworths,114 Main Rd,Moonah,7009,-42.8460129,147.2942156,15390
 Woolworths,37-59 Maranoa Rd,Kingston,7050,-42.9803279,147.3045743,15468
-Woolworths,192-196 New Town Rd,New Town,7008,-42.85767225,147.304105175,15387
+Woolworths,192-196 New Town Rd,New Town,7008,-42.85767225,147.3041052,15387
 Woolworths,189 Campbell St,Hobart,7000,-42.8776883,147.3279339,15374
 Woolworths,79 Main Rd,Huonville,7109,-42.96,147.08,15494
 Woolworths,"44 Argyle St,",Hobart,7000,-42.8807813,147.3281878,15374
@@ -872,7 +872,7 @@ Woolworths,"Centro Stirling, 19-26 Sanford St",Geraldton,6530,-28.79,114.6,15029
 Woolworths,Cnr Shenton and Marmion Aves,Currambine,6028,-31.73,115.72,13717
 Woolworths,"Lakeside Joondalup Shop. Ctr, 420 Joondalup Dr",Joondalup,6027,-31.78,115.76,13712
 Woolworths,Cnr Joondalup and Cheriton Drs,Carramar,6031,-31.7,115.81,13728
-Woolworths,75 Barrett Dr,Wandina,6530,-28.8093394,114.6265031,15035
+Woolworths,75 Barrett Dr,Wandina,6530,-28.8093394,114.6265031,15043
 Woolworths,Carnarvon Bvd Cnr Alexander & Robinson St,Carnarvon,6701,38.548655,-77.032218,15231
 Woolworths,"Broome Bvd Shop. Ctr, Frederick St",Broome,6725,-17.91,122.25,15315
 Woolworths,"Stirling Central Shop. Ctr, 478 Wanneroo Rd",Westminster,6061,-31.86,115.84,13798
@@ -884,7 +884,7 @@ Woolworths,Cnr Marmion and Whitford Aves,Hillarys,6025,-31.78,115.77,13703
 Woolworths,"Karrinyup Shop. Ctr, Karrinyup Rd",Karrinyup,6018,-31.92,115.79,13687
 Woolworths,"Centro Warwick, Beach Rd",Warwick,6024,-31.83,115.8,13701
 Woolworths,131-135 Loch St,Derby,6728,-17.3061138,123.6348314,15326
-Woolworths,Cnr Beechboro Rd and Bennett Springs Dr,Beechboro ,6063,-31.87,115.92,13803
+Woolworths,Cnr Beechboro Rd and Bennett Springs Dr,Beechboro ,6063,-31.87,115.92,13802
 Woolworths,"Dog Swamp Shop. Ctr, 6 Wanneroo Rd",Yokine,6060,-31.91,115.85,13793
 Woolworths,"Noranda Palms Shop. Ctr, Cnr McGilvray Ave & Benara Rd",Noranda,6062,-31.9,115.92,13801
 Woolworths,"Alexander Heights Shop. Ctr, Cnr Mirrabooka Ave And Griffon Way",Alexander Heights,6064,-31.83,115.87,13804
@@ -895,7 +895,7 @@ Woolworths,Cnr Grand Promenade and Alexander Dr,Dianella,6059,-31.88,115.86,1379
 Woolworths,"Mirrabooka Sq Shop. Ctr, Yirrigan Dr",Mirrabooka,6061,-31.86,115.84,13796
 Woolworths,161 Altone Rd,Beechboro,6063,-31.8704234,115.944643,13802
 Woolworths,100 St Georges Tce,Perth,6000,-31.954822,115.8574678,13646
-Woolworths,384 Scarborough Beach Rd,Innaloo,6018,-31.90149055,115.798055688048,13686
+Woolworths,384 Scarborough Beach Rd,Innaloo,6018,-31.90149055,115.7980557,13686
 Woolworths,"Bvd Shop. Ctr, Anderson St",Port Hedland,6721,-20.79,118.6,15304
 Woolworths,366 Albany Hwy,Victoria Park,6100,-31.9723503,115.8954566,13867
 Woolworths,"Cottesloe Central, 460 Stirling Hwy",Cottesloe,6011,-32,115.76,13670
@@ -906,7 +906,7 @@ Woolworths,Mulga Way,Wickham,6720,-20.6746789,117.1432111,15300
 Woolworths,"Centro Karratha, Welcome Rd",Karratha,6714,-20.66,117.09,15281
 Woolworths,"Glades Shop. Ctr, 123 Canning Rd",Kalamunda,6076,-32.01,116.09,13840
 Woolworths,"Mundaring Shop. Ctr, Cnr Mann St and Great Eastern Hwy",Mundaring,6073,-31.9,116.17,13833
-Woolworths,"Northam Bvde Shop. Ctr, 165 Fitzgerald St",Northam,6401,-31.54,116.61,14689
+Woolworths,"Northam Bvde Shop. Ctr, 165 Fitzgerald St",Northam,6401,-31.54,116.61,14692
 Woolworths,"Midland Gate Shop. Ctr, 274 Great Eastern Hwy",Midland,6056,-31.8,116.03,13779
 Woolworths,"20 Strelitzia Ave, Cnr Hale Rd",Forrestfield,6058,-31.99,116.01,13789
 Woolworths,"Belmont Forum, Cnr Wright and Abernethy Rds",Cloverdale,6105,-31.96,115.93,13880
@@ -914,15 +914,15 @@ Woolworths,309 Great Eastern Hwy,Midland,6056,-31.8929217,116.0197492,13779
 Woolworths,Hilditch Ave,Newman,6753,-23.3556558,119.7307214,15356
 Woolworths,The Promenade,Ellenbrook,6069,-31.7813614,115.9754381,13826
 Woolworths,Cnr Milhouse Rd & Egerton Dr,Aveley,6069,35.9888029,-86.5096307,13823
-Woolworths,206 Lower King Rd,Bayonet Head,6330,-34.9679282,117.925201807829,14466
+Woolworths,206 Lower King Rd,Bayonet Head,6330,-34.9679282,117.9252018,14466
 Woolworths,"Stammers Shop. Ctr, 265 Canning Hwy",Palmyra,6157,-32.03,115.78,13971
 Woolworths,"Garden City Shop. Ctr, 125 Riseley St",Booragoon,6154,-32.03,115.81,13959
 Woolworths,Cnr Stock Rd And Leach Hwy,Willagee,6156,-32.03,115.8,13968
 Woolworths,254 Rockingham Rd,Spearwood,6163,-32.0937228,115.7828455,13990
 Woolworths,"Dog Rock Shop. Ctr, Lockyer Ave",Albany,6330,-35.02,117.88,14465
 Woolworths,219 Hampton Rd,South Fremantle,6162,-32.076112,115.7612507,13978
-Woolworths,"Chester Pass Mall, Cnr Chester Pass And Catalina Rds",Albany ,6330,-35.02,117.88,14474
-Woolworths,1 Waverley Rd,Coolbellup,6163,-32.0809699,115.807552801319,13982
+Woolworths,"Chester Pass Mall, Cnr Chester Pass And Catalina Rds",Albany ,6330,-35.02,117.88,14501
+Woolworths,1 Waverley Rd,Coolbellup,6163,-32.0809699,115.8075528,13982
 Woolworths,37 - 39 Reynolds Rd,Mt Pleasant ,6153,-32.0310438,115.8484979,13957
 Woolworths,"6 Calypso Pde, North Coogee",North Coogee,6163,-32.1036108,115.7620485,13986
 Woolworths,Forest Lakes Dr,Thornlie,6108,-32.0702609,115.9532675,13891
@@ -931,17 +931,17 @@ Woolworths,"Kalgoorlie Plaza Shop. Ctr, Hannan St",Kalgoorlie,6430,-30.81,121.38
 Woolworths,"Kambalda Shop. Ctr, Bluebush Rd",Kambalda,6442,-31.21,121.62,14817
 Woolworths,Westfield Carousel Shop. Ctr 1358 Albany Hwy,Cannington,6107,-32.01,115.96,13885
 Woolworths,43 Attfield St,Maddington,6109,-32.0500074,115.9761305,13892
-Woolworths,Cnr Nicholson And Ranford Rds,Canningvale,6155,-32.06,115.92,13962
+Woolworths,Cnr Nicholson And Ranford Rds,Canningvale,6155,-32.06,115.92,9329
 Woolworths,1140 Albany Hwy,Bentley,6102,-32.009523,115.9251965,13872
 Woolworths,"Bullcreek Shop. Ctr, 44 Benningfield Rd",Bullcreek,6149,-32.06,115.86,13940
 Woolworths,Cnr High Rd And Willeri Dr,Riverton,6148,-32.03,115.92,13936
 Woolworths,"Cnr Nicholson Rd & Yellowwood Ave, Harrisdale",Harrisdale,6112,51.7621374,-1.2358621,13911
 Woolworths,"Kelmscott Central Shop. Ctr, 2889 Albany Hwy",Kelmscott,6111,-32.1,116.19,13903
-Woolworths,Lyon and Gibbs Rd,Atwell ,6164,-32.13,115.86,14000
-Woolworths,"Kwinana Hub Shop. Ctr, Cnr Chisolm And Gilmore Aves",Kwinana,6167,-32.23,115.87,14016
+Woolworths,Lyon and Gibbs Rd,Atwell ,6164,-32.13,115.86,13991
+Woolworths,"Kwinana Hub Shop. Ctr, Cnr Chisolm And Gilmore Aves",Kwinana,6167,-32.23,115.87,14012
 Woolworths,Cnr Amherst And Warton Rds,Southern River,6110,-32.07,116,13897
 Woolworths,Cnr Neerigen St And Orchard Ave,Armadale,6112,-32.15,116.01,13907
-Woolworths,"Esperance Bvd Shop. Ctr, Forrest St",Esperance,6450,-33.82,121.94,14846
+Woolworths,"Esperance Bvd Shop. Ctr, Forrest St",Esperance,6450,-33.82,121.94,14848
 Woolworths,Cnr Beeliar Dr And Wentworth Pde,Success,6164,-32.13,115.86,13999
 Woolworths,Runnymede Gate & The Strand,Wellard,6170,-32.2661399,115.8123911,14033
 Woolworths,34 Abernethy Rd,Byford,6122,-32.2217759,116.0081296,13921
@@ -959,25 +959,25 @@ Woolworths,534 Johnston St,Collie,6225,-33.357514,116.1536764,14113
 Woolworths,10 Ditchingham Pl,Australind,6233,-33.2796671,115.7433653,14147
 Woolworths,63 Sandridge Rd,Bunbury,6230,-33.341046,115.6505321,14132
 Woolworths,Clive St,Katanning,6317,-33.6909371,117.5550441,14425
-Woolworths,2 Recreation Dr,Eaton ,6232,-33.3196357,115.7217322,14146
+Woolworths,2 Recreation Dr,Eaton ,6232,-33.3196357,115.7217322,14145
 Woolworths,CNR Town View Tce & Willmott Ave,Margaret River,6285,32.810966,-117.062401,14310
 Woolworths,65 Kent St,Busselton,6280,-33.6508717,115.3401472,14270
 Woolworths,54 Tiffany Ctr,Dalyellup,6230,-33.393605,115.635249,14135
-Woolworths,93 - 101 Mottram St,Manjimup,6258,-34.2394233,116.1489063,14219
+Woolworths,93 - 101 Mottram St,Manjimup,6258,-34.2394233,116.1489063,14220
 Woolworths,2 Forrest Ave ,South Bunbury,6230,-33.3385776,115.6431276,14141
 Woolworths,185 Pitt Street,Sydney,2000,-33.8788554,151.2072102,352
-Woolworths,65 York Street,Sydney,2000,-33.86798725,151.205736145418,352
+Woolworths,65 York Street,Sydney,2000,-33.86798725,151.2057361,352
 Woolworths,261-265 Chalmers St,Redfern,2016,-33.8945995,151.2049073,371
 Woolworths,"Cnr Crown Kennedy,Suttor & Riley St",East Sydney,2011,-33.87,151.23,367
 Woolworths,Cnr George & Margaret Street,Sydney,2000,51.7324902,-0.4549924,352
 Woolworths,"Lower Ground, 333 George Street",Sydney,2000,-33.86,151.21,352
 Woolworths,302-306 Elizabeth Street,Surry Hills,2010,-33.8806824,151.2088216,363
 Woolworths,61-79 Quay Street,Haymarket,2000,-33.8818002,151.2034345,349
-Woolworths,26-60 BRdway,Chippendale,2000,-33.86,151.21,354
+Woolworths,26-60 BRdway,Chippendale,2000,-33.86,151.21,359
 Woolworths,605 Darling St,Rozelle,2039,-33.8638405,151.17012,431
 Woolworths,"Icon Building, 81 Macleay Street",Potts Point,2011,-33.87,151.23,365
 Woolworths,413-417 Bourke Street,Surry Hills,2010,-33.8839162,151.2160154,363
-Woolworths,21-23 Erskineville Road ,Erskineville ,2042,-33.8986384,151.181642842585,438
+Woolworths,21-23 Erskineville Road ,Erskineville ,2042,-33.8986384,151.1816428,439
 Woolworths,"220 Glenmore Road, Paddington ",Paddington,2021,-33.8822442,151.2285351,384
 Woolworths,180-186 Campbell Parade,Bondi Beach,2026,-33.8891623,151.2755238,392
 Woolworths,"Shop 7 Randwick Village Shppng Cntr, Cnr Belmore Rd, Avoca And Short Sts",Randwick,2031,-33.91,151.26,408
@@ -990,7 +990,7 @@ Woolworths,145 Concord Roadp,North Strathfield,2137,-33.84,151.11,666
 Woolworths,5 Faraday Road,Padstow,2211,-33.9537605,151.0339959,865
 Woolworths,130 Pittwater Rd,Boronia Park,2111,-33.82,151.14,606
 Woolworths,109 Pendle Way,Pendle Hill,2145,-33.8098646,150.9529354,695
-Woolworths,"Shop 12, 35 Coonara Avenue",West Pennant Hills,2120,-33.74,151.07,640
+Woolworths,"Shop 12, 35 Coonara Avenue",West Pennant Hills,2120,-33.74,151.07,645
 Woolworths,1 Woolworths Way,Bella Vista,2153,-33.7365878,150.9494541,720
 Woolworths,"Shop 1156, L1 Westfield Parramatta",Parramatta,2150,-33.82,151.01,714
 Woolworths,100 Miller St,North Sydney,2060,-33.8288371,151.2090107,464
@@ -1002,17 +1002,17 @@ Woolworths,216 Sarsfield Circuit,Bexley North,2207,-33.9386017,151.115619,853
 Woolworths,"Maroubra Shopping Village, Meagher Avenue",Maroubra,2035,-33.95,151.24,416
 Woolworths,61 Mabo Bvd,Bonner,2914,-35.1653442,149.1391441,5183
 Woolworths,Cnr Flemington Rd and Nullarbour Ave,Franklin,2913,-35.2,149.13,5175
-Woolworths,"217 Grey St, Southbank",Brisbane,4101,-27.49,153.02,8492
+Woolworths,"217 Grey St, Southbank",Brisbane,4101,-27.49,153.02,8616
 Woolworths,"485 Kingsford Smith Dr,",Hamilton,4007,-27.4393065,153.0669917,8340
 Woolworths,57 Musk Ave,Kelvin Grove,4059,-27.4538128,153.014616,8429
 Woolworths,48 Brighton Pde,Southport,4215,-27.9786115,153.4147113,8725
-Woolworths,15 Park Ave,Burleigh Heads,4220,-28.0898986,153.450483588283,8752
+Woolworths,15 Park Ave,Burleigh Heads,4220,-28.0898986,153.4504836,8752
 Woolworths,Cnr Collins and Spencer Streets,Docklands,3008,-37.81,144.95,5197
-Woolworths,388 Elizabeth Street,Melbourne,3000,-37.8096314130157,144.961198485081,5188
-Woolworths,60 Elizabeth Street,Melbourne,3000,-37.8165923818182,144.964476563636,5188
+Woolworths,388 Elizabeth Street,Melbourne,3000,-37.80963141,144.9611985,5188
+Woolworths,60 Elizabeth Street,Melbourne,3000,-37.81659238,144.9644766,5188
 Woolworths,"Ground Floor, 245-263 City Road",Southbank,3006,-37.82,144.97,5196
 Woolworths,"183 - 201 LaTrobe street, Melbourne",Melbourne,3000,-37.81,144.97,5188
-Woolworths,600 Bourke Street,Melbourne,3000,-37.815544,144.95614037669,5188
+Woolworths,600 Bourke Street,Melbourne,3000,-37.815544,144.9561404,5188
 Woolworths,727 Collins Street Docklands,Docklands,3008,-37.8204444,144.9501923,5197
 Woolworths,262 Flinders Street,Melbourne,3000,-37.8179793,144.9671293,5188
 Woolworths,161 Swanston Street,Melbourne,3000,-37.806593,144.9629851,5188
@@ -1029,17 +1029,17 @@ Woolworths,Roselands Drive,Roselands,2196,-33.9363561,151.0688138,829
 Woolworths,"Waterfront Way, Waterfront City",Docklands,3008,-37.8140759,144.9396602,5197
 Coles,15 Temple Terrace,Palmerston,830,-12.4838279,130.9854249,154
 Coles,Shop 66,Dianella,6059,-31.88,115.86,13790
-Coles,Centro Halls Head SC,Halls Head,6059,-31.88,115.86,13790
+Coles,Centro Halls Head SC,Halls Head,6059,-31.88,115.86,14067
 Coles,1001 Joondalup Drive,Banksia Grove,6031,-31.7057644,115.803676,13727
 Coles,Caversham Shopping Centre,Caversham,6055,-31.87,115.98,13763
 Coles,20 Abernethy Road,Byford,6122,-32.2217759,116.0081296,13921
-Coles,18 Napoleon Promenade,Vasse,6280,-33.68,115.46,14271
+Coles,18 Napoleon Promenade,Vasse,6280,-33.68,115.46,14288
 Coles,44 Station Street,Subiaco,6008,-31.945162,115.8234428,13658
-Coles,Midland Gate Shopping Centre,Midland,6056,-31.88974675,116.010198057714,13779
-Coles,Haynes Shopping Centre,Armadale,6112,-32.14813945,115.986628644599,13907
+Coles,Midland Gate Shopping Centre,Midland,6056,-31.88974675,116.0101981,13779
+Coles,Haynes Shopping Centre,Armadale,6112,-32.14813945,115.9866286,13907
 Coles,Kalamunda Road,High Wycombe,6057,-31.9357795,116.0047604,13787
 Coles,26 Safety Bay Road,Baldivis,6171,-32.3344022,115.8118707,14034
-Coles,Wanneroo Road,Wanneroo,6056,-31.8424206,115.8231444,13779
+Coles,Wanneroo Road,Wanneroo,6056,-31.8424206,115.8231444,13819
 Coles,Kingsbridge Boulevard,Butler,6036,-31.647507,115.704762,13734
 Coles,Prince Street,Busselton,6280,-33.6515237,115.3423896,14270
 Coles,Cambridge Street,West Leederville,6007,-31.9406291,115.8411004,13655
@@ -1050,8 +1050,8 @@ Coles,107 Dunn Bay Road,Dunsborough,6281,-33.6164841,115.1024926,14296
 Coles,Scarborough Beach Road,Innaloo,6018,-31.9000478,115.7895387,13686
 Coles,Bayview Terrace,Claremont,6010,-31.98,115.78,13665
 Coles,Ocean Keys Boulevard,Clarkson,6030,-31.6896538,115.7157864,13721
-Coles,Floreat Forum Shopping Centre,Floreat,6104,-31.94,115.92,13879
-Coles,Greenwood Village Shopping Centre,Greenwood,6024,-31.83144425,115.80267749861,13700
+Coles,Floreat Forum Shopping Centre,Floreat,6104,-31.94,115.92,13673
+Coles,Greenwood Village Shopping Centre,Greenwood,6024,-31.83144425,115.8026775,13700
 Coles,Cnr Benara Road & McGilvray Avenue,Noranda,6062,-31.8756506,115.9597865,13801
 Coles,Shop 1Cnr Murdoch Drive & Forrest Lakes Drive,Thornlie,6108,-32.05,115.96,13891
 Coles,Bussell Highway,Margaret River,6285,-33.9599812,115.0760405,14310
@@ -1075,7 +1075,7 @@ Coles,Cnr Almondbury Road & Risely & Davey Street,Booragoon,6154,-31.9350243,115
 Coles,Cnr Forest Road & Omeo Street,Yangebup,6164,38.7050996,-75.2498286,14000
 Coles,Collier Road,Morley,6062,-31.8947158,115.9025281,13800
 Coles,Cnr Joondalup Drive & Collier Street,Joondalup,6027,-31.7526221,115.7679788,13712
-Coles,Beldridge Shopping Centre,Beldon,6025,-31.78,115.77,13705
+Coles,Beldridge Shopping Centre,Beldon,6025,-31.78,115.77,13708
 Coles,Maddington Metro Shopping Centre Attfield Street,Maddington,6109,-32.05,115.98,13892
 Coles,Warwick Grove Shopping CentreCnr Erindale Road & Beach Road,Warwick,6024,-31.83,115.8,13701
 Coles,Cnr Blair Street & Stephen Street,Bunbury,6230,51.512757,-0.0064709,14132
@@ -1085,17 +1085,17 @@ Coles,Armadale Shopping Centre,Armadale,6112,-32.15,116.01,13907
 Coles,Noranda Square Shopping Centre Benara Road,Norand,6062,-31.9,115.92,13801
 Coles,Cnr Albany Highway & Gilwell Street,Kelmscott,6111,-36.7288832,174.6971829,13903
 Coles,Flinders Square Shopping Centre Cnr Wiluna Road & Flinders Road,Stuart Hill,6060,-31.91,115.85,13794
-Coles,Wattleglen Avenue,Erskine,6155,-32.5649613,115.6815331,13962
+Coles,Wattleglen Avenue,Erskine,6155,-32.5649613,115.6815331,14064
 Coles,Northgate Shopping Centre17 Chapman Road,Geraldton,6530,-28.79,114.6,15029
 Coles,Cnr Waddell Road & Canning Highway,Melville,6156,33.5975802,-88.8795435,13967
 Coles,Forrestfield Shopping Centre Strelitzia Avenue,Forrestfield,6058,-31.99,116.01,13789
 Coles,Village Green Shopping Centre,Karawara,6152,-31.99,115.87,13948
 Coles,North Perth Plaza Shopping CentreCnr View Street & Fitzgerald Street,North Perth,6006,-31.98,115.76,13653
 Coles,Cnr Burrendah Boulevard & Pinetree Gully Road,Burrendah,6155,-32.0592069,115.882691,13962
-Coles,904 Meadow Springs Avenue,Meadow Springs,6210,-32.55,115.75,14072
+Coles,904 Meadow Springs Avenue,Meadow Springs,6210,-32.55,115.75,14073
 Coles,Carremer Shopping Centre Cnr Beechboro Road & Benara Road,Beechboro,6063,-31.87,115.92,13802
 Coles,38-56 Albany Road,Albany,6330,-35.0247822,117.883608,14465
-Coles,Alexander Heights Shopping Centre Cnr Mirrabooka Avenue & Griffon Way,Alexander Heights,6064,-31.8297233,115.854040631798,13804
+Coles,Alexander Heights Shopping Centre Cnr Mirrabooka Avenue & Griffon Way,Alexander Heights,6064,-31.8297233,115.8540406,13804
 Coles,Rockingham City Shopping Centre Read Street,Rockingham,6168,-32.3,115.76,14025
 Coles,Flinders Avenue,HIillarys,6025,-31.78,115.77,13705
 Coles,Collie Boulevard,Collie,6225,-33.3591223,116.1536169,14113
@@ -1104,11 +1104,11 @@ Coles,Northlands Plaza Shopping Centre Cnr Wanneroo Road & Amelai Street,Balcatt
 Coles,Guildford Road,Maylands,6051,-31.9291044,115.8982562,13753
 Coles,Scarborough Shopping CentreCnr Scarborough Beach Road & West Coast Highway,Scarborough,6019,-31.89,115.76,13689
 Coles,Cnr Champion Drive & Seville Drive,North Armadale,6112,37.3469505,-79.1843561,13916
-Coles,Inglewood Shopping Centre,Inglewood,6053,-31.92,115.91,13756
+Coles,Inglewood Shopping Centre,Inglewood,6053,-31.92,115.91,13755
 Coles,Gosnells Shopping Centre,Godnells,6110,-32.07,116,13897
 Coles,South Hedland Shopping Centre Cnr Colebatch Way & Ranson Court,South Hedland,6722,-20.4,118.57,15313
 Coles,Risely Street,Booragoon,6154,-32.03,115.81,13959
-Coles,Manjimup Shopping CentreCnr Rose Street & Ispen Street,Manjimup,6258,-34.23,116.2,14219
+Coles,Manjimup Shopping CentreCnr Rose Street & Ispen Street,Manjimup,6258,-34.23,116.2,14220
 Coles,Collie Shopping Centre 49 Johnston Street,Collie,6225,-33.34,116.1,14113
 Coles,Kardinya Park Shopping Centre Cnr Albert Street & South Street,Kardinya,6163,-32.09,115.84,13985
 Coles,Mosman Park Shopping Centre,Mosman Park,6012,-32.01,115.76,13672
@@ -1122,16 +1122,16 @@ Coles,Firle Plaza Shopping CentreCnr Glyburn Road & Shelley Street,Firle,5070,-3
 Coles,Findon Shopping CentreCnr Grange Road & Findon Road,Findon,5023,-34.91,138.53,11780
 Coles,Casuarina Square Shopping Centre Cnr Dripstone Road & Trower Road,Casuarina,810,-12.38,130.88,4
 Coles,Anzac Highway,Kurralta Park,5037,-34.9584564,138.563176,11814
-Coles,Dernancourt Village Shopping Centre Lower North East Road,Dernancourt,5075,-34.8619886,138.683420592249,11956
-Coles,St Agnes Shopping Centre Main North East Road,St Agnes,5097,-34.82177735,138.717111037486,12012
+Coles,Dernancourt Village Shopping Centre Lower North East Road,Dernancourt,5075,-34.8619886,138.6834206,11956
+Coles,St Agnes Shopping Centre Main North East Road,St Agnes,5097,-34.82177735,138.717111,12012
 Coles,Alice Springs Shopping Centre Cnr Gregory Terrace Street & Bath Street,Alice Springs,870,-12.44,130.84,251
-Coles,Parkholme Shopping Centre,Parklands,5043,-34.99,138.56,11840
+Coles,Parkholme Shopping Centre,Parklands,5043,-34.99,138.56,16051
 Coles,Nile Street,Glenelg,5045,-34.9796407,138.5148654,11843
 Coles,Ingle Farm Shopping Centre Motague Street,Ingle Farm,5098,-34.83,138.65,12013
 Coles,Welland Plaza Shopping Centre Port Road,Welland,5007,-34.9,138.58,11720
-Coles,Unley Shopping Centre,Unley,5061,-34.95086935,138.606172980513,11875
+Coles,Unley Shopping Centre,Unley,5061,-34.95086935,138.606173,11875
 Coles,Grote Street,Adelaide,5000,-34.9287234,138.5990602,11707
-Coles,Cnr Sherriffs Road & Hilliers Road,Reynella,5162,55.0042423,-7.3710408,12165
+Coles,Cnr Sherriffs Road & Hilliers Road,Reynella,5162,55.0042423,-7.3710408,12163
 Coles,Colonnades Shopping Centre Beach Road,Noarlunga,5168,-35.14,138.49,12178
 Coles,Hollywood Plaza Shopping Centre,Salisbury Downs,5108,-34.76,138.61,12023
 Coles,Liverpool Street,Port Lincoln,5606,-34.7225805,135.8595406,13303
@@ -1142,9 +1142,9 @@ Coles,Newton Shopping CentreCnr Montacute Road & Stradbroke Road,Newton,5074,-34
 Coles,Cnr Main Road & Young Street,Blackwood,5051,52.2393368,1.4883089,11867
 Coles,The Avenue Shopping CentreCnr Payneham Road & Nelson Street,St Peters,5069,-34.91,138.62,11930
 Coles,Palmerston Shopping Centre Cnr Temple Terrace & Chung Wah Terrace,Palmerston,830,-12.49,130.97,154
-Coles,Riverland Plaza Shopping Centre,Berri,5343,-34.29,140.6,12731
+Coles,Riverland Plaza Shopping Centre,Berri,5343,-34.29,140.6,6159
 Coles,Castle Plaza Shopping Centre 992 South Road,Edwardstown,5039,-34.97,138.58,11822
-Coles,Burnside Village Shopping Centre,Glenside,5065,-34.9408734,138.641611264479,11902
+Coles,Burnside Village Shopping Centre,Glenside,5065,-34.9408734,138.6416113,11902
 Coles,West Lakes Shopping CentreCnr West Lakes Boulevard & Turner Drive,West Lakes,5021,-34.87,138.48,11775
 Coles,Cnr Jervois Street & Marryatt Street,Port Augusta,5700,22.2859811,114.1500414,13479
 Coles,Marion Shopping Centre Cnr Diagonal Street & Sturt Street,Marion,5043,-34.99,138.56,11837
@@ -1152,20 +1152,20 @@ Coles,Westfield Tee Tree Plaza Shopping Centre North East Road,Modbury,5092,-34.
 Coles,Mitchell Street,Darwin,800,-12.4586937,130.8352427,1
 Coles,Prospect Road,Prospect,5082,-34.8897053,138.5941675,11968
 Coles,Elizabeth City Shopping Centre,Elizabeth,5112,-34.71,138.67,12040
-Coles,353-361 High Road,Parkwood,6147,-32.03938855,115.907646183112,13934
+Coles,353-361 High Road,Parkwood,6147,-32.03938855,115.9076462,13934
 Coles,The Parade,Norwood,5067,-34.9217315,138.6250421,11915
 Coles,Main North Road,Prospect,5082,-34.8906039,138.6031331,11968
 Coles,North LakesCnr Links Road & McMillans Road,Marrara,812,-12.4,130.91,24
 Coles,Le Grande Shopping Centre,Albany,6330,-35.02,117.88,14465
 Coles,300 Murray Street,Raine Square,6000,-31.92,115.91,13647
-Coles,188-196 Swan Street,Richmond,3121,-37.8255631889104,144.995901646531,5426
+Coles,188-196 Swan Street,Richmond,3121,-37.82556319,144.9959016,5426
 Coles,Main Street,Ellenbrook,6069,-31.7803156,115.9685715,13826
 Coles,425 Stuart Highway,Coolalinga,839,-12.48,131.03,174
-Coles,4 Chisham Avenue,Kwinana,6167,-32.2441758,115.8232584,14016
+Coles,4 Chisham Avenue,Kwinana,6167,-32.2441758,115.8232584,14012
 Coles,Westfield Whitford City Shopping Centre,Hillarys,6025,-31.7964917,115.7496927,13703
 Coles,Cockburn Gateway Shopping Centre,Success,6164,-32.129663,115.8566328,13999
-Coles,10 Beamish Avenue,Northam,6401,-31.6578901,116.670268,14689
-Coles,Eaton Fair Shopping Centre,Eaton,6232,-33.3186657,115.716739000223,14145
+Coles,10 Beamish Avenue,Northam,6401,-31.6578901,116.670268,14692
+Coles,Eaton Fair Shopping Centre,Eaton,6232,-33.3186657,115.716739,14145
 Coles,8 Durnin Avenue,Beeliar,6164,-32.128131,115.7964208,13994
 Coles,23 O'Riordan Street,Alexandria,2015,-33.9107866,151.1981712,368
 Coles,Old Port Canal Shopping Centre Cnr Church Street & Leadenhall Street,Port Adelaide,5015,-34.84,138.5,11761
@@ -1179,21 +1179,21 @@ Coles,Cnr Exeter Road & Maroondah Highway,Croydon North,3136,44.96747,-69.160589
 Coles,Corio Village Shopping Centre Cnr Bacchus Marsh Road & Purnell Road,Corio,3214,-38.07,144.36,5663
 Coles,Coventry Street,South Melbourne,3205,-37.8312554,144.9623302,5650
 Coles,Bulleen Village Shopping Centre,Bulleen,3105,-37.77,145.08,5411
-Coles,Sanctuary Lakes Shopping Centre,Point Cook,3030,-37.89547905,144.752264438943,5252
+Coles,Sanctuary Lakes Shopping Centre,Point Cook,3030,-37.89547905,144.7522644,5252
 Coles,Shop 13 Ashleigh Avenue & Falm Street,Karingal,3199,53.4480442,-1.9565692,5640
 Coles,Melton Regional Shopping Centre Cnr Western Highway & Coburns Road,Melton West,3337,-37.68,144.59,6103
-Coles,Village Lakeside Lakeside Boulevard,Pakenham,3180,-37.89,145.25,5585
-Coles,Glenferrie Road,Glenferrie,3122,-37.8328331,145.0334409,5434
+Coles,Village Lakeside Lakeside Boulevard,Pakenham,3180,-37.89,145.25,7712
+Coles,Glenferrie Road,Glenferrie,3122,-37.8328331,145.0334409,5431
 Coles,Military Road,Avondale Heights,3034,-37.7591981,144.8607092,5263
 Coles,Reynolds Road,East Doncaster,3109,-37.7635941,145.1666144,5416
 Coles,Cnr Britannia Street & Victoria Street,MIitcham,3132,51.6091395,-3.3983782,5468
-Coles,Sayers Road,Tarneit,3030,-37.8503507,144.7061201,5255
-Coles,Mountain Gate Shopping Centre,Ferntree Gully,3156,-37.8838605,145.275740713623,5535
+Coles,Sayers Road,Tarneit,3030,-37.8503507,144.7061201,5248
+Coles,Mountain Gate Shopping Centre,Ferntree Gully,3156,-37.8838605,145.2757407,5535
 Coles,Cnr Pier Street & Queen Street,Altona,3018,51.492581,-0.0073751,5214
 Coles,Shop 1Cnr Gladesville Boulevard & Thompson Road,Patterson Lakes,3197,-38.08,145.12,5634
 Coles,Centre Road,Clayton,3168,-37.9309042,145.1381814,5562
 Coles,Shop M01,Point Cook,3030,-37.9064862,144.7533059,5252
-Coles,Gateway Plaza Shopping Centre Bellarine Highway,Leopold,3228,-38.33,144.26,5727
+Coles,Gateway Plaza Shopping Centre Bellarine Highway,Leopold,3228,-38.33,144.26,15329
 Coles,Brandon Park Shopping Centre,Mulgrave,3170,-37.9046119,145.1610082,5566
 Coles,729 Pt Nepean Road,McCrae,3938,-38.3463708,144.9332302,8152
 Coles,29 Douglas Parade,Williamstown,3016,-37.8587587,144.8979574,5212
@@ -1210,7 +1210,7 @@ Coles,Cnr Lake Street & Caroline Street,Caroline Springs,3023,42.4039718,-71.241
 Coles,Manor Lakes Shopping CentreManor Lakes Boulevard,Wyndham Vale,3024,-37.9,144.56,5238
 Coles,Furlong Road,Cairnlea,3023,-37.7599482,144.7767625,5231
 Coles,Spencer Street,Docklands,3008,-37.8235573,144.9561235,5197
-Coles,Burke Road,Camberwell,3122,-37.82219,145.0584404,5434
+Coles,Burke Road,Camberwell,3122,-37.82219,145.0584404,5446
 Coles,George Street,Morwell,3840,-38.2386287,146.3976812,7825
 Coles,Cnr Albert Street & Bridport Street,Daylesford,3460,51.6162434,-0.1789849,6582
 Coles,Gateway Plaza Raglan Street,Warrnambool,3280,-38.36,142.44,5911
@@ -1219,7 +1219,7 @@ Coles,Broadmeadows Town Centre Pascoe Vale Road,Broadmeadows,3047,-37.68,144.92,
 Coles,Mooroolbark Shopping Centre,Mooroolbark,3138,-37.77,145.33,5485
 Coles,Cnr Camden Street & Alfred Street,Balaclava,3183,52.6310427,-1.9337909,5592
 Coles,Chapel Street,Prahran,3181,-37.8452685,144.9944358,5586
-Coles,Beveridge Street & McCrae Street,Swan Hill,3585,53.4525896,-2.2361309,7121
+Coles,Beveridge Street & McCrae Street,Swan Hill,3585,53.4525896,-2.2361309,7123
 Coles,Glenferrie Road,Malvern,3144,-37.8595799,145.0288058,5503
 Coles,Doncaster Shopping Centre Cnr Doncaster Road & Williamsons Road,Doncaster,3108,-37.78,145.12,5414
 Coles,Albert Street,Sebastopol,3356,-37.5925336,143.84095,6249
@@ -1233,7 +1233,7 @@ Coles,Sydney Road,Coburg,3058,-37.7412879,144.9665497,5323
 Coles,Eighth Street,Mildura,3500,-34.180505,142.1571209,6779
 Coles,Vickery Street,Bentleigh,3204,-37.9158312,145.0391733,5646
 Coles,Northpoint Shopping Centre Hopkins Highway,North Warnambool,3280,-38.36,142.44,5911
-Coles,Ivanhoe Plaza Shopping Centre,Ivanhoe,3079,-37.76881005,145.041710476143,5360
+Coles,Ivanhoe Plaza Shopping Centre,Ivanhoe,3079,-37.76881005,145.0417105,5360
 Coles,Spring Street,Reservoir,3073,-37.717009,145.0063458,5354
 Coles,Boronia Shopping Centre Cnr Floriston Road & Turner Road,Boronia,3155,-37.86,145.28,5534
 Coles,Latrobe Street,Melborne,3000,-37.81,144.97,5188
@@ -1241,7 +1241,7 @@ Coles,Cnr Henry Road & McGregor Road,Pakenham,3810,45.080028,-71.314415,7710
 Coles,May Street,Lalor,3075,-37.67,145.02,5356
 Coles,Aitken Street,Gisborne,3437,-37.4934198,144.5899191,6509
 Coles,Greenvale Drive,Greenvale,3059,-37.6424622,144.8853712,5327
-Coles,Tunstall Square Shopping Centre Cnr Doncaster Road & Tunstall Road,Donvale,3109,-37.81,145.19,5416
+Coles,Tunstall Square Shopping Centre Cnr Doncaster Road & Tunstall Road,Donvale,3109,-37.81,145.19,11399
 Coles,Mt Dandenong Road,Kilsyth,3137,-37.8075517,145.3257896,5483
 Coles,Mt Derrimut Road,Derrimut,3030,-37.8117157,144.7689997,5251
 Coles,Cnr Darlot Street & Roberts Avenue,Horsham,3400,-36.7124803,142.1970411,6414
@@ -1250,29 +1250,29 @@ Coles,Border Shopping Centre Cnr Griffith Road & Urana Road,Lavington,2641,-36.0
 Coles,Altona Gate Shopping Centre Cnr Millers Road & Duosa Road,Altona North,3025,-37.84,144.86,5241
 Coles,Cnr Darling Street & Hare Street,Echuca,3564,42.331875,-71.105583,7028
 Coles,Cnr Duff Street & Monehans Road,Cranbourne West,3977,51.5115164,-0.017602,8268
-Coles,Chirnside Park Shopping Centre,Chirnside Park,3116,-37.75837755,145.312461036712,5422
+Coles,Chirnside Park Shopping Centre,Chirnside Park,3116,-37.75837755,145.312461,5422
 Coles,Parkmore Keysborough Shopping Centre,Keysborough,3173,-37.99,145.15,5572
-Coles,Albert Street,Moe,3825,-38.174959,146.2655081,7780
-Coles,Northcote Plaza Shopping Centre,Northcote,3070,-37.76825795,145.001889149096,5344
+Coles,Albert Street,Moe,3825,-38.174959,146.2655081,7784
+Coles,Northcote Plaza Shopping Centre,Northcote,3070,-37.76825795,145.0018891,5344
 Coles,Peel Street,Ballarat,3350,-37.56,143.82,6139
 Coles,Hope Street,Drouin,3818,-38.1346371,145.8564961,7732
-Coles,Croydon Market Shopping Centre Cnr Kent Avenue & Wicklow Avenue,Croydon,3136,-37.79384075,145.279054122704,5479
+Coles,Croydon Market Shopping Centre Cnr Kent Avenue & Wicklow Avenue,Croydon,3136,-37.79384075,145.2790541,5479
 Coles,Barkly Square Shopping Centre,Brunswick,3056,-37.7750218,144.9628535,5317
-Coles,Caulfield Plaza Shopping Centre Cnr Dandenong Road & Derby Road,Caulfield,3162,-37.8762691,145.042850395213,5549
+Coles,Caulfield Plaza Shopping Centre Cnr Dandenong Road & Derby Road,Caulfield,3162,-37.8762691,145.0428504,5549
 Coles,Wodonga Plaza Shopping CentreCnr Elgin Street & Watson Street,Wodonga,3690,-36.1,146.82,7402
-Coles,Ringwood Square Shopping Centre Cnr Maroondah Highway & New Street,Ringwood,3134,-37.81559365,145.222215761277,5472
+Coles,Ringwood Square Shopping Centre Cnr Maroondah Highway & New Street,Ringwood,3134,-37.81559365,145.2222158,5472
 Coles,Cnr Williamson Street & Myer Street,Bendigo,3550,37.831014,-89.149506,6938
 Coles,Cnr Glenroy Road & Morgan Court,Glenroy,3046,-35.7383874,147.8976486,5294
 Coles,Cnr Church Street & Victoria Street,Hastings,3915,42.3557877,-71.1903643,8111
 Coles,Cnr Waltham Street & Abbots Street,Sandringham,3191,42.3621731,-71.2245255,5612
-Coles,Chadstone Shopping Centre Cnr Dandenong Road & Chadstone Road,Chadstone,3148,-37.8864009,145.082470614214,5515
+Coles,Chadstone Shopping Centre Cnr Dandenong Road & Chadstone Road,Chadstone,3148,-37.8864009,145.0824706,5515
 Coles,Station Square Shopping Centre Cnr Hanover Street & Portman Street,Oakleigh,3166,-37.9,145.08,5559
 Coles,Cnr Bay Street & Liardet Street,Port Melbourne,3207,42.3108015,-71.0548528,5654
 Coles,Forest Hill Shopping Centre Cnr Mahoneys Road & Canterbury Road,Forest Hill,3131,-37.84,145.18,5464
 Coles,Cnr Evans Road & Riddell Road,Sunbury,3429,39.8736494,-74.911145,6494
 Coles,Keilor Downs Plaza Shopping Centre,Keilor Downs,3038,-37.73,144.81,5271
-Coles,Knox City Shopping Centre Cnr Burwood Highway & Stud Road,Wantirna South,3152,-37.8692346,145.238708191236,5530
-Coles,Endeavour Hills Shopping Centre,Endeavour Hills,3802,-37.97684295,145.259510590398,7695
+Coles,Knox City Shopping Centre Cnr Burwood Highway & Stud Road,Wantirna South,3152,-37.8692346,145.2387082,5530
+Coles,Endeavour Hills Shopping Centre,Endeavour Hills,3802,-37.97684295,145.2595106,7695
 Coles,Cnr Keys Street & Ross Smith Avenue,Frankston,3199,27.7696805,-97.4136217,5636
 Coles,Cnr High Street & Cooper Street,Epping,3076,53.112782,-0.6469527,5357
 Coles,Church Street,Brighton,3186,-37.9148114,144.9953945,5599
@@ -1284,15 +1284,15 @@ Coles,Cnr Central Avenue & Merton Street,Laverton,3028,51.5959888,-0.1724918,524
 Coles,The Terrace,Ocean Grove,3226,-38.267045,144.52487,5720
 Coles,Mt Alexander Road,Moonee Ponds,3039,-37.7642611,144.9230954,5275
 Coles,Acland Street,St Kilda,3182,-37.8679477,144.9791754,5589
-Coles,Westfield Southland Shopping Centre,Cheltenham,3192,-37.95861245,145.050973627919,5613
+Coles,Westfield Southland Shopping Centre,Cheltenham,3192,-37.95861245,145.0509736,5613
 Coles,Cnr Frankston/Cranbourne Road & Southgate Way,Langwarren,3910,-38.154456,145.1635847,8105
 Coles,Cnr Elizabeth Street & Flinders Street,Melbourne,3000,36.798332,-76.260672,5188
 Coles,Cnr Main Street & Young Street,Bacchus Marsh,3340,53.201436,-0.2154357,6109
 Coles,Barkley Street,Mornington,3931,-38.24,145.06,8144
 Coles,Main Street,Pakenham,3810,-38.0717509,145.4752066,7710
 Coles,Cnr Wood Street & Hardinge Street,Deniliquin,2710,34.841838,-82.632967,4207
-Coles,Vermont South Shopping Centre Cnr Burwood Highway & Hanover Street,Vermont South,3133,-37.8547271,145.182855416928,5470
-Coles,Eltham Village Shopping Centre,Eltham,3095,-37.71500595,145.148679987782,5390
+Coles,Vermont South Shopping Centre Cnr Burwood Highway & Hanover Street,Vermont South,3133,-37.8547271,145.1828554,5470
+Coles,Eltham Village Shopping Centre,Eltham,3095,-37.71500595,145.14868,5390
 Coles,Gippsland Shopping Centre,Sale,3850,-38.42,147.08,7848
 Coles,Maroondah Highway,Healsville,3777,-37.69,145.54,7658
 Coles,Cnr Springvale Road & Princes Highway,Springvale,3171,51.0966775,-1.3023044,5569
@@ -1301,16 +1301,16 @@ Coles,Princes Highway,Dandenong,3175,-37.9925608,145.2157992,5576
 Coles,Cnr McDonalds Road & Civic Drive,South Morang,3752,-32.7726977,151.302917,7611
 Coles,Victoria Street,Richmond,3121,-37.8114042,145.0089377,5426
 Coles,Cnr Ryley Street & Greta Road,Wangaratta,3677,-27.460581,153.1016705,7346
-Coles,Werribee Plaza Shopping Centre Cnr Heaths Road & Derrimut Road,Hoppers Crossing,3030,-37.97,144.58,5255
+Coles,Werribee Plaza Shopping Centre Cnr Heaths Road & Derrimut Road,Hoppers Crossing,3030,-37.97,144.58,5247
 Coles,West End Plaza Shopping Centre Cnr Townsend Street & Smollet Street,Albury,2640,-36.08,146.91,3907
-Coles,Traralgon Centre Plaza Shopping Centre Cnr Grey Street & Franklins Street,Traralgon,3844,-38.41,146.64,7836
+Coles,Traralgon Centre Plaza Shopping Centre Cnr Grey Street & Franklins Street,Traralgon,3844,-38.41,146.64,7839
 Coles,Cnr Maude Street & Corio Street,Shepparton,3630,44.530373,-69.627917,7204
 Coles,Port Phillip Plaza Shopping Centre Cnr Boneo Road & Mccombe Street,Rosebud,3939,-38.4,144.9,8156
 Coles,Stud Park Shopping Centre Cnr Stud Road & Fullham Road,Rowville,3178,-37.9171812,145.2349274,5583
 Coles,Lynbrook Boulevard,Lynbrook,3975,-38.0533264,145.2528013,8259
 Coles,Sentry Drive,Stanhope Gardens,2768,-33.7224435,150.919753,4475
-Coles,Commissioner Street,Cooma,2630,-36.2373371,149.1238398,3844
-Coles,Sturt Mall Shopping Centre Cnr Forsyth Street & Barry Street,Wagga,2650,-35.16,147.51,4000
+Coles,Commissioner Street,Cooma,2630,-36.2373371,149.1238398,3846
+Coles,Sturt Mall Shopping Centre Cnr Forsyth Street & Barry Street,Wagga,2650,-35.16,147.51,7259
 Coles,Rider Boulevard,Rhodes Waterside,2138,-33.8351653,151.0842202,670
 Coles,Shop 1 White Cross Road,Winmallee,2777,-33.67,150.65,4519
 Coles,George Street,Sydney,2000,-33.8627757,151.2074471,352
@@ -1319,7 +1319,7 @@ Coles,Fairwater Drive,Harrington Park,2567,-34.0340509,150.739082,3368
 Coles,Figtree Shopping Centre Cnr Gladstone Street & Princess Highway,Figtree,2525,-34.44,150.86,2986
 Coles,Ray Street,Turramurra,2074,-33.7323228,151.1269902,509
 Coles,The Horseley Drive,Smithfield,2164,-33.85,150.94,752
-Coles,Roselands Shopping Centre,Roselands,2196,-33.9350823,151.068718341008,829
+Coles,Roselands Shopping Centre,Roselands,2196,-33.9350823,151.0687183,829
 Coles,Cnr Bathurst Street & Elizabeth Drive,Liverpool,2170,-33.385558,149.8886339,779
 Coles,Tanda Place,South Wagga,2650,-35.1375959,147.333503,4000
 Coles,Westfield Shopping Town Carlisle Avenue,Mount Druitt,2770,-33.73,150.82,4484
@@ -1333,10 +1333,10 @@ Coles,Turton Road,Waratah,2298,-32.9107501,151.7265774,1209
 Coles,Jamison Shopping Centre,Macquarie,2614,-35.26,149.08,3678
 Coles,Fairfield Forum Shopping Centre Cnr Station Street & Ware Street,Fairfield,2165,-33.87,150.96,757
 Coles,Clark Street,Earlwood,2206,-33.93,151.1,849
-Coles,Wyong Road,Tuggerah,2259,-33.3072756,151.4166105,1027
+Coles,Wyong Road,Tuggerah,2259,-33.3072756,151.4166105,1046
 Coles,Hyatt Kingsgate Shopping Centre,Kings Cross,2011,-33.87,151.23,367
-Coles,George Street,Windsor,2756,-33.6118307,150.8138571,4411
-Coles,Russell Street,Tumut,2720,-35.3060425,148.2254611,4266
+Coles,George Street,Windsor,2756,-33.6118307,150.8138571,4427
+Coles,Russell Street,Tumut,2720,-35.3060425,148.2254611,4278
 Coles,Pacific Highway,Asquith,2077,-33.6795555,151.1109779,516
 Coles,Pennant Hills Road,West Pennant Hills,2125,-33.747588,151.0503977,645
 Coles,The Grand Parade,Ramsgate,2217,-33.9857443,151.1474478,883
@@ -1352,61 +1352,61 @@ Coles,Westfield Hurstville Shopping Centre Cnr Cross Street & Park Road,Hurstvil
 Coles,Cnr Bates Drive & Freya Street,Kareela,2232,41.4693198,-72.9113206,927
 Coles,Dee Why Plaza,Dee Why,2099,-33.7528872,151.28657,569
 Coles,Cnr Murray Street & South Argyle Street,Camden,2570,43.6849222,-70.2745265,3379
-Coles,Wyoming Village Shopping Centre,Wyoming,2250,-33.11,151.14,954
+Coles,Wyoming Village Shopping Centre,Wyoming,2250,-33.11,151.14,978
 Coles,Dubbo Shopping Centre Cnr Bultje Street & Macquarie Street,Dubbo,2830,-32.2,148.9,4864
 Coles,Parkside Plaza Shopping Centre,Miranda,2228,-34.03,151.1,911
 Coles,Ashfield Mall Shopping Centre,Ashfield,2131,-33.89,151.13,652
 Coles,Richmond Mall Shopping Centre,Richmond,2753,-33.62,150.71,4396
 Coles,Waratah Road,Engadine,2233,-34.064245,151.0120754,933
 Coles,Chatswood Chase Shopping Centre Cnr Victoria Avenue & Archer Street,Chatswood,2067,-33.8,151.19,487
-Coles,Kings Langley Shopping Centre,Kings Langley,2147,-33.7430524,150.92292886797,702
+Coles,Kings Langley Shopping Centre,Kings Langley,2147,-33.7430524,150.9229289,702
 Coles,Jackson Road,Warriewood,2102,-33.69,151.3,582
-Coles,Lakeside Plaza,The Entrance,2261,-33.38,151.48,1074
-Coles,Randwick Plaza Shopping Centre,Randwick,2031,-33.9162222,151.24020285541,408
-Coles,Lithgow Valley Shopping Centre Cnr Hassen Street & Bent Street,Lithgow,2790,-33.22,150.02,4566
-Coles,Argyle Mall Shopping Centre Cnr Clifford Street & Auburn Street,Goulburn,2580,-34.44,149.96,3483
+Coles,Lakeside Plaza,The Entrance,2261,-33.38,151.48,1076
+Coles,Randwick Plaza Shopping Centre,Randwick,2031,-33.9162222,151.2402029,408
+Coles,Lithgow Valley Shopping Centre Cnr Hassen Street & Bent Street,Lithgow,2790,-33.22,150.02,4575
+Coles,Argyle Mall Shopping Centre Cnr Clifford Street & Auburn Street,Goulburn,2580,-34.44,149.96,3485
 Coles,Cnr Hibberson Street & Gungahlin Place,Gungahlin,2912,-35.1851395,149.1323008,5173
 Coles,Oxley Mall Shopping Centre Cnr Boolwey Street & Bendooley Street,Bowral,2576,-34.54,150.39,3432
-Coles,Surry Hills Shopping Village Cnr Cleveland Street & Baptist Street,Surry Hills,2010,-33.89194215,151.212021204072,363
+Coles,Surry Hills Shopping Village Cnr Cleveland Street & Baptist Street,Surry Hills,2010,-33.89194215,151.2120212,363
 Coles,Pacific Highway,Swansea,2281,-33.098603,151.631236,1133
 Coles,Eastgate Shopping Centre Cnr Newland Street & Spring Street,Bondi,2026,-33.89,151.26,391
 Coles,Perry Street,Batemans Bay,2536,-35.7081258,150.1763953,3063
 Coles,Junction Fair Shopping Centre,Newcastle Junction,2300,-32.94,151.77,1218
-Coles,Barrenjoey Road,Newport,2000,-33.6510925,151.3232435,354
+Coles,Barrenjoey Road,Newport,2000,-33.6510925,151.3232435,8378
 Coles,Shop 1,Manly,2095,-33.8038504,151.2908235,559
 Coles,St Marys Plaza Shopping Centre,St Marys,2760,-33.78,150.79,4448
 Coles,Lakehaven Shopping Centre Cnr Arizon Road & Goobarabah Avenue,Gorokan,2263,-33.27,151.54,1091
-Coles,Riverside Plaza Shopping Centre Cnr Monaro Street & Collett Street,Queanbeyan,2620,-35.58,149.23,3717
-Coles,West Gosford Shopping Centre Cnr Brisbane Water Drive & Corumbene Road,West Gosford,2250,-33.42875285,151.316122192671,954
+Coles,Riverside Plaza Shopping Centre Cnr Monaro Street & Collett Street,Queanbeyan,2620,-35.58,149.23,3723
+Coles,West Gosford Shopping Centre Cnr Brisbane Water Drive & Corumbene Road,West Gosford,2250,-33.42875285,151.3161222,977
 Coles,Westfield Shopping Centre,Warrawong,2502,-34.47,150.87,2953
 Coles,Cnr Macquarie Street & Edgar Street,Belmont,2280,-27.4590915,153.050111,1116
 Coles,Cowper Street,Wallsend,2287,-32.899945,151.6743868,1176
 Coles,Castle Towers Shopping Centre,Castle Hill,2154,-33.73,151.01,722
 Coles,Cnr Richmond Road & Woodcraft Drive,Doonside,2767,44.351181,-73.076142,4471
 Coles,Big Bear Shopping Complex,Neutral Bay,2089,-33.83,151.22,547
-Coles,Oceanview Partments Cnr Moate Street & Princess Street,Brighton,2216,-33.95,151.14,877
+Coles,Oceanview Partments Cnr Moate Street & Princess Street,Brighton,2216,-33.95,151.14,11855
 Coles,Flagstaff Street,Gladesville,2111,-33.83209,151.1284301,607
 Coles,Garden City S/C Cnr Northcott Drive & Park Avenue,Kotara,2289,-32.93,151.73,1183
 Coles,Valley Plaza,Hinchinbrook,2168,-33.92,150.9,772
-Coles,227-237 SUMMER ST,Orange,2800,-33.2829719,149.0957605,4727
+Coles,227-237 SUMMER ST,Orange,2800,-33.2829719,149.0957605,4740
 Coles,47 William Street,Bathurst,2795,-33.4252439,149.5702648,4616
 Coles,Cnr Crossing Street & Yambil Street,Griffith,2680,-34.2877486,146.0557862,4158
 Coles,Cnr Broadway Street & Bay Street,Broadway,2007,40.7829699,-124.183663,357
 Coles,Tenancy W36 & W37 Wynyard Railway Concourse,Sydney,2000,-27.5101757,153.032327,352
 Coles,Willarong Road,Sth Caringbah,2229,-34.042086,151.1196022,918
 Coles,Cnr Australia Avenue & Village Way,Wattle Grove,2173,-28.0248874,153.4301372,799
-Coles,Winston Hills Mall,Winston Hills,2153,-33.7726684,150.969690246318,721
-Coles,Windsor Riverview Shopping Centre George Street,Windsor,2756,-33.64,150.79,4411
-Coles,Boree Street,Ulladulla,2539,-35.3587419,150.4726978,3124
-Coles,Norton Plaza Shopping Centre Norton Street,Leichardt,2040,-33.88,151.16,433
+Coles,Winston Hills Mall,Winston Hills,2153,-33.7726684,150.9696902,721
+Coles,Windsor Riverview Shopping Centre George Street,Windsor,2756,-33.64,150.79,4427
+Coles,Boree Street,Ulladulla,2539,-35.3587419,150.4726978,3138
+Coles,Norton Plaza Shopping Centre Norton Street,Leichardt,2040,-33.88,151.16,6807
 Coles,Illawong Shopping Centre Fowlers Road,Illawong,2234,-33.99,151.02,941
 Coles,Keltie Street,Phillip,2606,-35.3454287,149.0848032,3640
 Coles,Birkenhead Shopping Centre,Drummoyne,2047,-33.85,151.15,452
-Coles,The Boulevard,Toronto,2283,-33.013441,151.5942043,1147
+Coles,The Boulevard,Toronto,2283,-33.013441,151.5942043,1152
 Coles,Norwest Lakeside Shopping Centre Norwest Boulevard,Baulkham Hills,2153,-33.76,150.99,719
 Coles,Cnr Anderson Albert & Spring Street,Chatswood Chase,2067,53.1840272,-105.7356272,489
 Coles,Oxford Street,Bondi Junction,2022,-33.8898284,151.2412727,385
-Coles,Starkey Street,Forestville,2083,-33.7607988,151.2166875,533
+Coles,Starkey Street,Forestville,2083,-33.7607988,151.2166875,11810
 Coles,Shop 42,Chisholm,2905,-35.4219655,149.1248452,5163
 Coles,Manuka Plaza,Manuka,2603,-35.32,149.12,3629
 Coles,Westfield Shoppingtown,Hornsby,2077,-33.7040554,151.1006766,517
@@ -1414,16 +1414,16 @@ Coles,Westfield Shoppingtown Cnr Wilga Street & Shaftesbury Road,Burwood,2134,-3
 Coles,Patrick Street,Blacktown,2148,-33.7770273,150.9039767,707
 Coles,Cnr Keene Street & North Ave & Charlton Avenue,Cessnock,2325,41.8321057,-71.4039664,1377
 Coles,Majors Bay Road,Concord,2137,-33.8530858,151.1028698,664
-Coles,1/21 Wentworth Street,Manly,2570,-33.7996935,151.2858934,3385
+Coles,1/21 Wentworth Street,Manly,2570,-33.7996935,151.2858934,8637
 Coles,101 Boomerang Place,Cambridge Gardens,2747,-33.7410604,150.7175813,4367
 Coles,Main Road,Edgeworth,2285,-32.9261822,151.6330583,1164
 Coles,Warners Bay Shoppng Centre,Warners Bay,2282,-32.99,151.64,1137
 Coles,Pacific Highway,San Remo,2262,-33.2100374,151.5160787,1088
 Coles,Kellyville Shopping Centre,Kellyville,2155,-33.7,150.95,724
 Coles,Pittwater Place,Mona Vale,2103,-33.68,151.3,585
-Coles,Erina Fair Shopping Centre,Erina,2250,-33.4377617,151.393510544134,949
+Coles,Erina Fair Shopping Centre,Erina,2250,-33.4377617,151.3935105,949
 Coles,Condamine Street,Balgowlah,2093,-33.7877571,151.2663143,553
-Coles,Victoria Road,North Parramatta,2150,-33.8090955,151.0086109,715
+Coles,Victoria Road,North Parramatta,2150,-33.8090955,151.0086109,716
 Coles,204 Princes Highway,Corrimal,2518,-34.3715,150.897545,2976
 Coles,Lake Road,Glendale,2285,-32.9276435,151.6462853,1165
 Coles,Westfield Shopping Centre Cnr Marsden Street & Campbell Street,Parramatta,2150,-33.82,151.01,714
@@ -1433,7 +1433,7 @@ Coles,Cnr New South Head Road & Ocean Street,Edgecliff,2027,-33.8765374,151.2263
 Coles,Forster Village Shopping Centre Cnr Breeze Parade & Water Street,Forster South,2428,-32.35,152.54,2062
 Coles,Nepean Shopping CentreCnr Station Street & Reserve Street,Penrith,2750,-33.74,150.65,4384
 Coles,Bay Village Shopping Centre,Bateau Bay,2261,-33.38,151.48,1065
-Coles,Deepwater Plaza Shopping Centre Cnr Railway Street & George Street,Woy Woy,2256,-33.48791115,151.323507473444,999
+Coles,Deepwater Plaza Shopping Centre Cnr Railway Street & George Street,Woy Woy,2256,-33.48791115,151.3235075,999
 Coles,Campbelltown Mall Shopping Centre,Campbelltown,2560,-34.08,150.83,3338
 Coles,Casuala Mall Shopping Centre Kurrajong Road,Casuala,2170,-33.95,150.91,784
 Coles,Eastgardens Shopping Centre Cnr Bunnerong Road & Wentworth Avenue,Pagewood,2035,-33.95,151.24,418
@@ -1442,37 +1442,37 @@ Coles,Shop 1a Ocean Drive,Port Macquarie,2444,-31.4551464,152.8980561,2252
 Coles,34 Parke Street,Katoomba,2780,-33.7137293,150.3103893,4523
 Coles,Mulga Road,Oatley West,2223,-33.9799747,151.0738943,900
 Coles,Cnr Windsor Road & Commercial Road,Rouse Hill,2155,50.7405812,-1.7991199,726
-Coles,Shop 1 Alison Road,Wyong,2259,-33.2759033,151.4053602,1027
+Coles,Shop 1 Alison Road,Wyong,2259,-33.2759033,151.4053602,1056
 Coles,118 - 126 Princes Hwy,Fairy Meadow,2519,-34.3907248,150.8935312,2982
 Coles,Turner Road,Berowa Heights,2082,-33.61,151.14,526
 Coles,Edensor Road,Edensor Park,2176,-33.8816667,150.8890348,804
-Coles,Kelly Street,Scone,2337,-32.0334002,150.8642246,1527
+Coles,Kelly Street,Scone,2337,-32.0334002,150.8642246,1536
 Coles,Cnr Minmi Road & Churnwood Drive,Fletcher,2287,-32.8748023,151.628505,1172
 Coles,Hurstville Railway Station Forest Road,Hurstville,2220,-33.9672726,151.1023297,890
 Coles,Sturdee Parade,Dee Why,2099,-33.7552795,151.2835744,569
-Coles,Gowrie Street Mall,Singleton,2330,-32.5672361,151.1639256,1430
-Coles,Rutherford Shopping Centre Hillview Street,Rutherford,2320,-32.69,151.53,1284
+Coles,Gowrie Street Mall,Singleton,2330,-32.5672361,151.1639256,1475
+Coles,Rutherford Shopping Centre Hillview Street,Rutherford,2320,-32.69,151.53,1300
 Coles,Yambo Street,Morriset,2264,-33.1,151.55,1105
 Coles,Stocklands Mall Shopping Centre Windsor Road,Baulkham Hills,2153,-33.76,150.99,719
 Coles,Earnest Avenue,Chipping Norton,2170,-33.95,150.91,777
 Coles,29-33 Darcy Road,Westmead,2145,-33.8035614,150.9774839,698
-Coles,Macquarie Street,Taree,2430,-31.9116659,152.4638347,2115
+Coles,Macquarie Street,Taree,2430,-31.9116659,152.4638347,2140
 Coles,17 Chatham Rd,West Ryde,2114,-33.8059185,151.0877984,625
 Coles,Central Place,Ropes Crossing,2760,-33.7321523,150.7813438,4447
 Coles,Shop 16 Crystal Street,Waterloo,2017,-33.9,151.21,372
-Coles,Beatty Boulevard,Tanilba Bay,2753,-32.7350635,151.9984139,4398
-Coles,Figtree Boulevard,Wadalba,2259,-33.2672995,151.4635167,1027
+Coles,Beatty Boulevard,Tanilba Bay,2753,-32.7350635,151.9984139,1273
+Coles,Figtree Boulevard,Wadalba,2259,-33.2672995,151.4635167,1048
 Coles,Westend Shopping CentreCnr King Street & National Park Street,Newcastle West,2302,-32.92,151.76,1219
 Coles,Charlestown Square Shopping Centre Pearson Street,Charlestown,2290,-33,151.69,1187
 Coles,Lang Street,Kurri Kurri,2327,-32.8149202,151.4897777,1405
-Coles,Roselands Shopping Centre,Roselands,2196,-33.9350823,151.068718341008,829
+Coles,Roselands Shopping Centre,Roselands,2196,-33.9350823,151.0687183,829
 Coles,6 Gates Road,Jimboomba,4280,-27.83,153.03,8790
-Coles,North Rocks Shopping Centre,North Rocks,2151,-33.7689829,151.028245802593,717
-Coles,100 Macquarie Road,Ingleburn,2564,-33.9965276,150.8669416,3355
+Coles,North Rocks Shopping Centre,North Rocks,2151,-33.7689829,151.0282458,717
+Coles,100 Macquarie Road,Ingleburn,2564,-33.9965276,150.8669416,3358
 Coles,Jewelstown Plaza,Belmont North,2280,-33.04,151.66,1117
 Coles,3 Burroway Road,Wentworth Point,2127,-33.8236995,151.0788223,649
 Coles,Pacific Fair Shopping Centre,Broadbeach,4218,-28.0358414,153.4268041,8743
-Coles,7-15 Larsen Road,Redlynch,4870,-16.8944868,145.6944977,11422
+Coles,7-15 Larsen Road,Redlynch,4870,-16.8944868,145.6944977,11436
 Coles,121 Foxwell Road,Coomera,4209,-27.8572412,153.3108819,8678
 Coles,Cnr Herbert Street & Callandoon Street,Goondiwindi,4390,51.5491044,-0.1546892,9449
 Coles,346 Gympie Road,Kedron,4031,-27.403245,153.0311007,8394
@@ -1483,44 +1483,44 @@ Coles,21 Ross Street,Benowa,4217,-27.9993751,153.3786683,8734
 Coles,55 Creek Road,Mt Gravatt,4122,-27.5390889,153.0828354,8552
 Coles,Cnr Fox Street & Kerr Street,Ballina,2478,42.306521,-71.062901,2717
 Coles,Caboolture Park Shopping Centre,Caboolture,4510,-27.13,153.05,9728
-Coles,The Pines Shopping Centre Cnr Mcgrath Drive & Guiness Creek Road,Elanora,4221,-28.13442965,153.468584798512,8756
-Coles,Kim Kora Shopping Centre,Gladstone,4680,-23.86,151.27,10486
+Coles,The Pines Shopping Centre Cnr Mcgrath Drive & Guiness Creek Road,Elanora,4221,-28.13442965,153.4685848,8756
+Coles,Kim Kora Shopping Centre,Gladstone,4680,-23.86,151.27,10491
 Coles,Logan Hyperdome Shopping Centre Cnr Pacific Highway & Bryants Road,Loganholme,4129,-27.69,153.18,8574
 Coles,Stockland Shopping Centre Mulgrave Road,Earlville,4870,-16.88,145.75,11422
 Coles,Walker Road,Edmonton,4869,-17.0152035,145.7221145,11409
 Coles,Gympie Road,Strathpine,4500,-27.3112942,152.991089,9698
 Coles,Dandenong Road,Mt Ommaney,4074,-27.5523096,152.9347956,8473
-Coles,114-128 Glenvale Road,Glenvale,4350,-27.5637521,151.9115343,9120
+Coles,114-128 Glenvale Road,Glenvale,4350,-27.5637521,151.9115343,9123
 Coles,Santa Barbara Road,Hope Island,4212,-27.8691477,153.3513145,8706
 Coles,Shop 1 Mackay Bucasia Road,Northern Beaches,4740,-21.16,149.1,10835
-Coles,Britwell Street & Margaret Street,Coolum,4573,51.5350004,-0.633308878004591,10018
+Coles,Britwell Street & Margaret Street,Coolum,4573,51.5350004,-0.633308878,10014
 Coles,Forest Lake Boulevard,Forest Lake,4078,-27.6290038,152.9777757,8488
 Coles,Ashmole Road (cnr Klingner Road),Redcliffe,4020,-27.23,153.12,8379
 Coles,Park Ridge Town Centre,Park Ridge,4125,-27.6987848,153.0481122,8566
-Coles,245 Bridge Road,West Mackay,4740,-21.1578438,149.1694116,10835
+Coles,245 Bridge Road,West Mackay,4740,-21.1578438,149.1694116,10876
 Coles,19 Robina Town Centre Drive,Robina,4230,-28.0777778,153.3847227,8774
 Coles,Shop 16,Mitchelton,4053,-27.41,152.98,8418
 Coles,Cnr Samford Road & South Pine Road,Alderley,4051,-27.4089164,152.9411888,8408
 Coles,312-320 Roghan Road,Taigum,4018,-27.3410194,153.0416223,8371
-Coles,31 - 39 Erin St,Wilsonton,4350,-27.5430607,151.9261055,9120
+Coles,31 - 39 Erin St,Wilsonton,4350,-27.5430607,151.9261055,9153
 Coles,Point Cartwright Drive,Kawana Waters,4575,-26.75,153.12,10031
 Coles,1-21 Halpine Drive,Mango Hill,4509,-27.241908,153.0247954,9724
 Coles,37 Eggersdorf Road,Ormeau,4208,-27.7862565,153.2577113,8676
-Coles,Nambour Mill Road,Nambour,4560,-26.625393,152.958052,9870
-Coles,Goldfield Plaza Shopping Centre Cnr Monkland Street & O'Connell Street,Gympie,4570,-26.35,152.67,9932
-Coles,Cnr Edith Street & Ernest Street,Innisfail,4860,-27.4978484,153.0455165,11367
-Coles,Cnr Lannercost Street & McIlwraith Street,Ingham,4850,-18.6504754,146.1520579,11274
+Coles,Nambour Mill Road,Nambour,4560,-26.625393,152.958052,9874
+Coles,Goldfield Plaza Shopping Centre Cnr Monkland Street & O'Connell Street,Gympie,4570,-26.35,152.67,9954
+Coles,Cnr Edith Street & Ernest Street,Innisfail,4860,-27.4978484,153.0455165,11377
+Coles,Cnr Lannercost Street & McIlwraith Street,Ingham,4850,-18.6504754,146.1520579,9332
 Coles,Westcourt Plaza Shopping Centre,Cairns,4870,-16.88,145.75,11416
-Coles,Byron Street,Inverell,2360,-29.7740258,151.1106888,1725
+Coles,Byron Street,Inverell,2360,-29.7740258,151.1106888,1726
 Coles,Labrador Shopping Centre,Labrador,4215,-27.97,153.42,8724
-Coles,Noosa Fair Shopping Centre,Noosa,4567,-26.43,153.11,9918
+Coles,Noosa Fair Shopping Centre,Noosa,4567,-26.43,153.11,9914
 Coles,Cnr Main Street & Bellews Street,Beenleigh,4207,53.201436,-0.2154357,8654
 Coles,Lutwyche Shopping CentreCnr Lutwyche Road & Lowerson Street,Lutwyche,4030,-27.42,153.03,8390
 Coles,Florence Street,Wynnum,4178,-27.4439408,153.1733225,8631
-Coles,1 Plaza Circle,Highfields,4352,-27.4589399,151.9590572,9165
+Coles,1 Plaza Circle,Highfields,4352,-27.4589399,151.9590572,9180
 Coles,Cusak Lane,Jimboomba,4280,-27.83,153.03,8790
 Coles,Musgrave Street,Berserker,4701,-23.3553497,150.5239456,10544
-Coles,Duke Street,Grafton,2460,-29.6887955,152.9376244,2412
+Coles,Duke Street,Grafton,2460,-29.6887955,152.9376244,2441
 Coles,Toombul Shopping Centre Sandgate Road,Toombul,4012,-27.4,153.06,8352
 Coles,Minjungbal Drive,Tweed South,2486,-28.1861034,153.5388968,2917
 Coles,482 Casuarina Way,Casuarina,2487,-28.2897094,153.5727898,2922
@@ -1529,20 +1529,20 @@ Coles,Everton Park Plaza Shopping Centre,Everton Park,4053,-27.41,152.98,8416
 Coles,Cannonhill Plaza Shopping Centre,Cannon Hill,4170,-27.47,153.1,8618
 Coles,Old Cleveland Road,Cooraparoo,4151,-27.5,153.06,8587
 Coles,Ashgrove Village Shopping Centre,Ashgrove,4060,-27.45,152.99,8432
-Coles,Arndale Shopping Centre Cinderella Drive,Springwood,4127,-27.6122996,153.124241975672,8571
+Coles,Arndale Shopping Centre Cinderella Drive,Springwood,4127,-27.6122996,153.124242,8571
 Coles,Balo Square Shopping Centre Cnr Newell Highway & Gwydir Street,Moree,2400,-29.32,149.81,1899
 Coles,Tweed Heads Mall Shopping CentreCnr Pacific Highway & Frances Street,Tweed heads,2485,-28.18,153.54,2906
-Coles,Lismore Square Shopping Centre Cnr Brewster Street & Uralba Street,Lismore,2480,-28.61,153.04,2753
+Coles,Lismore Square Shopping Centre Cnr Brewster Street & Uralba Street,Lismore,2480,-28.61,153.04,2780
 Coles,Sunland Shopping Centre Cnr Bowen Avenue & First Avenue,Caloundra,4551,-26.78,153.11,9805
 Coles,Kensington Shopping CentreCnr Sovereign Avenue & Kensington Way,Strathpine,4500,-27.29,152.96,9698
-Coles,MT Pleasant Shopping Centre,Mackay,4740,-21.118484,149.158887764044,10835
+Coles,MT Pleasant Shopping Centre,Mackay,4740,-21.118484,149.1588878,10852
 Coles,Mareeba Plaza Shopping Centre,Mareeba,4880,-17.11,145.3,11618
 Coles,Cnr Anne Street & William Street,Gatton,4343,51.5232959,0.0190169,9074
-Coles,Grafton Mall Shopping Centre,Grafton,2460,-29.05,152.59,2412
+Coles,Grafton Mall Shopping Centre,Grafton,2460,-29.05,152.59,2441
 Coles,Mt Isa Plaza Shopping Centre Cnr Marian Street & Simpson Street,Mt Isa,4825,-21.16,149.1,11219
 Coles,Pinelands Plaza Shopping CentreCnr Beenleigh Road & Pinelands Road,Sunnybank Hills,4109,-27.57,153.08,8514
 Coles,Cnr Condamine Street & Patrick Street,Dalby,4405,-27.6074035,153.0666096,9487
-Coles,Toowoomba Plaza Shopping Centre Cnr Ruthven Street & Stenner Street,Toowoomba,4350,-27.62,151.77,9120
+Coles,Toowoomba Plaza Shopping Centre Cnr Ruthven Street & Stenner Street,Toowoomba,4350,-27.62,151.77,9141
 Coles,Arana Hills Shopping Centre Cnr Patricks Road & Dawson Parade,Arana Hills,4054,-27.4,152.96,8422
 Coles,Cnr Ross River Road & Nathan Street,Aitkenvale,4814,-19.3133604,146.7419068,11076
 Coles,Cnr Oxley Road & Clewley Street,Corinda,4075,-27.5558198,152.9786509,8474
@@ -1550,19 +1550,19 @@ Coles,Woodridge Plaza Shopping CentreCnr Wembley Road & Wilbur Street,Woodridge,
 Coles,Bundaberg Village Shopping Centre Cnr George Street & Maryborough Street,Bunderberg,4670,-24.84,152.02,10372
 Coles,Cnr Gordon Street & Brisbane Street,Ipswich,4305,-27.5013509,153.0466334,8864
 Coles,Scarborough Fair Shopping Centre,Southport,4215,-27.97,153.42,8725
-Coles,Station Street,Nerang,4211,-27.994973,153.3395133,8696
-Coles,Marsden Park Shopping Centre,Marsden,4132,-27.6792097,153.11592754963,8582
+Coles,Station Street,Nerang,4211,-27.994973,153.3395133,8698
+Coles,Marsden Park Shopping Centre,Marsden,4132,-27.6792097,153.1159275,8582
 Coles,Moranbah Fair Shopping Centre,Moranbah,4744,-22,148.05,10915
 Coles,Redbank Plaza Shopping CentreCnr Collingwood Drive & Law Street,Redbank,4301,-27.61,152.86,8844
 Coles,Cnr Brsibane Street & Woolumbin Street,Murwillambah,2484,-28.4,153.17,2858
-Coles,The Gap Village Shopping Centre,The Gap,4061,-27.44594465,152.952470506244,8434
+Coles,The Gap Village Shopping Centre,The Gap,4061,-27.44594465,152.9524705,8434
 Coles,Greenslopes Mall Shopping Centre Logab Road,Greenslopes,4120,-27.51,153.05,8543
 Coles,Toowong Village Shopping Centre Sherwood Road,Toowong,4066,-27.48,152.99,8441
-Coles,Capalaba Park Shopping Centre Cnr Redland Bay Road & Mt Cotton Road,Capalaba,4157,-27.52348485,153.190677762996,8600
+Coles,Capalaba Park Shopping Centre Cnr Redland Bay Road & Mt Cotton Road,Capalaba,4157,-27.52348485,153.1906778,8600
 Coles,Edward Street,Ayr,4807,-19.55,147.44,11019
 Coles,Beaudesert Fair Shopping Centre Cnr Anna Street & William Street,Beaudesert,4285,-27.9,152.94,8795
 Coles,Fairfield Shopping CentreCnr Brougham Street & Fairfield Road,Fairfield,4103,-27.51,153.03,8497
-Coles,Pialba Plaza Shopping Centre,Pialba,4655,-25.2833073,152.839738915311,10318
+Coles,Pialba Plaza Shopping Centre,Pialba,4655,-25.2833073,152.8397389,10320
 Coles,Sunnybank Plaza Shopping Centre Cnr Mains Road & McCulloch Street,Sunnybank,4109,-27.57,153.08,8513
 Coles,Kenmore Village Shopping Centre Brookfield Road,Kenmore,4069,-27.49,152.9,8453
 Coles,Cnr Albany Creek Road & Wruck Cresent,Albany Creek,4035,44.7124231,-72.3315403,8404
@@ -1570,44 +1570,44 @@ Coles,Cnr Fitzroy Street & Bolsover Street,Rockhampton,4700,-37.8069861,144.9758
 Coles,Kippa Ring Shopping CentreCnr Anzac Avenue & Boardman Road,Kippa Ring,4020,-27.23,153.12,8381
 Coles,Cnr Beruda Street & Burleigh Road,Burleigh West,4220,-28.09,153.45,8751
 Coles,Little Conadilly Street,Gunnedah,2380,-30.9799221,150.2591375,1839
-Coles,Sunshine Plaza Shopping Centre,Maroochydore,4558,-26.6543871,153.087390743916,9853
+Coles,Sunshine Plaza Shopping Centre,Maroochydore,4558,-26.6543871,153.0873907,9853
 Coles,Mangare Sheree LittleCnr Norris Road & Telegraph Road,Bracken Ridge,4017,-27.33,153.03,8362
 Coles,Cnr Browns Plains Road & Mount Lindsay Highway,Browns Plains,4118,-27.6604605,153.0380712,8537
-Coles,Cnr Bowen Road & Ross River Road,Townsville,4810,42.129961,-79.040208,11051
-Coles,Willow Shopping Centre Cnr Thuringowa Drive & Herveys Range Road,Townsville,4810,-19.25,146.8,11051
+Coles,Cnr Bowen Road & Ross River Road,Townsville,4810,42.129961,-79.040208,11052
+Coles,Willow Shopping Centre Cnr Thuringowa Drive & Herveys Range Road,Townsville,4810,-19.25,146.8,11052
 Coles,Newmarket Enoggera Road,Newmarket,4051,-27.42,153,8412
 Coles,Bay Central Shopping Centre,Harvey Bay,4655,-25.35,152.89,10318
 Coles,Cnr Lae Street & Morala Drive,Runaway Bay,4216,21.321046,-157.8424888,8732
 Coles,Smithfield Shopping Centre Cnr Captain Cook Highway & Kennedy Highway,Cairns,4870,-16.8384064,145.6928361,11416
 Coles,Springfield Shopping CentreCnr Sapphire Street & Springfield Parkway,Camira,4300,-27.67,152.89,8836
-Coles,Cnr Margaret Street & Clifford Street,Toowoomba,4350,51.5164492,-0.1423843,9120
-Coles,Goonellabah Shopping Centre,Goonellabah,2480,-28.61,153.04,2753
+Coles,Cnr Margaret Street & Clifford Street,Toowoomba,4350,51.5164492,-0.1423843,9141
+Coles,Goonellabah Shopping Centre,Goonellabah,2480,-28.61,153.04,2770
 Coles,Cnr McLeod Street & Spence Street,Cairns,4870,32.307206,-90.1921814,11416
 Coles,Merthyr Road (Delivery via Welsby Street ONLY),Newfarm,4005,-27.47,153.05,8333
 Coles,Wynnum Plaza Shopping Centre Wynnum Road,Wynnum,4178,-27.42,153.16,8631
 Coles,Cnr Middle Wynard Street & Shore Street,Cleveland,4163,-27.53,153.26,8609
 Coles,Cnr Claremont Street & Opal Street,Emerald,4720,42.3502824,-71.1914548,10745
 Coles,Anzac Avenue,Mango Hill,4509,-27.2254696,153.0357926,9724
-Coles,Macrossen Street,Port Douglas,4871,-17.61,143.19,11449
+Coles,Macrossen Street,Port Douglas,4871,-17.61,143.19,11600
 Coles,Chermside Shopping CentreCnr Gympie Road & Hamilton Road,Chermside,4032,-27.39,153.03,8395
 Coles,Brunswick Street,Fortitude Valley,4006,-27.4525281,153.0291384,8335
 Coles,37 Birkin Road,Bellbowrie,4070,-27.5631446,152.8886453,8461
 Coles,Cnr Mooloolaba Street & Venning Street,Mooloolaba,4557,-26.6791955,153.1137635,9849
-Coles,Cnr Treelands Drive & Yamba Road,Yamba,2462,51.8801594,-2.0767048,2502
+Coles,Cnr Treelands Drive & Yamba Road,Yamba,2462,51.8801594,-2.0767048,15808
 Coles,Boundary Street,South Brisbane,4101,-27.4771001,153.01279,8490
 Coles,Cnr Goldcoast Highway & Elkhorn Avenue,Surfers Paradise,4217,-28.01,153.39,8742
 Coles,Cnr Napper Road & Daintree Drive,Arundel,4214,-27.9456922,153.3662792,8715
 Coles,Robinson Road,West Aspley,4034,-27.3661433,153.0321995,8403
 Coles,Horizon Drive,Middle Park,4074,-27.5551405,152.924131,8468
-Coles,Cnr Victoria Street & Mangrove Road,Mackay,4740,42.315808,-71.058598,10835
-Coles,100 Pelican Waters Boulevard,Pelican Waters,4551,-26.8124665,153.1142248,9812
-Coles,Nerang Village Shopping Centre Beaudesert - Nerang Road,Nerang,4211,-28.03,153.28,8696
+Coles,Cnr Victoria Street & Mangrove Road,Mackay,4740,42.315808,-71.058598,10852
+Coles,100 Pelican Waters Boulevard,Pelican Waters,4551,-26.8124665,153.1142248,9816
+Coles,Nerang Village Shopping Centre Beaudesert - Nerang Road,Nerang,4211,-28.03,153.28,8698
 Coles,Cnr Dohles Rocks Drive & Goodrich Drive,Murrumba Downs,4503,-27.23,152.98,9707
 Coles,Cnr University Road & Macarthur Drive,Annandale,4814,-26.1812278,28.0022074,11077
-Coles,Level E The Myer Centre91 Queen Street,Brisbane,4000,-27.47,153.03,8331
-Coles,Karalee Shopping Centre,Chuwar,4306,-27.64,152.7,8888
-Coles,44 Brisbane Street,Ipswich,4566,-27.6155022,152.7650153,9914
-Coles,Cnr Bruce Highway & Foster Road,White Rock,4869,-27.2925524,153.0186818,11411
+Coles,Level E The Myer Centre91 Queen Street,Brisbane,4000,-27.47,153.03,8616
+Coles,Karalee Shopping Centre,Chuwar,4306,-27.64,152.7,8891
+Coles,44 Brisbane Street,Ipswich,4566,-27.6155022,152.7650153,8875
+Coles,Cnr Bruce Highway & Foster Road,White Rock,4869,-27.2925524,153.0186818,11406
 Coles,Racecourse Road,Ascot,4007,-27.4351461,153.0649621,8339
 Coles,31Geaney Lane,Deeragun,4818,-19.2,146.66,11146
 Coles,Garden City Shopping Centre,Mount Gravatt,4122,-27.54,153.1,8553
@@ -1617,38 +1617,38 @@ Coles,1151 Creek Road,Carindale,4152,-27.5012282,153.102429,8592
 Coles,Reserve Road,Upper Coomera,4209,-27.8671721,153.2878501,8680
 Coles,2Cnr Frasers Drive & Leisure Drive,Banora Point,2486,-28.21,153.54,2908
 Coles,Junction Road,Morningside,4170,-27.4667753,153.0785145,8619
-Coles,Queen Street,Brisbane,4000,-27.4622993,153.0312394,8331
-Coles,Hampton Drive,Tannum Sands,4680,-23.9463852,151.3586353,10486
+Coles,Queen Street,Brisbane,4000,-27.4622993,153.0312394,8616
+Coles,Hampton Drive,Tannum Sands,4680,-23.9463852,151.3586353,10510
 Coles,Cnr Endeavour Street & Captain Cook Highway,Clifton Beach,4879,-27.5442841,152.940142,11608
 Coles,1 Station Road,Burpengary,4505,-27.1545563,152.9719584,9710
 Coles,Gold Coast Highway,Miami,4220,-28.0757483,153.4451372,8755
 Coles,4Cnr Gold Coast Highway,Helensvale,4212,-27.92,153.33,8704
-Coles,Sydney Road,Mackay,4740,-21.16,149.1,10835
+Coles,Sydney Road,Mackay,4740,-21.16,149.1,10852
 Coles,Building ALogan Road,Upper Mount Gravatt,4122,-27.54,153.1,8555
-Coles,3 The Terrace,North Ipswich,4305,-27.5939016,152.7624266,8865
+Coles,3 The Terrace,North Ipswich,4305,-27.5939016,152.7624266,8869
 Coles,Bell Place,Mudgeeraba,4213,-28.0803556,153.3656189,8710
 Coles,Whitsunday Shopping CentreCnr Island Drive & Shute Harbour Road,Cannonvale,4802,-20.27,148.72,10986
-Coles,Shop 95,Newtown,4350,-27.62,151.77,9120
+Coles,Shop 95,Newtown,4350,-27.62,151.77,9132
 Coles,107 Sippy Downs Drive,Sippy Downs,4556,-26.7149452,153.0595064,9847
 Coles,26-28 Mitchell Street,North Ward,4810,-19.2431128,146.8064332,11045
 Coles,Rajah Road,Ocean Shores,2483,-28.5216828,153.545352,2842
 Coles,163 Ferry Road,Southport,4215,-27.9860074,153.408608,8725
 Coles,320 Thuringowa Drive,Kirwan,4817,-19.2912785,146.7393644,11134
 Coles,Cnr Pacific Hwy and Bryants Road,Loganholme,4129,-27.69,153.18,8574
-Coles,Northpoint Shopping Centre,North Toowoomba,4350,-27.5405956,151.953349469384,9120
-Coles,Station Square Shopping Centre Cnr Lennox St & Alice St,Maryborough,4650,-25.47,152.66,10268
+Coles,Northpoint Shopping Centre,North Toowoomba,4350,-27.5405956,151.9533495,9133
+Coles,Station Square Shopping Centre Cnr Lennox St & Alice St,Maryborough,4650,-25.47,152.66,10279
 Coles,322 Moggill Road,Indooroopilly,4068,-27.5009347,152.9719931,8447
-Coles,Rose City Shoppingworld,Warwick,4370,-28.2,151.95,9336
-Coles,2 Norris Street,Pacific Pines,4211,-27.9261329,153.3052933,8696
-Coles,Orion Springfield Central,Springfield Central,4300,-27.6777844,152.902559295139,8841
-Coles,622-640 Ripley Road,Ripley,4306,-27.64,152.7,8888
+Coles,Rose City Shoppingworld,Warwick,4370,-28.2,151.95,9367
+Coles,2 Norris Street,Pacific Pines,4211,-27.9261329,153.3052933,8702
+Coles,Orion Springfield Central,Springfield Central,4300,-27.6777844,152.9025593,8841
+Coles,622-640 Ripley Road,Ripley,4306,-27.64,152.7,8921
 Coles,1 City Centre Drive,Upper Coomera,4209,-27.8514166,153.3013837,8680
 Coles,Albany Creek Road,Aspley,4034,-27.3639838,153.015564,8399
 Coles,Sunnybank Hills Shopping Centre Cnr Compton Road & Calam Road,Sunnybank Hills,4109,-27.57,153.08,8514
 Coles,David Lo Way,Pacific Paradise,4564,-26.58,153.1,9905
 Coles,Cnr Grange Road & Blackstone Road,Silkstone,4304,-27.4223881,153.014849,8855
 Coles,Cnr Argyle Street & Redbank Plains Road,Redbank Plains,4301,-36.9440104,144.7269199,8845
-Coles,2-24 Waldron Street,Yarrabilba,4207,-27.8030988,153.102244,8660
+Coles,2-24 Waldron Street,Yarrabilba,4207,-27.8030988,153.102244,8669
 Coles,Gwydir Square,Keleen,2617,-35.24,149.07,3702
 Coles,12 Sangster Place,Wanniassa,2903,-35.3914952,149.0865973,5156
 Coles,Shop EG24 Canberra Centre,Canberra,2601,-35.28,149.11,3618
@@ -1656,9 +1656,9 @@ Coles,4-12 Garfield Street,Five Dock,2046,-33.8678408,151.1290559,448
 Coles,822-826 Old Princes Highway,Sutherland,2232,-34.0310747,151.0653255,931
 Coles,420 Secret Harbour Boulevard,Secret Harbour,6173,-32.4066929,115.7586874,14036
 Coles,49 Banksiadale Gate,Lakelands,6180,-32.4689423,115.7616648,14040
-Coles,130-130a Takalvan Street,Kensington,4670,-24.888957,152.3199892,10372
-Coles,Clemton Park Village,Clemton Park,2194,-33.91,151.1,824
-Coles,200 Gilchrist Drive,Campbelltown,2560,-34.07519635,150.797796094726,3338
+Coles,130-130a Takalvan Street,Kensington,4670,-24.888957,152.3199892,10391
+Coles,Clemton Park Village,Clemton Park,2194,-33.91,151.1,848
+Coles,200 Gilchrist Drive,Campbelltown,2560,-34.07519635,150.7977961,3338
 Coles,12K Longstaff Avenue,Alkimos,6038,-31.6275384,115.6915752,13737
 Coles,227 Belmont Avenue,Cloverdale,6105,-31.9659727,115.9343575,13880
 Coles,102 Pimpama Jacob Wells Road,Pimpama,4209,-27.87,153.32,8679
@@ -1680,46 +1680,46 @@ Coles,7 Gossan Street,Broken Hill North,2880,-31.9517389,141.4453026,5137
 Coles,178 Main Road,McLaren Vale,5171,-35.2145861,138.5367886,12187
 Coles,77-81 Rundle Mall,Rundle Mall,5000,-34.93,138.6,11712
 Coles,Cnr McDowell & Nicolson Ave,Whyalla,5600,37.4028931,-81.3803801,13270
-Coles,Murray Bridge Green Shopping Centre,Murray Bridge,5253,-35.09,139.31,12386
+Coles,Murray Bridge Green Shopping Centre,Murray Bridge,5253,-35.09,139.31,12388
 Coles,Cheltenham Parade,St Clair,5011,-34.8680314,138.5290268,11736
 Coles,390 Churchhill Road,Kilburn,5084,-34.86,138.6,11975
 Coles,4 Tulloch Road(Cnr Main North Road),Evanston Gardens,5116,-34.62,138.73,12070
 Coles,68-84 John Street,Salisbury,5108,-34.7627447,138.6441391,12022
 Coles,238 Diagonal Road,Warradale,5046,-35.0094739,138.539499,11849
-Coles,2-20 Rosenthal Avenue,Lane Cove,2066,-33.81357995,151.168810661839,479
+Coles,2-20 Rosenthal Avenue,Lane Cove,2066,-33.81357995,151.1688107,479
 Coles,99 Walker Street,North Sydney,2060,-33.8392858,151.2089699,464
 Coles,566-594 Princess Hwy,Kirrawee,2232,-34.08,151.06,928
 Coles,Cnr Darlington Drive & Leisure Drive,2486 NS,2486,40.238003,-74.37016,2917
 Coles,1-11 Town Terrace,Glenmore Park,2745,-33.788991,150.6694745,4360
 Coles,Grey Street,Glen Innes,2370,-29.7263211,151.737776,1783
-Coles,54 Old Bar Road,Old Bar,2430,-31.966049,152.5695241,2115
+Coles,54 Old Bar Road,Old Bar,2430,-31.966049,152.5695241,2131
 Coles,166 Mona Vale Road,St Ives,2075,-33.729429,151.1590732,511
 Coles,255-279 Gregory Street,South West Rocks,2431,-30.89,153.07,2148
-Coles,195 Harbour Drive Road,Coffs Harbour,2450,-30.29930905,153.119056990629,2338
-Coles,River Front Plaza Belgrave Street,Kempsey,2440,-31.06,152.77,2168
-Coles,Moonee Beach Shop 23 Moonee Beach Road,Moonee Beach,2450,-30.34,153.07,2344
-Coles,Toormina Gardens Shopping Centre Cnr Toormina Drive & Minorie Drive,Toorima,2452,-30.35395355,153.092338701281,2356
-Coles,Cnr Ocean & Emerald Drives,Port Macquarie,2444,39.94183245,-74.0707350508569,2252
+Coles,195 Harbour Drive Road,Coffs Harbour,2450,-30.29930905,153.119057,2338
+Coles,River Front Plaza Belgrave Street,Kempsey,2440,-31.06,152.77,2181
+Coles,Moonee Beach Shop 23 Moonee Beach Road,Moonee Beach,2450,-30.34,153.07,2347
+Coles,Toormina Gardens Shopping Centre Cnr Toormina Drive & Minorie Drive,Toorima,2452,-30.35395355,153.0923387,2356
+Coles,Cnr Ocean & Emerald Drives,Port Macquarie,2444,39.94183245,-74.07073505,2252
 Coles,Cnr Oxley Hwy & Major Innes Drive,Port Macquarie,2444,-31.4518475,152.8751383,2252
-Coles,Cnr Bold & Tunis Streets,Laurieton,2443,53.4276049,-2.6845489,2236
+Coles,Cnr Bold & Tunis Streets,Laurieton,2443,53.4276049,-2.6845489,2238
 Coles,28 Haywood Street,Port Macquarie,2444,-31.4,152.85,2252
 Coles,7Cnr Avoca Drive & Sun Valley Road,Green Point,2251,-33.46,151.43,984
 Coles,Cnr Taylor Avenue & Thomas Cook Drive,Thornton,2322,34.728553,-87.633779,1332
-Coles,7 Kirkham Road,Moss Vale,2577,-34.61,150.48,3447
-Coles,11 Mayall Street,Tea Gardens,2324,-32.67,151.81,1359
-Coles,Bent Street,South Grafton,2460,-29.7076751,152.9395499,2412
+Coles,7 Kirkham Road,Moss Vale,2577,-34.61,150.48,3455
+Coles,11 Mayall Street,Tea Gardens,2324,-32.67,151.81,1370
+Coles,Bent Street,South Grafton,2460,-29.7076751,152.9395499,2474
 Coles,Canterbury Street,Casino,2470,-28.8602867,153.032487,2592
-Coles,Rouse Street,Tenterfield,2372,-29.0424493,152.0211937,1819
+Coles,Rouse Street,Tenterfield,2372,-29.0424493,152.0211937,1827
 Coles,Cnr Wyong Street & South Street,Killarney Vale,2261,-17.0125038,145.7154314,1072
 Coles,Imlay Street,Eden,2551,-37.0607909,149.9037395,3310
 Coles,Thirroul Village Plaza,Thirroul,2515,-34.3181745,150.9189104,2969
-Coles,Percy Street,Wellington,2820,-32.554223,148.942718,4784
+Coles,Percy Street,Wellington,2820,-32.554223,148.942718,4797
 Coles,Cnr Chittaway Road & Wyong Road,Chittaway Point,2261,-33.3473659,151.3805306,1070
-Coles,Avoca Road,Kincumber,2250,-33.11,151.14,954
-Coles,Oscar Street,Umina Beach,2256,-33.5212016,151.3177349,1000
+Coles,Avoca Road,Kincumber,2250,-33.11,151.14,986
+Coles,Oscar Street,Umina Beach,2256,-33.5212016,151.3177349,1011
 Coles,19-31 Walker Street,Helensburgh,2508,-34.2015612,150.9798918,2958
 Coles,Cnr Kendall Street & Macquarie Street,Cowra,2794,42.3365241,-71.0824276,4605
-Coles,Church Street,Mudgee,2850,-32.6037454,149.5861908,4985
+Coles,Church Street,Mudgee,2850,-32.6037454,149.5861908,5021
 Coles,Kierath Shopping Centre Dandaloo Street,Narromine,2821,-32.06,148.26,4801
 Coles,Bogan Street,Parkes,2870,-33.1293783,148.1732023,5095
 Coles,Cnr Noela Place & Tenth Avenue,Budgewoi,2262,21.263866,-157.8153419,1081
@@ -1729,16 +1729,16 @@ Coles,Fishery Point Road,Bonnells Bay,2264,-33.1108764,151.5083506,1097
 Coles,Chatswood Chase Shopping Centre Victoria Avenue,Chatswood,2067,-33.8,151.19,487
 Coles,Rutherford Road,South Muswellbrook,2333,-32.2823418,150.8951893,1494
 Coles,North Richmond Shopping Centre Riverview Street,North Richmond,2754,-33.58,150.72,4399
-Coles,WINGHAMCnr Primrose Street & Isabella Street,Wingham,2429,-31.73,152.28,2083
+Coles,WINGHAMCnr Primrose Street & Isabella Street,Wingham,2429,-31.73,152.28,2104
 Coles,11 Pioneer Street,Amaroo,2914,-35.1651648,149.1325023,5182
-Coles,Cnr Talavera & Herring Roads,North Ryde,2113,33.22315465,-111.709357962268,620
+Coles,Cnr Talavera & Herring Roads,North Ryde,2113,33.22315465,-111.709358,620
 Coles,13-19 Boronia Road,Greenacre,2190,-33.906376,151.0543561,817
 Coles,Macfarlane Street,Merrylands,2160,-33.84,150.99,741
-Coles,Southgate Shopping Centre,South Tamworth,2340,-30.96,150.83,1571
+Coles,Southgate Shopping Centre,South Tamworth,2340,-30.96,150.83,1591
 Coles,Shop 1201,Shellharbour,2529,-34.57,150.83,3014
 Coles,77 Maitland Road,Mayfield,2304,-32.896958,151.7360679,1225
 Coles,326 Camden Valley Way,Narellan,2567,-34.041512,150.73791,3370
-Coles,Top Ryde Shopping Centre,Ryde,2122,-33.79,151.08,644
+Coles,Top Ryde Shopping Centre,Ryde,2122,-33.79,151.08,11733
 Coles,540 Derrimut Road,Tarneit,3029,-37.840987,144.6897737,5248
 Coles,289 Mt Low Park Way,Bushland Beach,4818,-19.2,146.66,11144
 Coles,200 Hummingbird Boulevard,Tarneit,3029,-37.8364876,144.6701035,5248
@@ -1749,9 +1749,9 @@ Coles,Cove Street,Sorell,7172,-42.72,147.75,15643
 Coles,500-540 Torquay Road,Armstrong Creek,3217,-38.2,144.3,5680
 Coles,385 Invermay Road,Mowbray,7248,-41.4054492,147.1326167,15736
 Coles,Sandy Bay Road,Sandy bay,7005,-42.8977138,147.3289749,15383
-Coles,Risdon Road,Newtown,7008,-42.8541505,147.3078965,15387
+Coles,Risdon Road,Newtown,7008,-42.8541505,147.3078965,9132
 Coles,Burnie Plaza Shopping Centre,Burnie,7320,-41.0516911,145.9064559,16041
-Coles,11 Parsons Road,Lisarow,2250,-33.3863855,151.3660758,954
+Coles,11 Parsons Road,Lisarow,2250,-33.3863855,151.3660758,957
 Coles,Cnr Ferodale Road & Medowie Rds,Medowie,2318,-32.7381413,151.8455421,1267
 Coles,20-30 Blamey Street,Revesby,2212,-33.9528026,151.014898,867
 Coles,15 Racecourse Cresent,Launceston,7250,-41.46,147.08,15745
@@ -1760,18 +1760,18 @@ Coles,2-4 Defries Avenue,Zetland,2017,-33.9048524,151.2126803,374
 Coles,101-111 Willoughby Road,Crows Nest,2065,-33.8252964,151.2008931,472
 Coles,East Street,Narrandera,2700,-34.7451433,146.5534456,4180
 Coles,200 Crown Street,Wollongong,2500,-34.4255195,150.8905437,2947
-Coles,1 Burton Street,VINCENTIA,2540,-35.070929,150.6750208,3150
+Coles,1 Burton Street,VINCENTIA,2540,-35.070929,150.6750208,3199
 Coles,Stocklands Shopping Centre,Wetherill Park,2164,-33.85,150.94,754
 Coles,179-183 Gray Street,Hamilton,3300,-37.7371863,142.0341931,5961
 Coles,91s Spring Hill Drive,Cranbourne,3977,-38.21,145.32,8264
 Coles,Eastlands S/C,Rosny,7018,-42.87,147.37,15417
-Coles,Reiby Street,Ulverston,7315,-41.21,146.18,16020
-Coles,390 Churchhill Road,Kilburn,5082,-34.9,138.59,11970
+Coles,Reiby Street,Ulverston,7315,-41.21,146.18,16027
+Coles,390 Churchhill Road,Kilburn,5082,-34.9,138.59,11976
 Coles,340 Craigieburn Road,Craigieburn,3064,-37.5968998,144.9225218,5333
 Coles,28-72 Neale Road,Deer Park,3023,-37.7513742,144.7661624,5233
 Coles,Invermay Road,Mowbray,7248,-41.4095379,147.131922,15736
 Coles,61 High Street,Woodend,3442,-37.35804,144.5259083,6521
-Coles,Lansell Square,Kangaroo Flat,3555,-36.80993105,144.242470376329,6991
+Coles,Lansell Square,Kangaroo Flat,3555,-36.80993105,144.2424704,6991
 Coles,25 Station Road,Melton South,3338,-37.7028602,144.5750505,6108
 Coles,26-32 Murradoc Road,Drysdale,3222,-38.1776115,144.6081183,5706
 Coles,Cnr Gunn Street & Best Street,Devonport,7310,32.7463219,-117.1310035,15990
@@ -1780,13 +1780,13 @@ Coles,Cnr John Street & Channel Highway,Kingston,7050,42.34373,-71.12117,15468
 Coles,Northgate Shopping CentreCnr Main Road & Riddoch Street,Glenorchy,7010,-42.82,147.3,15393
 Coles,Meadow Mews Shopping Centre Hobart Road,Kings Meadows,7249,-41.47,147.16,15739
 Coles,Covehill Fair Shopping Centre Cnr Derwent Highway & Covehill RoadEast,Bridgewater,7030,-42.42,147.14,15438
-Coles,198 Charles Street,Launceston South,7250,-41.4418466,147.140044545469,15752
+Coles,198 Charles Street,Launceston South,7250,-41.4418466,147.1400445,15752
 Coles,Wellington Wellington Street,Launceston,7250,-41.4459864,147.1392467,15745
 Coles,Elphin Road,Newstead,7250,-41.4358231,147.1564391,15746
 Coles,330 Ballarat Road,Braybrook,3019,-37.7783281,144.8507913,5216
 Coles,Torquay Central 41-57 Bristol Road,Torquay,3228,-38.3318299,144.3232285,5727
 Coles,2 Richardson Grove,Berwick,3806,-38.0321022,145.3450266,7702
-Coles,Casey Central Shopping Centre,Narre Warren South,3805,-38.06768125,145.300545926074,7701
+Coles,Casey Central Shopping Centre,Narre Warren South,3805,-38.06768125,145.3005459,7701
 Coles,Cnr Hovell Street and Elgin Boulevard,Wodonga,3690,-37.68,144.99,7402
 Coles,22 Empire Street,Branxton,2335,-32.6702359,151.3513562,1501
 Coles,250 Somerton Road,Roxburgh Park,3064,-37.6390787,144.9166357,5337
@@ -1807,12 +1807,12 @@ Coles,280 Berwick-Cranbourne Road,Cranbourne East,3977,-38.1140998,145.2911593,8
 Coles,1435 Plenty Road,Mernda,3754,-37.6006365,145.0966166,7614
 Coles,363-369 High Street,Kew,3101,-37.8057905,145.0335515,5403
 Coles,Footscray Plaza Shopping Centre,Footscray,3011,-37.8008499,144.898418,5199
-Coles,Aurora Town Centre,Epping North,3076,-37.6214501,145.006454497726,5357
+Coles,Aurora Town Centre,Epping North,3076,-37.6214501,145.0064545,5357
 Coles,Cnr High Street & Williamstown Road,Yarraville,3013,53.112782,-0.6469527,5207
 Coles,140-144 Bromfield Street,Colac,3250,-38.3409394,143.5852522,5811
-Coles,120 Station Lake Road,Lara,3212,-38.0242854,144.4096183,5657
+Coles,120 Station Lake Road,Lara,3212,-38.0242854,144.4096183,3900
 Coles,Watton Street,Werribee,3030,-37.8999666,144.6636586,5254
-Coles,Shop 8 High Street,Wallen,3756,-37.4,144.8,7619
+Coles,Shop 8 High Street,Wallen,3756,-37.4,144.8,3589
 Coles,Seymour Central Tallarook Street,Seymour,3660,-37.09,145.5,7281
 Coles,Bay City Shopping Centre Level 1 Moorabool Street,Geelong,3220,-38.18,145.11,5697
 Coles,Maroondah Highway,East Ringwood,3135,-37.8108904,145.2378316,5478
@@ -1820,18 +1820,18 @@ Coles,Northcote Plaza Separation Street,Northcote,3070,-37.7689487,145.0010804,5
 Coles,Lalor PlazaCnr McKimmies Road & Darebin Road,Lalor,3075,-37.67,145.02,5356
 Coles,Bluff Road,Hampton,3188,-37.9417874,145.0230409,5605
 Coles,Mt Alexander Road,Essendon,3040,-37.7513246,144.9151316,5277
-Coles,Shop 2 Westwood Drive,Burnside,3951,-37.7619819,144.7542159,8182
+Coles,Shop 2 Westwood Drive,Burnside,3951,-37.7619819,144.7542159,14308
 Coles,Union Street,Brunswick West,3055,-37.7729001,144.949929,5314
 Coles,Ashley Street,Braybrook,3019,-37.7976462,144.8622433,5216
-Coles,A High Street,Belmont,3215,-33.037454,151.6591595,5672
-Coles,Belmore Road,Balwyn,3129,-37.802136,145.104103,5458
+Coles,A High Street,Belmont,3215,-33.037454,151.6591595,13878
+Coles,Belmore Road,Balwyn,3129,-37.802136,145.104103,5409
 Coles,Victoria Street,Ballarat,3350,-37.5620192,143.8704022,6139
 Coles,2615 The Avenue,Sunshine West,3020,-37.7983442,144.8110919,5222
 Coles,735 Riversdale Road,Canterbury,3126,-37.84,145.09,5447
 Coles,124-138 Union Road,Surrey Hills,3127,-37.8255675,145.0973114,5449
-Coles,High Street,Bayswater,3084,-37.8413422,145.265037,5375
+Coles,High Street,Bayswater,3084,-37.8413422,145.265037,13756
 Coles,Shop 1-M01 Louis Street,AIRPORT WEST,3042,-37.71,144.89,5284
-Coles,173-199 Pioneer Road,Waurn Ponds,3216,-38.19999265,144.321364303655,5679
+Coles,173-199 Pioneer Road,Waurn Ponds,3216,-38.19999265,144.3213643,5679
 Coles,850 Plenty Road,Reservoir,3073,-37.7251542,145.0237805,5354
 Coles,380 Bay Street,Brighton,3186,-37.9059835,145.0048059,5599
 Coles,Lot 100 Soldiers Parade,Edmondson Park,2174,-33.9663382,150.8602102,800
@@ -1851,40 +1851,40 @@ Coles,Echuca Road,Mooroopna,3629,-36.3820166,145.3528456,7197
 Coles,Chadstone Shopping Centre Shop 300Cnr Dandenong Road & Chadstone Road,Chadstone,3148,-37.89,145.08,5515
 Coles,112-114 Thompson Avenue,Cowes,3922,-38.4635385,145.2389815,8121
 Coles,Victoria Street,Coburg,3058,-37.742784,144.9627741,5323
-Coles,Eastland Shopping Centre Maroondah Highway,Ringwood,3134,-37.81324835,145.229077306514,5472
+Coles,Eastland Shopping Centre Maroondah Highway,Ringwood,3134,-37.81324835,145.2290773,5472
 Coles,Hampton Park Food Market Hallam Road,Hampton Park,3976,-38.03,145.27,8261
-Coles,Knox City Shopping Centre Burwood Highway,Wantirna South,3152,-37.8692346,145.238708191236,5530
+Coles,Knox City Shopping Centre Burwood Highway,Wantirna South,3152,-37.8692346,145.2387082,5530
 Coles,Clyde Street,Myrtleford,3737,-36.5612189,146.7257919,7584
 Coles,Hampshire Street,Sunshine,3020,-37.78,144.82,5220
 Coles,Shannon Avenue,Geelong West,3218,-38.1426966,144.3359944,5685
 Coles,Cranbourne Park SC,Cranbourne,3977,-38.1094639,145.2841328,8264
 Coles,174 Gaffney Street,Coburg North,3058,-37.7338173,144.9635181,5324
 Coles,Ballarto Road,Carrum Downs,3201,-38.1159614,145.1841187,5644
-Coles,Burke Street,Maryborough,3465,-37.053057,143.7340072,6637
-Coles,Royal Melbourne Showgrounds Shop 1A Epsom Road,Ascot Vale,3031,-37.79,144.93,5257
+Coles,Burke Street,Maryborough,3465,-37.053057,143.7340072,6640
+Coles,Royal Melbourne Showgrounds Shop 1A Epsom Road,Ascot Vale,3031,-37.79,144.93,5258
 Coles,127-139 Nicholson Street,East Brunswick,3057,-37.7727642,144.9793251,5321
-Coles,160 Swan Street,Richmond,3121,-37.8254716445036,144.995077477961,5426
+Coles,160 Swan Street,Richmond,3121,-37.82547164,144.9950775,5426
 Coles,Toorak Road,Tooronga,3146,-37.85,145.07,5512
 Coles,McGinn Road,Ferny Grove,4055,-27.4048139,152.9277938,8425
 Coles,Sinnamon Road,Jindalee,4074,-27.5354061,152.9455483,8467
-Coles,Nellies Lane,Kallangur,4053,-27.2402886,152.9959592,8421
+Coles,Nellies Lane,Kallangur,4053,-27.2402886,152.9959592,9705
 Coles,Morayfield Vilage Shopping Centre Morayfield Road,Morayfield,4506,-27.15,152.86,9714
 Coles,Rode Shopping Centre Appleby Road,Stafford Heights,4053,-27.41,152.98,8421
 Coles,Runcorn Shopping PlazaCnr Daw Road & Warrigul Road,Runcorn,4113,-27.58,153.09,8525
 Coles,Koala Park Shopping CentreCnr Redland Bay Road & Bunker Road,Victoria Point,4165,-27.62,153.24,8614
-Coles,James Street,Yeppoon,4703,-23.1282911,150.7402447,10659
-Coles,Cnr Discovery & Sir John Overall Drive,Helensvale,4210,-26.1605556,27.8925,8686
+Coles,James Street,Yeppoon,4703,-23.1282911,150.7402447,10679
+Coles,Cnr Discovery & Sir John Overall Drive,Helensvale,4210,-26.1605556,27.8925,8705
 Coles,Pascoe Road,Ormeau,4208,-27.763806,153.245692,8676
 Coles,658 Reserve Road,Upper Coomera,4209,-27.8671721,153.2878501,8680
 Coles,Benowa Garden Shopping CentreCnr Benowa Road & Ashmore Road,Benowa,4217,-28.01,153.39,8734
-Coles,Allendale Close,Mermaid Waters,4225,-28.16,153.51,8764
+Coles,Allendale Close,Mermaid Waters,4225,-28.16,153.51,8746
 Coles,Cnr Bruxner Highway & Main Street,Alstonville,2477,-28.818695,153.3326732,2702
 Coles,Waterford Plaza Shopping CentreCnr Kingston Beenleigh Road & Tygun Road,Waterford,4133,-27.74,153.09,8585
 Coles,Cnr Havana Road & Peregian Drive,Peregian Springs,4573,44.073597,-93.135945,10016
 Coles,Capalaba Cental Shopping Centre Shop 2,Capalaba,4157,-27.53,153.19,8600
 Coles,Marsh Street,Armidale,2350,-30.5031171,151.6730627,1650
-Coles,Peel Street,Tamworth,2340,-31.0771841,150.9170644,1571
-Coles,Maitland Street,Narrabri,2390,-30.3226043,149.7815548,1875
-Coles,Northgate Shopping Centre Piper Street,Tamworth North,2340,-31.07764575,150.918290013043,1571
+Coles,Peel Street,Tamworth,2340,-31.0771841,150.9170644,1593
+Coles,Maitland Street,Narrabri,2390,-30.3226043,149.7815548,1877
+Coles,Northgate Shopping Centre Piper Street,Tamworth North,2340,-31.07764575,150.91829,1571
 Coles,352 Princess Highway,Narre Warren,3805,-38.02,145.3,7700
-Coles,2 Biggs Drive,Wonthaggi,3995,-38.53,145.45,8322
+Coles,2 Biggs Drive,Wonthaggi,3995,-38.53,145.45,8323

@@ -1,6 +1,36 @@
 const ExcelJS = require('exceljs');
 const fetch = require('node-fetch');
 
+function pickBestCodeForSearch(suburb, postcode, isFallback = false) {
+  return fetch("https://salefinder.com.au/ajax/locationsearch?callback=custom&query=" + (isFallback ? suburb : postcode), {
+    "method": "GET",
+  }).then(response => response.text())
+  .then((response) => {
+    const obj = JSON.parse(response.replace('custom(', '').slice(0, -1));
+    if (obj) {
+      console.log(obj);
+      if (obj.suggestions && obj.suggestions.length) {
+        const matched = obj.suggestions.filter(suggestion => suggestion.value === `${suburb.toUpperCase()}, ${postcode}`)[0];
+        if (matched) {
+          console.log('Matched: ' + matched.data);
+          return matched.data;
+        } else {
+          console.log('Fallback to: ' + obj.Id);
+          return obj.Id;
+        }
+      } else {
+        if (isFallback) {
+          console.log('No fallback left');
+          return undefined;
+        } else {
+          console.log('Falling back');
+          return pickBestCodeForSearch(suburb, postcode, true);
+        }
+      }
+    }
+  })
+}
+
 var workbook = new ExcelJS.Workbook();
 const filename = './all_locations_details.csv';
 let lastItem = Promise.resolve();
@@ -16,30 +46,9 @@ workbook.csv.readFile(filename)
         postcode = '0' + postcode;
       }
       lastItem = lastItem.then(() => {
-        return fetch("https://salefinder.com.au/ajax/locationsearch?callback=custom&query=" + postcode, {
-          "method": "GET",
-        }).then(response => response.text())
-        .then((response) => {
-          const obj = JSON.parse(response.replace('custom(', '').slice(0, -1));
-          if (obj) {
-            console.log(suburb, postcode);
-            console.log(obj);
-            if (obj.suggestions && obj.suggestions.length) {
-              const matched = obj.suggestions.filter(suggestion => suggestion.value === `${suburb.toUpperCase()}, ${postcode}`)[0];
-              if (matched) {
-                row.getCell(7).value = matched.data;
-                console.log('Matched: ' + matched.data);
-              } else {
-                row.getCell(7).value = obj.Id;
-                console.log('Fallback to: ' + obj.Id);
-              }
-            } else {
-              console.log(obj);
-              row.getCell(7).value = obj.Id;
-              console.log('Fallback to: ' + obj.Id);
-            }
-          }
-          console.log('Completed ' + rowNumber);
+        return pickBestCodeForSearch(suburb, postcode)
+        .then(result => {
+          row.getCell(7).value = result;
           workbook.csv.writeFile(filename)
           return new Promise((resolve) => setTimeout(resolve, 100));
         })
