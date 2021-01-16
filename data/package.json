@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "@adobe/node-fetch-retry": "^1.1.0",
+    "async": "^3.2.0",
     "cheerio": "^1.0.0-rc.5",
     "exceljs": "^4.2.0",
     "node-fetch": "^2.6.1"

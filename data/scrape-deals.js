@@ -1,6 +1,8 @@
 const ExcelJS = require('exceljs');
-const fetch = require('node-fetch');
+const fetch = require('@adobe/node-fetch-retry');
 const cheerio = require('cheerio');
+const { eachOfLimit } = require('async');
+const fs = require('fs');
 
 function catagorizeItem(rawItem) {
   const cleanUrl = rawItem.url.replace(/-/g, '');
@@ -96,42 +98,83 @@ function pickCheapest(allItems) {
 
 var workbook = new ExcelJS.Workbook();
 const filename = './all_locations_details.csv';
-let lastItem = Promise.resolve();
+// let lastItem = Promise.resolve();
+const uniqueCodes = new Set();
+const codeMap = {};
+const allStores = [];
 workbook.csv.readFile(filename)
 .then(function(worksheet) {
     worksheet.eachRow({ includeEmpty: true }, function(row, rowNumber) {
       if (rowNumber === 1) {
         return;
       }
-      const internal_code = row.values[7];
-      lastItem = lastItem.then(() => {
-        return Promise.all([
-          // woolworths deals
-          fetch("https://salefinder.com.au/search/coca%20cola?qs=1,,126,1,41", {
-            "headers": {
-              "cookie": `postcodeId=${internal_code}`
-            }
-          }).then(response => response.text()),
-          // coles deals
-          fetch("https://salefinder.com.au/search/coca%20cola?qs=1,,148,1,41", {
-            "headers": {
-              "cookie": `postcodeId=${internal_code}`
-            }
-          }).then(response => response.text())
-        ])
-        .then(([woolworthsResponse, colesResponse]) => {
-          const allItems = parseItems(woolworthsResponse, 'woolworths').concat(parseItems(colesResponse, 'coles'));
-          console.log(row.values);
-          console.log(allItems);
-          const cheapest = pickCheapest(allItems);
-          console.log(cheapest);
-        })
-        .catch(error => {
-          console.error(error);
-          return new Promise((resolve) => setTimeout(resolve, 100));
-        });
-      });
+      const internalCode = row.values[7];
+      uniqueCodes.add(internalCode);
+      codeMap[internalCode] = codeMap[internalCode] || [];
+      codeMap[internalCode].push(row.values);
     });
-
-    // return workbook.csv.writeFile(filename);
+}).then(() => {
+  eachOfLimit(Array.from(uniqueCodes), 10, (internal_code, key, callback) => {
+    console.log(`processing: ${key}/${uniqueCodes.size}`);
+    return Promise.all([
+      // woolworths deals
+      fetch("https://salefinder.com.au/search/coca%20cola?qs=1,,126,1,41", {
+        "headers": {
+          "cookie": `postcodeId=${internal_code}`
+        }
+      }).then(response => response.text()),
+      // coles deals
+      fetch("https://salefinder.com.au/search/coca%20cola?qs=1,,148,1,41", {
+        "headers": {
+          "cookie": `postcodeId=${internal_code}`
+        }
+      }).then(response => response.text())
+    ])
+    .then(([woolworthsResponse, colesResponse]) => {
+      const woolworthsItems = parseItems(woolworthsResponse, 'woolworths');
+      const colesItems = parseItems(colesResponse, 'coles');
+      console.log(codeMap[internal_code]);
+      const cheapestWoolworths = pickCheapest(woolworthsItems);
+      const cheapestColes = pickCheapest(colesItems);
+      console.log(cheapestWoolworths);
+      console.log(cheapestColes);
+      codeMap[internal_code].forEach((codeMapItem) => {
+        const store = {
+          type: codeMapItem[1].toLowerCase(),
+          lat: codeMapItem[5],
+          lon: codeMapItem[6]
+        };
+        let thisStoreCheapest = cheapestWoolworths;
+        if (store.type.toLowerCase() === 'coles') {
+          thisStoreCheapest = cheapestColes;
+        }
+        if (thisStoreCheapest.can) {
+          store.can = {
+            price: thisStoreCheapest.can.price,
+            qty: thisStoreCheapest.can.qty,
+            size: thisStoreCheapest.can.size
+          }
+        }
+        if (thisStoreCheapest.bottle) {
+          store.bottle = {
+            price: thisStoreCheapest.bottle.price,
+            size: thisStoreCheapest.bottle.size
+          }
+        }
+        if (store.bottle || store.can) {
+          allStores.push(store);
+          console.log('Writing data file, intermediate');
+          fs.writeFileSync('locations-with-prices.json', JSON.stringify(allStores));
+        }
+      });
+      callback();
+    })
+    .catch(error => {
+      console.error(error);
+      callback();
+    });
+  }, () => {
+    console.log('Writing data file');
+    fs.writeFileSync('locations-with-prices.json', JSON.stringify(allStores));
+  });
 });

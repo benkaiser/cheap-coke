@@ -1,4 +1,4 @@
-const openGeocoder = require('node-open-geocoder');
+const fetch = require('node-fetch');
 var fs = require('fs');
 var obj = JSON.parse(fs.readFileSync('./postcodes.json', 'utf8'));
 
@@ -13,40 +13,24 @@ workbook.csv.readFile(filename)
       if (rowNumber === 1) {
         return;
       }
-      // console.log(rowNumber, row.values[3], row.values[4]);
-      // console.log(obj[row.values[4]]);
-      // const objLookup = obj[row.values[4]];
-      // if (!objLookup) {
-      //   console.log("Postcode not found", row.values[3], row.values[4]);
-      //   return;
-      // }
-      // const exactMatches = objLookup.filter((item) => item[1].toLowerCase() === row.values[3].toLowerCase());
-      // if (exactMatches.length) {
-      //   row.getCell(5).value = exactMatches[0][3];
-      //   row.getCell(6).value = exactMatches[0][4];
-      // } else {
-        // row.getCell(5).value = objLookup[0][3];
-        // row.getCell(6).value = objLookup[0][4];
-      // }
       const searchText = row.values[2] + ' ' + row.values[3] + ' ' + row.values[4] + ' Australia';
       lastItem = lastItem.then(() => {
-        openGeocoder()
-        .geocode(searchText)
-        .end((err, res) => {
-          if (!err) {
-            if (res[0]&& res[0].lat && res[0].lon) {
-              row.getCell(5).value = res[0].lat;
-              row.getCell(6).value = res[0].lon;
-              console.log('Successfully set lat lon', rowNumber)
-            } else {
-              console.error('Returned but without lat lon', searchText);
-            }
+        fetch("https://atlas.microsoft.com/search/address/json?api-version=1.0&query=" + encodeURIComponent(searchText) + "&subscription-key=<SUBKEY>")
+        .then(response => response.json())
+        .then((res) => {
+          if (res && res.results && res.results[0]) {
+            row.getCell(5).value = res.results[0].position.lat;
+            row.getCell(6).value = res.results[0].position.lon;
+            console.log('Successfully set lat lon', rowNumber);
+            workbook.csv.writeFile(filename);
           } else {
-            console.error(err);
+            console.error('Returned but without lat lon', searchText);
           }
         })
-        workbook.csv.writeFile(filename);
-        return new Promise((resolve) => setTimeout(resolve, 1000));
+        .catch(() => {
+          console.log('Failed to geocode: ' + searchText);
+        });
+        return new Promise((resolve) => setTimeout(resolve, 50));
       });
 
       // console.log(row.values[3]);
