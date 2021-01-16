@@ -2,3 +2,11 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+#main {
+  padding-top: 40px;
+}
+
+button {
+  vertical-align: middle;
+}

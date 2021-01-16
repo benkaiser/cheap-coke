@@ -52,13 +52,6 @@ function catagorizeItem(rawItem) {
   return null;
 }
 
-function priceItems(item) {
-  return {
-    ...item,
-    perMl: item.price / item.qty / item.size
-  };
-}
-
 function parseItems(rawResponse, store) {
   const $ = cheerio.load(rawResponse);
   const items = [];
@@ -68,6 +61,7 @@ function parseItems(rawResponse, store) {
       store,
       name: itemName.text().trim(),
       price: parseFloat($(this).find('.price').text().trim().replace('$','').replace(' each', '')),
+      pricePerLitre: parseFloat($(this).find('.comparative-text').text().trim().replace('$','').replace(' per litre', '')),
       url: itemName.attr('href')
     });
   });
@@ -81,11 +75,11 @@ function pickCheapest(allItems) {
   let bestBottleDeal = bottleDeals[0];
   allItems.forEach(item => {
     if (item.type === 'can') {
-      if (item.perMl < bestCanDeal.perMl) {
+      if (item.pricePerLitre < bestCanDeal.pricePerLitre) {
         bestCanDeal = item;
       }
     } else if (item.type === 'bottle') {
-      if (item.perMl < bestBottleDeal.perMl) {
+      if (item.pricePerLitre < bestBottleDeal.pricePerLitre) {
         bestBottleDeal = item;
       }
     }
@@ -151,6 +145,7 @@ workbook.csv.readFile(filename)
         if (thisStoreCheapest.can) {
           store.can = {
             price: thisStoreCheapest.can.price,
+            pricePerLitre: thisStoreCheapest.can.pricePerLitre,
             qty: thisStoreCheapest.can.qty,
             size: thisStoreCheapest.can.size
           }
@@ -158,6 +153,7 @@ workbook.csv.readFile(filename)
         if (thisStoreCheapest.bottle) {
           store.bottle = {
             price: thisStoreCheapest.bottle.price,
+            pricePerLitre: thisStoreCheapest.bottle.pricePerLitre,
             size: thisStoreCheapest.bottle.size
           }
         }
