@@ -3,10 +3,6 @@ html, body {
   width: 100%;
 }
 
-h5 {
-  text-align: center;
-}
-
 .container {
   min-height: 100vh;
 }
@@ -48,6 +44,14 @@ h5 {
 
 .itemDetails {
   max-width: 60vw;
+  text-align: center;
+}
+
+.itemPricing {
+  margin-bottom: 0;
+  line-height: 1;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .brandLogo {

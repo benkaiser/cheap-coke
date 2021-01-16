@@ -11,6 +11,13 @@ if (window.geoplugin_latitude || window.geoplugin_longitude) {
   nameOfLocality = geoplugin_city();
 }
 
+navigator.permissions.query({name:'geolocation'})
+.then(function(permissionStatus) {
+  if (permissionStatus.state === 'granted') {
+    findLocation();
+  }
+});
+
 // distance formula
 function deg2rad(deg) {
   return deg * (Math.PI/180)
@@ -41,11 +48,6 @@ function findLocation() {
 
   function success(pos) {
     var crd = pos.coords;
-
-    console.log('Your current position is:');
-    console.log(`Latitude : ${crd.latitude}`);
-    console.log(`Longitude: ${crd.longitude}`);
-    console.log(`More or less ${crd.accuracy} meters.`);
     calculateAndRender(crd.latitude, crd.longitude, "Your Location");
   }
 
@@ -83,14 +85,16 @@ class App extends Component {
         <img src="images/can.png" className="itemPreview"/>
         <div className="itemDetails">
           <img src="images/${cheapestCan.type}.png" className="brandLogo"/>
-          <h5>${ cheapestCan.can.qty }x${ cheapestCan.can.size }ml: ${ cheapestCan.can.price }</h5>
+          <h5 className="itemPricing">${ cheapestCan.can.qty }x${ cheapestCan.can.size }ml: ${ cheapestCan.can.price }</h5>
+          <p>$${(0.375 * cheapestCan.can.pricePerLitre).toFixed(2)} per can</p>
         </div>
       </div>
       <div className="itemContainer">
         <img src="images/bottle.png" className="itemPreview"/>
         <div className="itemDetails">
           <img src="images/${cheapestBottle.type}.png" className="brandLogo"/>
-          <h5>${ cheapestBottle.bottle.size }ml: ${ cheapestBottle.bottle.price }</h5>
+          <h5 className="itemPricing">${ cheapestBottle.bottle.size }ml: ${ cheapestBottle.bottle.price }</h5>
+          <p>$${(cheapestCan.can.pricePerLitre).toFixed(2)} per litre</p>
         </div>
       </div>
       <button className="pepsiOk" onFocus=${this.onPepsiFocus.bind(this)} onBlur=${this.onPepsiBlur.bind(this)}>${ this.state.pepsiText }</button>
