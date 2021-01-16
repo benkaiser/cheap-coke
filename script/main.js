@@ -83,7 +83,7 @@ class App extends Component {
         <img src="images/can.png" className="itemPreview"/>
         <div className="itemDetails">
           <img src="images/${cheapestCan.type}.png" className="brandLogo"/>
-          <h5>${ cheapestCan.can.qty } x ${ cheapestCan.can.size }ml: ${ cheapestCan.can.price }</h5>
+          <h5>${ cheapestCan.can.qty }x${ cheapestCan.can.size }ml: ${ cheapestCan.can.price }</h5>
         </div>
       </div>
       <div className="itemContainer">

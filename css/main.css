@@ -3,6 +3,10 @@ html, body {
   width: 100%;
 }
 
+h5 {
+  text-align: center;
+}
+
 .container {
   min-height: 100vh;
 }
