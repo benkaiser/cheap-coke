@@ -56,12 +56,8 @@ function findLocation() {
   navigator.geolocation.getCurrentPosition(success, error, options);
 }
 
-function priceOf(item) {
-  return item.price / (item.qty || 1) / item.size;
-}
-
 function pickCheapest(closest, type) {
-  if (priceOf(closest['woolworths'][type]) < priceOf(closest['coles'][type])) {
+  if (closest['woolworths'][type].pricePerLitre < closest['coles'][type].pricePerLitre) {
     return closest['woolworths'];
   } else {
     return closest['coles'];
@@ -76,10 +72,10 @@ function App (props) {
       ${ props.city !== "Your Location" && html` <button onClick=${findLocation}>Use My Location</button>`}
     </h3>
     <p>
-    Cheapest cans can be found at ${cheapestCan.type} (${cheapestCan.can.qty} x ${cheapestCan.can.size}ml for $${cheapestCan.can.price})
+    Cheapest cans can be found at ${cheapestCan.type} (${cheapestCan.can.qty} x ${cheapestCan.can.size}ml: ${cheapestCan.can.price})
     </p>
     <p>
-    Cheapest bottles can be found at ${cheapestBottle.type} (${cheapestBottle.bottle.size}ml for $${cheapestBottle.bottle.price})
+    Cheapest bottles can be found at ${cheapestBottle.type} (${cheapestBottle.bottle.size}ml: ${cheapestBottle.bottle.price})
     </p>
   `;
 }

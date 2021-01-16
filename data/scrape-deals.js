@@ -60,12 +60,12 @@ function parseItems(rawResponse, store) {
     items.push({
       store,
       name: itemName.text().trim(),
-      price: parseFloat($(this).find('.price').text().trim().replace('$','').replace(' each', '')),
+      price: $(this).find('.price').text().trim(),
       pricePerLitre: parseFloat($(this).find('.comparative-text').text().trim().replace('$','').replace(' per litre', '')),
       url: itemName.attr('href')
     });
   });
-  return items.filter(item => !item.url.includes('beer-wine-and-spirit')).map(catagorizeItem).filter(item => !!item).map(priceItems);
+  return items.filter(item => !item.url.includes('beer-wine-and-spirit')).map(catagorizeItem).filter(item => !!item);
 }
 
 function pickCheapest(allItems) {
@@ -127,11 +127,11 @@ workbook.csv.readFile(filename)
     .then(([woolworthsResponse, colesResponse]) => {
       const woolworthsItems = parseItems(woolworthsResponse, 'woolworths');
       const colesItems = parseItems(colesResponse, 'coles');
-      console.log(codeMap[internal_code]);
+      // console.log(codeMap[internal_code]);
       const cheapestWoolworths = pickCheapest(woolworthsItems);
       const cheapestColes = pickCheapest(colesItems);
-      console.log(cheapestWoolworths);
-      console.log(cheapestColes);
+      // console.log(cheapestWoolworths);
+      // console.log(cheapestColes);
       codeMap[internal_code].forEach((codeMapItem) => {
         const store = {
           type: codeMapItem[1].toLowerCase(),
