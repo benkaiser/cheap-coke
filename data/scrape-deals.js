@@ -159,8 +159,6 @@ workbook.csv.readFile(filename)
         }
         if (store.bottle || store.can) {
           allStores.push(store);
-          console.log('Writing data file, intermediate');
-          fs.writeFileSync('locations-with-prices.json', JSON.stringify(allStores));
         }
       });
       callback();
@@ -170,7 +168,7 @@ workbook.csv.readFile(filename)
       callback();
     });
   }, () => {
-    console.log('Writing data file');
     fs.writeFileSync('locations-with-prices.json', JSON.stringify(allStores));
+    fs.writeFileSync('../script/prices.js', "var prices=" + JSON.stringify(allStores) + ";");
   });
 });
