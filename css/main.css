@@ -48,7 +48,6 @@ html, body {
 }
 
 .itemPricing {
-  margin-bottom: 0;
   line-height: 1;
   margin-top: 10px;
   margin-bottom: 5px;
@@ -63,4 +62,9 @@ html, body {
 .pepsiOk {
   margin: 0 auto;
   display: block;
+}
+
+.pricePer {
+  font-size: 14px;
+  margin-bottom: 0;
 }

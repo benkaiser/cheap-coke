@@ -66,6 +66,10 @@ function pickCheapest(closest, type) {
   }
 }
 
+function cheaperThan(cheapestStore) {
+  return cheapestStore === 'woolworths' ? 'Coles' : 'Woolworths';
+}
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -85,16 +89,18 @@ class App extends Component {
         <img src="images/can.png" className="itemPreview"/>
         <div className="itemDetails">
           <img src="images/${cheapestCan.type}.png" className="brandLogo"/>
+          <h5 className="itemPricing">Is cheaper than ${cheaperThan(cheapestCan.type)}</h5>
           <h5 className="itemPricing">${ cheapestCan.can.qty }x${ cheapestCan.can.size }ml: ${ cheapestCan.can.price }</h5>
-          <p>$${(0.375 * cheapestCan.can.pricePerLitre).toFixed(2)} per can</p>
+          <p className="pricePer">$${(0.375 * cheapestCan.can.pricePerLitre).toFixed(2)} per can</p>
         </div>
       </div>
       <div className="itemContainer">
         <img src="images/bottle.png" className="itemPreview"/>
         <div className="itemDetails">
           <img src="images/${cheapestBottle.type}.png" className="brandLogo"/>
+          <h5 className="itemPricing">Is cheaper than ${cheaperThan(cheapestBottle.type)}</h5>
           <h5 className="itemPricing">${ cheapestBottle.bottle.size }ml: ${ cheapestBottle.bottle.price }</h5>
-          <p>$${(cheapestCan.can.pricePerLitre).toFixed(2)} per litre</p>
+          <p className="pricePer">$${(cheapestCan.can.pricePerLitre).toFixed(2)} per litre</p>
         </div>
       </div>
       <button className="pepsiOk" onFocus=${this.onPepsiFocus.bind(this)} onBlur=${this.onPepsiBlur.bind(this)}>${ this.state.pepsiText }</button>
