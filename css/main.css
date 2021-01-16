@@ -3,10 +3,56 @@ html, body {
   width: 100%;
 }
 
-#main {
-  padding-top: 40px;
+.container {
+  min-height: 100vh;
 }
 
-button {
-  vertical-align: middle;
+.cursive {
+  font-family: "Lobster", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(#F40009, #b70007);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px;
+}
+
+#main {
+  padding-top: 30px;
+}
+
+.myLocation {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.itemPreview {
+  max-height: 150px;
+  max-width: 20vw;
+  padding: 10px;
+}
+
+.itemDetails {
+  max-width: 60vw;
+}
+
+.brandLogo {
+  max-height: 50px;
+  max-width: 380px;
+  max-width: 100%;
+}
+
+.pepsiOk {
+  margin: 0 auto;
+  display: block;
 }

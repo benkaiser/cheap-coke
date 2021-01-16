@@ -64,20 +64,50 @@ function pickCheapest(closest, type) {
   }
 }
 
-function App (props) {
-  const cheapestCan = pickCheapest(props.closest, 'can');
-  const cheapestBottle = pickCheapest(props.closest, 'bottle');
-  return html`
-    <h3>Cheapest Coke for <span id="city">${props.city}</span>
-      ${ props.city !== "Your Location" && html` <button onClick=${findLocation}>Use My Location</button>`}
-    </h3>
-    <p>
-    Cheapest cans can be found at ${cheapestCan.type} (${cheapestCan.can.qty} x ${cheapestCan.can.size}ml: ${cheapestCan.can.price})
-    </p>
-    <p>
-    Cheapest bottles can be found at ${cheapestBottle.type} (${cheapestBottle.bottle.size}ml: ${cheapestBottle.bottle.price})
-    </p>
-  `;
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      pepsiText: "Pepsi OK?"
+    };
+  }
+
+  render() {
+    const props = this.props;
+    const cheapestCan = pickCheapest(props.closest, 'can');
+    const cheapestBottle = pickCheapest(props.closest, 'bottle');
+    return html`
+      <h1 className="cursive">Cheap Coke for <span id="city">${props.city}</span></h1>
+      ${ props.city !== "Your Location" && html` <button className="myLocation button-primary" onClick=${findLocation}>Use My Location</button>`}
+      <div className="itemContainer">
+        <img src="images/can.png" className="itemPreview"/>
+        <div className="itemDetails">
+          <img src="images/${cheapestCan.type}.png" className="brandLogo"/>
+          <h5>${ cheapestCan.can.qty } x ${ cheapestCan.can.size }ml: ${ cheapestCan.can.price }</h5>
+        </div>
+      </div>
+      <div className="itemContainer">
+        <img src="images/bottle.png" className="itemPreview"/>
+        <div className="itemDetails">
+          <img src="images/${cheapestBottle.type}.png" className="brandLogo"/>
+          <h5>${ cheapestBottle.bottle.size }ml: ${ cheapestBottle.bottle.price }</h5>
+        </div>
+      </div>
+      <button className="pepsiOk" onFocus=${this.onPepsiFocus.bind(this)} onBlur=${this.onPepsiBlur.bind(this)}>${ this.state.pepsiText }</button>
+    `;
+  }
+
+  onPepsiFocus() {
+    this.setState({
+      pepsiText: "No, it's not"
+    });
+  }
+
+  onPepsiBlur() {
+    this.setState({
+      pepsiText: "Pepsi OK?"
+    });
+  }
 }
 
 function calculateClosest(lat, lon) {
