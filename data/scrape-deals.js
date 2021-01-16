@@ -127,11 +127,8 @@ workbook.csv.readFile(filename)
     .then(([woolworthsResponse, colesResponse]) => {
       const woolworthsItems = parseItems(woolworthsResponse, 'woolworths');
       const colesItems = parseItems(colesResponse, 'coles');
-      // console.log(codeMap[internal_code]);
       const cheapestWoolworths = pickCheapest(woolworthsItems);
       const cheapestColes = pickCheapest(colesItems);
-      // console.log(cheapestWoolworths);
-      // console.log(cheapestColes);
       codeMap[internal_code].forEach((codeMapItem) => {
         const store = {
           type: codeMapItem[1].toLowerCase(),
