@@ -4,6 +4,10 @@ on:
     - cron:  '0 */6 * * *'
   workflow_dispatch:
 
+defaults:
+  run:
+    working-directory: ./data
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,7 +17,6 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 14.x
-    - run: cd data
     - run: npm ci
     - run: node scrape-deals.js
     - run: npm test
