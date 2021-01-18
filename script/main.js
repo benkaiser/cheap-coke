@@ -100,7 +100,7 @@ class App extends Component {
           <img src="images/${cheapestBottle.type}.png" className="brandLogo"/>
           <h5 className="itemPricing">Is cheaper than ${cheaperThan(cheapestBottle.type)}</h5>
           <h5 className="itemPricing">${ cheapestBottle.bottle.size }ml: ${ cheapestBottle.bottle.price }</h5>
-          <p className="pricePer">$${(cheapestCan.can.pricePerLitre).toFixed(2)} per litre</p>
+          <p className="pricePer">$${(cheapestBottle.bottle.pricePerLitre).toFixed(2)} per litre</p>
         </div>
       </div>
       <button className="pepsiOk" onFocus=${this.onPepsiFocus.bind(this)} onBlur=${this.onPepsiBlur.bind(this)}>${ this.state.pepsiText }</button>
