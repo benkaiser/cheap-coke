@@ -59,6 +59,12 @@ function findLocation() {
 }
 
 function pickCheapest(closest, type) {
+  if (closest['coles'][type] === undefined) {
+    return closest['woolworths'];
+  }
+  if (closest['woolworths'][type] === undefined) {
+    return closest['coles'];
+  }
   if (closest['woolworths'][type].pricePerLitre < closest['coles'][type].pricePerLitre) {
     return closest['woolworths'];
   } else {
