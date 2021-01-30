@@ -105,7 +105,7 @@ class App extends Component {
         <div className="itemDetails">
           <img src="images/${cheapestBottle.type}.png" className="brandLogo"/>
           <h5 className="itemPricing">Is cheaper than ${cheaperThan(cheapestBottle.type)}</h5>
-          <h5 className="itemPricing">${ (cheapestBottle.bottle.size / 1000).toFixed(2) }L: ${ cheapestBottle.bottle.price }</h5>
+          <h5 className="itemPricing">${ (cheapestBottle.bottle.size / 1000).toString() }L: ${ cheapestBottle.bottle.price }</h5>
           <p className="pricePer">$${(cheapestBottle.bottle.pricePerLitre).toFixed(2)} per litre</p>
         </div>
       </div>
