@@ -5,11 +5,6 @@ import htm from 'https://unpkg.com/htm?module';
 let lat = -37.81;
 let lon = 144.96;
 let nameOfLocality = "Melbourne";
-if (window.geoplugin_latitude) {
-  lat = geoplugin_latitude();
-  lon = geoplugin_longitude();
-  nameOfLocality = geoplugin_city();
-}
 window.on_geo = function() {
   lat = geoplugin_latitude();
   lon = geoplugin_longitude();
@@ -154,3 +149,8 @@ function calculateAndRender(lat, lon, city) {
 }
 
 calculateAndRender(lat, lon, nameOfLocality);
+
+// defer load geoip code
+var geoip_script = document.createElement('script');
+geoip_script.setAttribute('src','https://cokegeoip.azurewebsites.net/api/HttpTrigger?code=ZUQ0BlmeR9KMAAJmrFJ/f5kEfQE1K8HYJwejYjqeBPgfwjEfDaLq4g==');
+document.head.appendChild(geoip_script);
