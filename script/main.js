@@ -5,10 +5,16 @@ import htm from 'https://unpkg.com/htm?module';
 let lat = -37.81;
 let lon = 144.96;
 let nameOfLocality = "Melbourne";
-if (window.geoplugin_latitude || window.geoplugin_longitude) {
+if (geoplugin_latitude) {
   lat = geoplugin_latitude();
   lon = geoplugin_longitude();
   nameOfLocality = geoplugin_city();
+}
+window.on_geo = function() {
+  lat = geoplugin_latitude();
+  lon = geoplugin_longitude();
+  nameOfLocality = geoplugin_city();
+  calculateAndRender(lat, lon, nameOfLocality)
 }
 
 navigator.permissions.query({name:'geolocation'})
