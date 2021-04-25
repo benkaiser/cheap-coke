@@ -5,7 +5,7 @@ import htm from 'https://unpkg.com/htm?module';
 let lat = -37.81;
 let lon = 144.96;
 let nameOfLocality = "Melbourne";
-if (geoplugin_latitude) {
+if (window.geoplugin_latitude) {
   lat = geoplugin_latitude();
   lon = geoplugin_longitude();
   nameOfLocality = geoplugin_city();
