@@ -60,11 +60,19 @@ function findLocation() {
 }
 
 function pickCheapest(closest, type) {
-  if (closest['coles'][type] === undefined) {
-    return closest['woolworths'];
+  if (closest['coles'] === undefined || closest['coles'][type] === undefined) {
+    if (closest['woolworths'] && closest['woolworths'][type]) {
+      return closest['woolworths'];
+    } else {
+      return undefined;
+    }
   }
-  if (closest['woolworths'][type] === undefined) {
-    return closest['coles'];
+  if (closest['woolworths'] === undefined || closest['woolworths'][type] === undefined) {
+    if (closest['coles'] && closest['coles'][type]) {
+      return closest['coles'];
+    } else {
+      return undefined;
+    }
   }
   if (closest['woolworths'][type].pricePerLitre < closest['coles'][type].pricePerLitre) {
     return closest['woolworths'];
@@ -95,7 +103,7 @@ class App extends Component {
       <div className="itemContainer">
         <img src="images/can.png" className="itemPreview"/>
         <div className="itemDetails">
-        ${ !cheapestCan.can ? html`
+        ${ !cheapestCan || !cheapestCan.can ? html`
             <p className="pricePer">No discounts at Coles or Woolies this week!<br/>Try IGA or Aldi maybe?</p>
             ` : html`
             <img src="images/${cheapestCan.type}.png" className="brandLogo"/>
@@ -108,13 +116,13 @@ class App extends Component {
       <div className="itemContainer">
         <img src="images/bottle.png" className="itemPreview"/>
         <div className="itemDetails">
-          ${ !cheapestBottle.bottle ? html`
+          ${ !cheapestBottle || !cheapestBottle.bottle ? html`
             <p className="pricePer">No discounts at Coles or Woolies this week!<br/>Try IGA or Aldi maybe?</p>
             ` : html`
             <img src="images/${cheapestBottle.type}.png" className="brandLogo"/>
             <h5 className="itemPricing">Is cheaper than ${cheaperThan(cheapestBottle.type)}</h5>
             <h5 className="itemPricing">${ (cheapestBottle.bottle.size / 1000).toString() }L: ${ cheapestBottle.bottle.price }</h5>
-            <p className="pricePer">$${(cheapestBottle.bottle.pricePerLitre).toFixed(2)} per litre</p>
+            <p className="pricePer">$${(cheapestBottle.bottle.pricePerLitre || 0).toFixed(2)} per litre</p>
             `}
         </div>
       </div>
